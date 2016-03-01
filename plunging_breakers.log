@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.13)  1 MAR 2016 14:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.13)  1 MAR 2016 17:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1287,29 +1287,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--189
  []
 
 [3]
-
-LaTeX Warning: File `./Figures/BIM/BIM_probes.eps' not found on input line 194.
-
-
 Package epstopdf Info: Source file: <./Figures/BIM/BIM_probes.eps>
+(epstopdf)                    date: 2016-03-01 17:46:16
+(epstopdf)                    size: 159508 bytes
 (epstopdf)             Output file: <./Figures/BIM/BIM_probes-eps-converted-to.
 pdf>
+(epstopdf)                    date: 2016-03-01 17:46:16
+(epstopdf)                    size: 32552 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BIM/BIM_probes-e
 ps-converted-to.pdf ./Figures/BIM/BIM_probes.eps>
 (epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `./Figures/BIM/BIM_probes-eps-converted-to.pdf
-' not found.
+<./Figures/BIM/BIM_probes-eps-converted-to.pdf, id=125, 304.13625pt x 266.9975p
+t>
+File: ./Figures/BIM/BIM_probes-eps-converted-to.pdf Graphic file (type pdf)
+ <use ./Figures/BIM/BIM_probes-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/BIM/BIM_probes-eps-converted-to.pdf used on 
+input line 194.
+(pdftex.def)             Requested size: 181.18439pt x 159.06306pt.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.194 ...\textwidth]{./Figures/BIM/BIM_probes.eps}
-                                                  
-? q
-OK, entering \batchmode...
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 212.
@@ -1325,10 +1322,10 @@ f>
 -converted-to.pdf ./Figures/BIM_s/case10.eps>
 (epstopdf)             \includegraphics on input line 214.
 Package epstopdf Info: Output file is already uptodate.
-
-<./Figures/BIM_s/case10-eps-converted-to.pdf, id=126, 471.7625pt x 72.27pt>
+<./Figures/BIM_s/case10-eps-converted-to.pdf, id=127, 471.7625pt x 72.27pt>
 File: ./Figures/BIM_s/case10-eps-converted-to.pdf Graphic file (type pdf)
- <use ./Figures/BIM_s/case10-eps-converted-to.pdf>
+
+<use ./Figures/BIM_s/case10-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BIM_s/case10-eps-converted-to.pdf used on in
 put line 214.
 (pdftex.def)             Requested size: 452.9679pt x 69.39162pt.
@@ -1344,9 +1341,10 @@ f>
 (epstopdf)             \includegraphics on input line 215.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIM_s/case20-eps-converted-to.pdf, id=127, 471.7625pt x 72.27pt>
+<./Figures/BIM_s/case20-eps-converted-to.pdf, id=128, 471.7625pt x 72.27pt>
 File: ./Figures/BIM_s/case20-eps-converted-to.pdf Graphic file (type pdf)
- <use ./Figures/BIM_s/case20-eps-converted-to.pdf>
+
+<use ./Figures/BIM_s/case20-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BIM_s/case20-eps-converted-to.pdf used on in
 put line 215.
 (pdftex.def)             Requested size: 452.9679pt x 69.39162pt.
@@ -1362,9 +1360,10 @@ f>
 (epstopdf)             \includegraphics on input line 216.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIM_s/case30-eps-converted-to.pdf, id=128, 471.7625pt x 72.27pt>
+<./Figures/BIM_s/case30-eps-converted-to.pdf, id=129, 471.7625pt x 72.27pt>
 File: ./Figures/BIM_s/case30-eps-converted-to.pdf Graphic file (type pdf)
- <use ./Figures/BIM_s/case30-eps-converted-to.pdf>
+
+<use ./Figures/BIM_s/case30-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BIM_s/case30-eps-converted-to.pdf used on in
 put line 216.
 (pdftex.def)             Requested size: 452.9679pt x 69.39162pt.
@@ -1380,9 +1379,10 @@ f>
 (epstopdf)             \includegraphics on input line 217.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIM_s/case40-eps-converted-to.pdf, id=129, 471.7625pt x 72.27pt>
+<./Figures/BIM_s/case40-eps-converted-to.pdf, id=130, 471.7625pt x 72.27pt>
 File: ./Figures/BIM_s/case40-eps-converted-to.pdf Graphic file (type pdf)
- <use ./Figures/BIM_s/case40-eps-converted-to.pdf>
+
+<use ./Figures/BIM_s/case40-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BIM_s/case40-eps-converted-to.pdf used on in
 put line 217.
 (pdftex.def)             Requested size: 452.9679pt x 69.39162pt.
@@ -1398,9 +1398,9 @@ f>
 (epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIM_s/case50-eps-converted-to.pdf, id=130, 478.78876pt x 102.3825pt>
+<./Figures/BIM_s/case50-eps-converted-to.pdf, id=131, 478.78876pt x 102.3825pt>
 File: ./Figures/BIM_s/case50-eps-converted-to.pdf Graphic file (type pdf)
- <use ./Figures/BIM_s/case50-eps-converted-to.pdf>
+<use ./Figures/BIM_s/case50-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BIM_s/case50-eps-converted-to.pdf used on in
 put line 218.
 (pdftex.def)             Requested size: 459.76213pt x 98.3142pt.
@@ -1427,10 +1427,10 @@ Package epstopdf Info: Source file: <Figures/runup10.eps>
 ted-to.pdf Figures/runup10.eps>
 (epstopdf)             \includegraphics on input line 269.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figures/runup10-eps-converted-to.pdf, id=140, 304.13625pt x 248.93pt>
+<Figures/runup10-eps-converted-to.pdf, id=141, 304.13625pt x 248.93pt>
 File: Figures/runup10-eps-converted-to.pdf Graphic file (type pdf)
- <use Figures/runup10-eps-converted-to.pdf>
+
+<use Figures/runup10-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/runup10-eps-converted-to.pdf used on input lin
 e 269.
 (pdftex.def)             Requested size: 172.1246pt x 140.885pt.
@@ -1445,16 +1445,18 @@ ted-to.pdf Figures/runup50.eps>
 (epstopdf)             \includegraphics on input line 269.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/runup50-eps-converted-to.pdf, id=141, 310.15875pt x 248.93pt>
+<Figures/runup50-eps-converted-to.pdf, id=142, 310.15875pt x 248.93pt>
 File: Figures/runup50-eps-converted-to.pdf Graphic file (type pdf)
- <use Figures/runup50-eps-converted-to.pdf>
+
+<use Figures/runup50-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/runup50-eps-converted-to.pdf used on input lin
 e 269.
 (pdftex.def)             Requested size: 172.1246pt x 138.14258pt.
- [4 <./Figures/BUBBLE/new_jan_bilde_bub-eps-converted-to.pdf>] [5 <./Figures/BI
-M_s/case10-eps-converted-to.pdf> <./Figures/BIM_s/case20-eps-converted-to.pdf> 
-<./Figures/BIM_s/case30-eps-converted-to.pdf> <./Figures/BIM_s/case40-eps-conve
-rted-to.pdf> <./Figures/BIM_s/case50-eps-converted-to.pdf>]
+ [4 <./Figures/BUBBLE/new_jan_bilde_bub-eps-converted-to.pdf> <./Figures/BIM/BI
+M_probes-eps-converted-to.pdf>]
+[5 <./Figures/BIM_s/case10-eps-converted-to.pdf> <./Figures/BIM_s/case20-eps-co
+nverted-to.pdf> <./Figures/BIM_s/case30-eps-converted-to.pdf> <./Figures/BIM_s/
+case40-eps-converted-to.pdf> <./Figures/BIM_s/case50-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./Figures/shoreline2015.eps>
 (epstopdf)                    date: 2015-10-06 09:40:32
 (epstopdf)                    size: 22134 bytes
@@ -1467,7 +1469,7 @@ s-converted-to.pdf ./Figures/shoreline2015.eps>
 (epstopdf)             \includegraphics on input line 279.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/shoreline2015-eps-converted-to.pdf, id=207, 306.14375pt x 266.9975pt
+<./Figures/shoreline2015-eps-converted-to.pdf, id=216, 306.14375pt x 266.9975pt
 >
 File: ./Figures/shoreline2015-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Figures/shoreline2015-eps-converted-to.pdf>
@@ -1476,392 +1478,318 @@ nput line 279.
 (pdftex.def)             Requested size: 183.68765pt x 160.19972pt.
  [6 <./Figures/runup10-eps-converted-to.pdf> <./Figures/runup50-eps-converted-t
 o.pdf> <./Figures/shoreline2015-eps-converted-to.pdf>]
-
-LaTeX Warning: File `./Figures/BIM/case10_FOV3_PIV_BIM.eps' not found on input 
-line 299.
-
 Package epstopdf Info: Source file: <./Figures/BIM/case10_FOV3_PIV_BIM.eps>
+(epstopdf)                    date: 2016-03-01 17:46:16
+(epstopdf)                    size: 62476 bytes
 (epstopdf)             Output file: <./Figures/BIM/case10_FOV3_PIV_BIM-eps-conv
 erted-to.pdf>
+(epstopdf)                    date: 2016-03-01 17:46:16
+(epstopdf)                    size: 19563 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BIM/case10_FOV3_
 PIV_BIM-eps-converted-to.pdf ./Figures/BIM/case10_FOV3_PIV_BIM.eps>
 (epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `./Figures/BIM/case10_FOV3_PIV_BIM-eps-convert
-ed-to.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.299 ...h]{./Figures/BIM/case10_FOV3_PIV_BIM.eps}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Figures/BIM/case10_FOV4_BIM_PIV.eps' not found on input 
-line 300.
-
+<./Figures/BIM/case10_FOV3_PIV_BIM-eps-converted-to.pdf, id=242, 306.14375pt x 
+266.9975pt>
+File: ./Figures/BIM/case10_FOV3_PIV_BIM-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use ./Figures/BIM/case10_FOV3_PIV_BIM-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/BIM/case10_FOV3_PIV_BIM-eps-converted-to.pdf
+ used on input line 299.
+(pdftex.def)             Requested size: 208.36827pt x 181.72292pt.
 Package epstopdf Info: Source file: <./Figures/BIM/case10_FOV4_BIM_PIV.eps>
+(epstopdf)                    date: 2016-03-01 17:46:16
+(epstopdf)                    size: 61841 bytes
 (epstopdf)             Output file: <./Figures/BIM/case10_FOV4_BIM_PIV-eps-conv
 erted-to.pdf>
+(epstopdf)                    date: 2016-03-01 17:46:16
+(epstopdf)                    size: 19046 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BIM/case10_FOV4_
 BIM_PIV-eps-converted-to.pdf ./Figures/BIM/case10_FOV4_BIM_PIV.eps>
 (epstopdf)             \includegraphics on input line 300.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `./Figures/BIM/case10_FOV4_BIM_PIV-eps-convert
-ed-to.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.300 ...h]{./Figures/BIM/case10_FOV4_BIM_PIV.eps}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<./Figures/BIM/case10_FOV4_BIM_PIV-eps-converted-to.pdf, id=243, 306.14375pt x 
+266.9975pt>
+File: ./Figures/BIM/case10_FOV4_BIM_PIV-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use ./Figures/BIM/case10_FOV4_BIM_PIV-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/BIM/case10_FOV4_BIM_PIV-eps-converted-to.pdf
+ used on input line 300.
+(pdftex.def)             Requested size: 208.36827pt x 181.72292pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 330.
 
-
-LaTeX Warning: File `./Figures/BIM/profil10_feb.eps' not found on input line 34
-8.
-
 Package epstopdf Info: Source file: <./Figures/BIM/profil10_feb.eps>
+(epstopdf)                    date: 2016-03-01 17:46:16
+(epstopdf)                    size: 57628 bytes
 (epstopdf)             Output file: <./Figures/BIM/profil10_feb-eps-converted-t
 o.pdf>
+(epstopdf)                    date: 2016-03-01 17:46:16
+(epstopdf)                    size: 17234 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BIM/profil10_feb
 -eps-converted-to.pdf ./Figures/BIM/profil10_feb.eps>
 (epstopdf)             \includegraphics on input line 348.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `./Figures/BIM/profil10_feb-eps-converted-to.p
-df' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.348 }
-       
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Figures/BIM/profil12_feb.eps' not found on input line 34
-8.
-
+<./Figures/BIM/profil10_feb-eps-converted-to.pdf, id=248, 306.14375pt x 266.997
+5pt>
+File: ./Figures/BIM/profil10_feb-eps-converted-to.pdf Graphic file (type pdf)
+ <use ./Figures/BIM/profil10_feb-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/BIM/profil10_feb-eps-converted-to.pdf used o
+n input line 348.
+(pdftex.def)             Requested size: 129.09673pt x 112.58632pt.
 Package epstopdf Info: Source file: <./Figures/BIM/profil12_feb.eps>
+(epstopdf)                    date: 2016-03-01 17:46:16
+(epstopdf)                    size: 39837 bytes
 (epstopdf)             Output file: <./Figures/BIM/profil12_feb-eps-converted-t
 o.pdf>
+(epstopdf)                    date: 2016-03-01 17:46:16
+(epstopdf)                    size: 13866 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BIM/profil12_feb
 -eps-converted-to.pdf ./Figures/BIM/profil12_feb.eps>
 (epstopdf)             \includegraphics on input line 348.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `./Figures/BIM/profil12_feb-eps-converted-to.p
-df' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.348 }
-       
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Figures/BIM/profil20_feb.eps' not found on input line 34
-8.
-
+<./Figures/BIM/profil12_feb-eps-converted-to.pdf, id=249, 306.14375pt x 266.997
+5pt>
+File: ./Figures/BIM/profil12_feb-eps-converted-to.pdf Graphic file (type pdf)
+ <use ./Figures/BIM/profil12_feb-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/BIM/profil12_feb-eps-converted-to.pdf used o
+n input line 348.
+(pdftex.def)             Requested size: 129.09673pt x 112.58632pt.
 Package epstopdf Info: Source file: <./Figures/BIM/profil20_feb.eps>
+(epstopdf)                    date: 2016-03-01 17:46:16
+(epstopdf)                    size: 47428 bytes
 (epstopdf)             Output file: <./Figures/BIM/profil20_feb-eps-converted-t
 o.pdf>
+(epstopdf)                    date: 2016-03-01 17:46:16
+(epstopdf)                    size: 15971 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BIM/profil20_feb
 -eps-converted-to.pdf ./Figures/BIM/profil20_feb.eps>
 (epstopdf)             \includegraphics on input line 348.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `./Figures/BIM/profil20_feb-eps-converted-to.p
-df' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.348 }
-       
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Figures/FOV_4/case30_sept2015.eps' not found on input li
-ne 365.
-
+<./Figures/BIM/profil20_feb-eps-converted-to.pdf, id=250, 306.14375pt x 266.997
+5pt>
+File: ./Figures/BIM/profil20_feb-eps-converted-to.pdf Graphic file (type pdf)
+ <use ./Figures/BIM/profil20_feb-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/BIM/profil20_feb-eps-converted-to.pdf used o
+n input line 348.
+(pdftex.def)             Requested size: 129.09673pt x 112.58632pt.
 Package epstopdf Info: Source file: <./Figures/FOV_4/case30_sept2015.eps>
+(epstopdf)                    date: 2016-03-01 17:47:06
+(epstopdf)                    size: 54845 bytes
 (epstopdf)             Output file: <./Figures/FOV_4/case30_sept2015-eps-conver
 ted-to.pdf>
+(epstopdf)                    date: 2016-03-01 17:47:06
+(epstopdf)                    size: 18022 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_4/case30_sep
 t2015-eps-converted-to.pdf ./Figures/FOV_4/case30_sept2015.eps>
 (epstopdf)             \includegraphics on input line 365.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `./Figures/FOV_4/case30_sept2015-eps-converted
--to.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.365 }
-       
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Figures/FOV_4/case40_sept2015.eps' not found on input li
-ne 365.
-
+<./Figures/FOV_4/case30_sept2015-eps-converted-to.pdf, id=251, 306.14375pt x 26
+6.9975pt>
+File: ./Figures/FOV_4/case30_sept2015-eps-converted-to.pdf Graphic file (type p
+df)
+ <use ./Figures/FOV_4/case30_sept2015-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/FOV_4/case30_sept2015-eps-converted-to.pdf u
+sed on input line 365.
+(pdftex.def)             Requested size: 129.09673pt x 112.58632pt.
 Package epstopdf Info: Source file: <./Figures/FOV_4/case40_sept2015.eps>
+(epstopdf)                    date: 2016-03-01 17:47:06
+(epstopdf)                    size: 59232 bytes
 (epstopdf)             Output file: <./Figures/FOV_4/case40_sept2015-eps-conver
 ted-to.pdf>
+(epstopdf)                    date: 2016-03-01 17:47:06
+(epstopdf)                    size: 19398 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_4/case40_sep
 t2015-eps-converted-to.pdf ./Figures/FOV_4/case40_sept2015.eps>
 (epstopdf)             \includegraphics on input line 365.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `./Figures/FOV_4/case40_sept2015-eps-converted
--to.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.365 }
-       
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Figures/FOV_4/case50_sept2015.eps' not found on input li
-ne 365.
-
+<./Figures/FOV_4/case40_sept2015-eps-converted-to.pdf, id=252, 306.14375pt x 26
+6.9975pt>
+File: ./Figures/FOV_4/case40_sept2015-eps-converted-to.pdf Graphic file (type p
+df)
+ <use ./Figures/FOV_4/case40_sept2015-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/FOV_4/case40_sept2015-eps-converted-to.pdf u
+sed on input line 365.
+(pdftex.def)             Requested size: 129.09673pt x 112.58632pt.
 Package epstopdf Info: Source file: <./Figures/FOV_4/case50_sept2015.eps>
+(epstopdf)                    date: 2016-03-01 17:47:06
+(epstopdf)                    size: 61150 bytes
 (epstopdf)             Output file: <./Figures/FOV_4/case50_sept2015-eps-conver
 ted-to.pdf>
+(epstopdf)                    date: 2016-03-01 17:47:06
+(epstopdf)                    size: 19792 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_4/case50_sep
 t2015-eps-converted-to.pdf ./Figures/FOV_4/case50_sept2015.eps>
 (epstopdf)             \includegraphics on input line 365.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `./Figures/FOV_4/case50_sept2015-eps-converted
--to.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.365 }
-       
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<./Figures/FOV_4/case50_sept2015-eps-converted-to.pdf, id=253, 306.14375pt x 26
+6.9975pt>
+File: ./Figures/FOV_4/case50_sept2015-eps-converted-to.pdf Graphic file (type p
+df)
+ <use ./Figures/FOV_4/case50_sept2015-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/FOV_4/case50_sept2015-eps-converted-to.pdf u
+sed on input line 365.
+(pdftex.def)             Requested size: 129.09673pt x 112.58632pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 370.
 
-
-LaTeX Warning: File `./Figures/FOV_5/PIV_FOV5_case20.eps' not found on input li
-ne 383.
-
 Package epstopdf Info: Source file: <./Figures/FOV_5/PIV_FOV5_case20.eps>
+(epstopdf)                    date: 2016-03-01 17:47:13
+(epstopdf)                    size: 25745 bytes
 (epstopdf)             Output file: <./Figures/FOV_5/PIV_FOV5_case20-eps-conver
 ted-to.pdf>
+(epstopdf)                    date: 2016-03-01 17:47:13
+(epstopdf)                    size: 10119 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_5/PIV_FOV5_c
 ase20-eps-converted-to.pdf ./Figures/FOV_5/PIV_FOV5_case20.eps>
 (epstopdf)             \includegraphics on input line 383.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `./Figures/FOV_5/PIV_FOV5_case20-eps-converted
--to.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.383 }
-       
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Figures/FOV_5/PIV_FOV5_case30.eps' not found on input li
-ne 383.
-
+<./Figures/FOV_5/PIV_FOV5_case20-eps-converted-to.pdf, id=255, 302.12875pt x 24
+2.9075pt>
+File: ./Figures/FOV_5/PIV_FOV5_case20-eps-converted-to.pdf Graphic file (type p
+df)
+ <use ./Figures/FOV_5/PIV_FOV5_case20-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/FOV_5/PIV_FOV5_case20-eps-converted-to.pdf u
+sed on input line 383.
+(pdftex.def)             Requested size: 129.09673pt x 103.79213pt.
 Package epstopdf Info: Source file: <./Figures/FOV_5/PIV_FOV5_case30.eps>
+(epstopdf)                    date: 2016-03-01 17:47:13
+(epstopdf)                    size: 31589 bytes
 (epstopdf)             Output file: <./Figures/FOV_5/PIV_FOV5_case30-eps-conver
 ted-to.pdf>
+(epstopdf)                    date: 2016-03-01 17:47:13
+(epstopdf)                    size: 11902 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_5/PIV_FOV5_c
 ase30-eps-converted-to.pdf ./Figures/FOV_5/PIV_FOV5_case30.eps>
 (epstopdf)             \includegraphics on input line 383.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `./Figures/FOV_5/PIV_FOV5_case30-eps-converted
--to.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.383 }
-       
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Figures/FOV_5/PIV_FOV5_case40.eps' not found on input li
-ne 395.
-
+<./Figures/FOV_5/PIV_FOV5_case30-eps-converted-to.pdf, id=256, 305.14pt x 242.9
+075pt>
+File: ./Figures/FOV_5/PIV_FOV5_case30-eps-converted-to.pdf Graphic file (type p
+df)
+ <use ./Figures/FOV_5/PIV_FOV5_case30-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/FOV_5/PIV_FOV5_case30-eps-converted-to.pdf u
+sed on input line 383.
+(pdftex.def)             Requested size: 129.09673pt x 102.76915pt.
 Package epstopdf Info: Source file: <./Figures/FOV_5/PIV_FOV5_case40.eps>
+(epstopdf)                    date: 2016-03-01 17:47:13
+(epstopdf)                    size: 33733 bytes
 (epstopdf)             Output file: <./Figures/FOV_5/PIV_FOV5_case40-eps-conver
 ted-to.pdf>
+(epstopdf)                    date: 2016-03-01 17:47:13
+(epstopdf)                    size: 12741 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_5/PIV_FOV5_c
 ase40-eps-converted-to.pdf ./Figures/FOV_5/PIV_FOV5_case40.eps>
 (epstopdf)             \includegraphics on input line 395.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `./Figures/FOV_5/PIV_FOV5_case40-eps-converted
--to.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.395 }
-       
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Figures/FOV_5/PIV_FOV5_case50.eps' not found on input li
-ne 395.
-
+<./Figures/FOV_5/PIV_FOV5_case40-eps-converted-to.pdf, id=257, 305.14pt x 242.9
+075pt>
+File: ./Figures/FOV_5/PIV_FOV5_case40-eps-converted-to.pdf Graphic file (type p
+df)
+ <use ./Figures/FOV_5/PIV_FOV5_case40-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/FOV_5/PIV_FOV5_case40-eps-converted-to.pdf u
+sed on input line 395.
+(pdftex.def)             Requested size: 129.09673pt x 102.76915pt.
 Package epstopdf Info: Source file: <./Figures/FOV_5/PIV_FOV5_case50.eps>
+(epstopdf)                    date: 2016-03-01 17:47:13
+(epstopdf)                    size: 37369 bytes
 (epstopdf)             Output file: <./Figures/FOV_5/PIV_FOV5_case50-eps-conver
 ted-to.pdf>
+(epstopdf)                    date: 2016-03-01 17:47:13
+(epstopdf)                    size: 13400 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_5/PIV_FOV5_c
 ase50-eps-converted-to.pdf ./Figures/FOV_5/PIV_FOV5_case50.eps>
 (epstopdf)             \includegraphics on input line 395.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `./Figures/FOV_5/PIV_FOV5_case50-eps-converted
--to.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.395 }
-       
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<./Figures/FOV_5/PIV_FOV5_case50-eps-converted-to.pdf, id=258, 305.14pt x 242.9
+075pt>
+File: ./Figures/FOV_5/PIV_FOV5_case50-eps-converted-to.pdf Graphic file (type p
+df)
+ <use ./Figures/FOV_5/PIV_FOV5_case50-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/FOV_5/PIV_FOV5_case50-eps-converted-to.pdf u
+sed on input line 395.
+(pdftex.def)             Requested size: 129.09673pt x 102.76915pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 404.
 
-
-LaTeX Warning: File `./Figures/FOV_6/PIV_FOV6_case30.eps' not found on input li
-ne 422.
-
 Package epstopdf Info: Source file: <./Figures/FOV_6/PIV_FOV6_case30.eps>
+(epstopdf)                    date: 2016-03-01 17:47:21
+(epstopdf)                    size: 29780 bytes
 (epstopdf)             Output file: <./Figures/FOV_6/PIV_FOV6_case30-eps-conver
 ted-to.pdf>
+(epstopdf)                    date: 2016-03-01 17:47:21
+(epstopdf)                    size: 11469 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_6/PIV_FOV6_c
 ase30-eps-converted-to.pdf ./Figures/FOV_6/PIV_FOV6_case30.eps>
 (epstopdf)             \includegraphics on input line 422.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `./Figures/FOV_6/PIV_FOV6_case30-eps-converted
--to.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.422 }
-       
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Figures/FOV_6/PIV_FOV6_case40.eps' not found on input li
-ne 422.
-
+<./Figures/FOV_6/PIV_FOV6_case30-eps-converted-to.pdf, id=262, 305.14pt x 242.9
+075pt>
+File: ./Figures/FOV_6/PIV_FOV6_case30-eps-converted-to.pdf Graphic file (type p
+df)
+ <use ./Figures/FOV_6/PIV_FOV6_case30-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/FOV_6/PIV_FOV6_case30-eps-converted-to.pdf u
+sed on input line 422.
+(pdftex.def)             Requested size: 129.09673pt x 102.76915pt.
 Package epstopdf Info: Source file: <./Figures/FOV_6/PIV_FOV6_case40.eps>
+(epstopdf)                    date: 2016-03-01 17:47:21
+(epstopdf)                    size: 32077 bytes
 (epstopdf)             Output file: <./Figures/FOV_6/PIV_FOV6_case40-eps-conver
 ted-to.pdf>
+(epstopdf)                    date: 2016-03-01 17:47:21
+(epstopdf)                    size: 12135 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_6/PIV_FOV6_c
 ase40-eps-converted-to.pdf ./Figures/FOV_6/PIV_FOV6_case40.eps>
 (epstopdf)             \includegraphics on input line 422.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `./Figures/FOV_6/PIV_FOV6_case40-eps-converted
--to.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.422 }
-       
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Figures/FOV_6/PIV_FOV6_case50.eps' not found on input li
-ne 422.
-
+<./Figures/FOV_6/PIV_FOV6_case40-eps-converted-to.pdf, id=263, 305.14pt x 242.9
+075pt>
+File: ./Figures/FOV_6/PIV_FOV6_case40-eps-converted-to.pdf Graphic file (type p
+df)
+ <use ./Figures/FOV_6/PIV_FOV6_case40-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/FOV_6/PIV_FOV6_case40-eps-converted-to.pdf u
+sed on input line 422.
+(pdftex.def)             Requested size: 129.09673pt x 102.76915pt.
 Package epstopdf Info: Source file: <./Figures/FOV_6/PIV_FOV6_case50.eps>
+(epstopdf)                    date: 2016-03-01 17:47:21
+(epstopdf)                    size: 34055 bytes
 (epstopdf)             Output file: <./Figures/FOV_6/PIV_FOV6_case50-eps-conver
 ted-to.pdf>
+(epstopdf)                    date: 2016-03-01 17:47:21
+(epstopdf)                    size: 12484 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_6/PIV_FOV6_c
 ase50-eps-converted-to.pdf ./Figures/FOV_6/PIV_FOV6_case50.eps>
 (epstopdf)             \includegraphics on input line 422.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `./Figures/FOV_6/PIV_FOV6_case50-eps-converted
--to.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.422 }
-       
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<./Figures/FOV_6/PIV_FOV6_case50-eps-converted-to.pdf, id=264, 305.14pt x 242.9
+075pt>
+File: ./Figures/FOV_6/PIV_FOV6_case50-eps-converted-to.pdf Graphic file (type p
+df)
+ <use ./Figures/FOV_6/PIV_FOV6_case50-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/FOV_6/PIV_FOV6_case50-eps-converted-to.pdf u
+sed on input line 422.
+(pdftex.def)             Requested size: 129.09673pt x 102.76915pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
@@ -1879,13 +1807,27 @@ eps-converted-to.pdf ./Figures/tid_case50_run2.eps>
 (epstopdf)             \includegraphics on input line 431.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/tid_case50_run2-eps-converted-to.pdf, id=241, 310.15875pt x 240.9pt>
+<./Figures/tid_case50_run2-eps-converted-to.pdf, id=265, 310.15875pt x 240.9pt>
 File: ./Figures/tid_case50_run2-eps-converted-to.pdf Graphic file (type pdf)
- <use ./Figures/tid_case50_run2-eps-converted-to.pdf>
+<use ./Figures/tid_case50_run2-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/tid_case50_run2-eps-converted-to.pdf used on
  input line 431.
 (pdftex.def)             Requested size: 186.09668pt x 144.5411pt.
- [7] [8] [9 <./Figures/tid_case50_run2-eps-converted-to.pdf>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./Figures/BIM/case10_FOV3_PIV_BIM-eps-converted-to.pdf> <./Figures/BIM/cas
+e10_FOV4_BIM_PIV-eps-converted-to.pdf>] [8 <./Figures/BIM/profil10_feb-eps-conv
+erted-to.pdf> <./Figures/BIM/profil12_feb-eps-converted-to.pdf> <./Figures/BIM/
+profil20_feb-eps-converted-to.pdf> <./Figures/FOV_4/case30_sept2015-eps-convert
+ed-to.pdf> <./Figures/FOV_4/case40_sept2015-eps-converted-to.pdf> <./Figures/FO
+V_4/case50_sept2015-eps-converted-to.pdf> <./Figures/FOV_5/PIV_FOV5_case20-eps-
+converted-to.pdf> <./Figures/FOV_5/PIV_FOV5_case30-eps-converted-to.pdf> <./Fig
+ures/FOV_5/PIV_FOV5_case40-eps-converted-to.pdf> <./Figures/FOV_5/PIV_FOV5_case
+50-eps-converted-to.pdf>] [9 <./Figures/FOV_6/PIV_FOV6_case30-eps-converted-to.
+pdf> <./Figures/FOV_6/PIV_FOV6_case40-eps-converted-to.pdf> <./Figures/FOV_6/PI
+V_FOV6_case50-eps-converted-to.pdf> <./Figures/tid_case50_run2-eps-converted-to
+.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 445.
@@ -1902,12 +1844,11 @@ _run1-eps-converted-to.pdf ./Figures/BUBBLE/bubble_30_run1.eps>
 (epstopdf)             \includegraphics on input line 447.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble_30_run1-eps-converted-to.pdf, id=284, 466.74374pt x 11
+<./Figures/BUBBLE/bubble_30_run1-eps-converted-to.pdf, id=423, 466.74374pt x 11
 8.4425pt>
 File: ./Figures/BUBBLE/bubble_30_run1-eps-converted-to.pdf Graphic file (type p
 df)
-
-<use ./Figures/BUBBLE/bubble_30_run1-eps-converted-to.pdf>
+ <use ./Figures/BUBBLE/bubble_30_run1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BUBBLE/bubble_30_run1-eps-converted-to.pdf u
 sed on input line 447.
 (pdftex.def)             Requested size: 317.07614pt x 80.46573pt.
@@ -1923,12 +1864,11 @@ _run2-eps-converted-to.pdf ./Figures/BUBBLE/bubble_30_run2.eps>
 (epstopdf)             \includegraphics on input line 448.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble_30_run2-eps-converted-to.pdf, id=285, 466.74374pt x 11
+<./Figures/BUBBLE/bubble_30_run2-eps-converted-to.pdf, id=424, 466.74374pt x 11
 8.4425pt>
 File: ./Figures/BUBBLE/bubble_30_run2-eps-converted-to.pdf Graphic file (type p
 df)
-
-<use ./Figures/BUBBLE/bubble_30_run2-eps-converted-to.pdf>
+ <use ./Figures/BUBBLE/bubble_30_run2-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BUBBLE/bubble_30_run2-eps-converted-to.pdf u
 sed on input line 448.
 (pdftex.def)             Requested size: 317.07614pt x 80.46573pt.
@@ -1944,15 +1884,15 @@ _run3-eps-converted-to.pdf ./Figures/BUBBLE/bubble_30_run3.eps>
 (epstopdf)             \includegraphics on input line 449.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble_30_run3-eps-converted-to.pdf, id=286, 466.74374pt x 11
+<./Figures/BUBBLE/bubble_30_run3-eps-converted-to.pdf, id=425, 466.74374pt x 11
 8.4425pt>
 File: ./Figures/BUBBLE/bubble_30_run3-eps-converted-to.pdf Graphic file (type p
 df)
-
-<use ./Figures/BUBBLE/bubble_30_run3-eps-converted-to.pdf>
+ <use ./Figures/BUBBLE/bubble_30_run3-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BUBBLE/bubble_30_run3-eps-converted-to.pdf u
 sed on input line 449.
 (pdftex.def)             Requested size: 317.07614pt x 80.46573pt.
+
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 455.
@@ -1969,12 +1909,11 @@ _run1-eps-converted-to.pdf ./Figures/BUBBLE/bubble_50_run1.eps>
 (epstopdf)             \includegraphics on input line 457.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble_50_run1-eps-converted-to.pdf, id=287, 354.32375pt x 13
+<./Figures/BUBBLE/bubble_50_run1-eps-converted-to.pdf, id=426, 354.32375pt x 13
 6.51pt>
 File: ./Figures/BUBBLE/bubble_50_run1-eps-converted-to.pdf Graphic file (type p
 df)
-
-<use ./Figures/BUBBLE/bubble_50_run1-eps-converted-to.pdf>
+ <use ./Figures/BUBBLE/bubble_50_run1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BUBBLE/bubble_50_run1-eps-converted-to.pdf u
 sed on input line 457.
 (pdftex.def)             Requested size: 271.7835pt x 104.711pt.
@@ -1990,12 +1929,11 @@ _run2-eps-converted-to.pdf ./Figures/BUBBLE/bubble_50_run2.eps>
 (epstopdf)             \includegraphics on input line 458.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble_50_run2-eps-converted-to.pdf, id=288, 354.32375pt x 13
+<./Figures/BUBBLE/bubble_50_run2-eps-converted-to.pdf, id=427, 354.32375pt x 13
 6.51pt>
 File: ./Figures/BUBBLE/bubble_50_run2-eps-converted-to.pdf Graphic file (type p
 df)
-
-<use ./Figures/BUBBLE/bubble_50_run2-eps-converted-to.pdf>
+ <use ./Figures/BUBBLE/bubble_50_run2-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BUBBLE/bubble_50_run2-eps-converted-to.pdf u
 sed on input line 458.
 (pdftex.def)             Requested size: 271.7835pt x 104.711pt.
@@ -2011,15 +1949,15 @@ _run3-eps-converted-to.pdf ./Figures/BUBBLE/bubble_50_run3.eps>
 (epstopdf)             \includegraphics on input line 459.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble_50_run3-eps-converted-to.pdf, id=289, 354.32375pt x 13
+<./Figures/BUBBLE/bubble_50_run3-eps-converted-to.pdf, id=428, 354.32375pt x 13
 6.51pt>
 File: ./Figures/BUBBLE/bubble_50_run3-eps-converted-to.pdf Graphic file (type p
 df)
-
-<use ./Figures/BUBBLE/bubble_50_run3-eps-converted-to.pdf>
+ <use ./Figures/BUBBLE/bubble_50_run3-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BUBBLE/bubble_50_run3-eps-converted-to.pdf u
 sed on input line 459.
 (pdftex.def)             Requested size: 271.7835pt x 104.711pt.
+
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 466.
@@ -2028,35 +1966,29 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 491.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10 <./Figures/BUBBLE/bubble_30_run1-eps-converted-to.pdf> <./Figures/BUBBLE/b
-ubble_30_run2-eps-converted-to.pdf> <./Figures/BUBBLE/bubble_30_run3-eps-conver
-ted-to.pdf>] [11 <./Figures/BUBBLE/bubble_50_run1-eps-converted-to.pdf> <./Figu
-res/BUBBLE/bubble_50_run2-eps-converted-to.pdf> <./Figures/BUBBLE/bubble_50_run
-3-eps-converted-to.pdf>] (./plunging_breakers.bbl [12])
+[10 <./Figures/BUBBLE/bubble_30_run1-eps-converted-to.pdf> <./Figures/BUBBLE/bu
+bble_30_run2-eps-converted-to.pdf> <./Figures/BUBBLE/bubble_30_run3-eps-convert
+ed-to.pdf>] [11 <./Figures/BUBBLE/bubble_50_run1-eps-converted-to.pdf> <./Figur
+es/BUBBLE/bubble_50_run2-eps-converted-to.pdf> <./Figures/BUBBLE/bubble_50_run3
+-eps-converted-to.pdf>] (./plunging_breakers.bbl [12])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 551.
- [13]
+[13]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 551.
  (./plunging_breakers.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 551.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 551.
 Package rerunfilecheck Info: File `plunging_breakers.out' has not changed.
 (rerunfilecheck)             Checksum: BA16FD34136A0A5F0973502A08194726;748.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 551.
  ) 
 Here is how much of TeX's memory you used:
- 17438 strings out of 493304
- 287831 string characters out of 6139871
- 382856 words of memory out of 5000000
- 20502 multiletter control sequences out of 15000+600000
+ 17502 strings out of 493304
+ 291455 string characters out of 6139871
+ 383855 words of memory out of 5000000
+ 20566 multiletter control sequences out of 15000+600000
  14624 words of font info for 57 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,10n,42p,10380b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2074,10 +2006,10 @@ m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on plunging_breakers.pdf (13 pages, 2265394 bytes).
+Output written on plunging_breakers.pdf (13 pages, 2467016 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 342 compressed objects within 4 object streams
+ 563 PDF objects out of 1000 (max. 8388607)
+ 435 compressed objects within 5 object streams
  74 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 
