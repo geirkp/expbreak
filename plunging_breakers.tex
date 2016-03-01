@@ -174,7 +174,16 @@ Visual inspection of the experiments revealed that the cases with normalized amp
 
 \subsection{Surface elevation of the incident waves}
 \label{surf_elev}
-The surface elevation measured with the acoustic wave gauge for $A/H=0.0989$ is shown in Figure \ref{fig:surf_ele1}. Cubic polynomial regression is used to remove noise from the signal, and linear interpolation is used to fill 
+The amplitude of the smallest amplitude wave is determined by
+a simple correction scheme. First the maximum of the series from the 
+acoustic gauge is used as solitary wave amplitude in the BIM model.
+For the lowest wave this value is $\eta_m/H=....$.
+When BIM data are extracted at the gauge position we then obtain 
+a slightly too large surface elevation, due to the reflection from 
+the beach, namely $\eta_b/H=...$. We then adjust the amplitude 
+according to $A=\eta_m-(\eta_b-\eta_m)$. 
+The result is $A/H=0.0989$ and the comparison with BIM results, obtained with this amplitude for the incident wave,
+ is shown in Figure \ref{fig:surf_ele1}. Cubic polynomial regression is used to remove noise from the signal, and linear interpolation is used to fill 
 in  dropouts. The surface elevation measurements are in agreement with computed surface elevation from  the BIM simulatitions.\marginpar{Must explain why the dropouts are there and how reflection is corrected for.}
 
 
@@ -190,7 +199,14 @@ in  dropouts. The surface elevation measurements are in agreement with computed 
 \subsection{Surface development and maximum runup}
 \label{max_run}
 
-To investigate how the waves propagate towards the shore and onshore both simulation and measurements have been conducted. A BIM model was used to visualize the development of the waves as they were propagating towards the shore (See Figure \ref{fig:BIM}).BIM only managed to estimate the full runup for the waves with normalized amplitude $A/H=0.989$, and the third plot in Figure \ref{fig:BIM} corresponds to the point of maximum runup height for that wave. The time of maximum runup was estimated to $t=9.08s$ and the corresponding runup was $r=114.82cm$ in the direction along the beach. The BIM model had some difficulties with the waves with amplitude $A/H=0.1191$. The contact angle between the wave front and the beach was too steep, and the BIM model was not able to predict the runup for this case. The  $A/H=0.1191$  wave is therefore omitted in the figure. The BIM succeeded in calculating the surface of the breaking waves until the point were the plunger hits the beach. 
+To investigate shoaling and runup of the waves 
+both simulation and measurements have been conducted. 
+BIM simulations of the near-shore evolution model is shown in figure \ref{fig:BIM}).
+For reasons explained previously we only compute the runup for the 
+smallest wave $A/H=0.989$. The computed time and maximum runup height 
+were were $t=9.08$s and  $r=114.82$cm (measured along the beach), 
+respectively. The BIM model had some difficulties with the waves with amplitude $A/H=0.1191$. For the other cases shown the numerical
+model describes the evolution of the plunger, but nothing beyonds its impact onshore.  
 \begin{figure}[]
 \centering 
 \includegraphics[width=\textwidth]{./Figures/BIM_s/case10.eps}
@@ -199,7 +215,7 @@ To investigate how the waves propagate towards the shore and onshore both simula
 \includegraphics[width=\textwidth]{./Figures/BIM_s/case40.eps}
 \includegraphics[width=1.015\textwidth]{./Figures/BIM_s/case50.eps}
 %http://commons.wikimedia.org/wiki/File:Breaking_wave_types.gif
-\caption{\textit{BIM simulation of the waves the upper to lower figures correspond to $A/H=(0.0989, 0.1981, 0.2958, 0.3939, 0.4874)$, respectively.}}
+\caption{\textit{BIM simulation of the waves the upper to lower figures correspond to $A/H=(0.0989, 0.1981, 0.2958, 0.3939, 0.4874)$, respectively. In the top panel the curve marked 3 corresponds to the time of maximum runup.}}
 \label{fig:BIM}
 \end{figure}
 
@@ -220,7 +236,17 @@ The measured maximum runup heights and deviations for each waves are available i
 \label{tab:max_shore}
 \end{table}
 
-The contour of the shoreline at maximum runup are shown in Figure \ref{fig:max_runup}. The shoreline seemed to be repeatable for case 10 (Figure \ref{fig:overflate_10}), but has a parabolic shape. The maximum runup is clearly dependent on cross sectional direction of the tank (the width of the wave tank).  This is probably due to bending of the beach which has been measured using a straightedge and a feeling gauge. The maximum bend of the beach was 3.4mm and located at 2.0m from origo in the middle of the cross section of the beach. The variation of 3.4 mm in the z direction should correspond to 3.4cm in the x direction since the beach slope is 1:10. It is clear from Figure \ref{fig:max_runup} that the cross sectional variation is much larger than 3.4 cm. The contour of the maximum shoreline seemed to vary a lot for the three repititions of the breaking wave $A/H=0.4874$  (Figure \ref{fig:overflate_50}).
+The shoreline at maximum runup are shown in Figure \ref{fig:max_runup}.It is fairly repeatable for the amplitue close to $0.1$ times the 
+depth (Figure \ref{fig:overflate_10}), but has a wedge-like shape. 
+ This is presumably due to a cross-wise deformation  of the beach 
+which has been measured using a straightedge and a feeling gauge. 
+The maximum supression of the beach was 3.4mm and located at 2.0m from the 
+origin in the middle of the cross section of the beach. The variation
+ of 3.4 mm in the $z$ direction should correspond to 3.4cm in the $x$ 
+direction since the beach slope is 1:10. It is clear from Figure 
+\ref{fig:max_runup} that the transverse variation is larger than this, 
+which points to  an accumulative effect. The  runup   varies much more for the three repititions of the breaking wave $A/H=0.4874$,
+resulting in irregularly shaped shorelines  (Figure \ref{fig:overflate_50}).
 \begin{figure}[]
         \centering
         \makebox[\linewidth][c]{%
@@ -239,7 +265,7 @@ The contour of the shoreline at maximum runup are shown in Figure \ref{fig:max_r
                 \label{fig:overflate_50}
         \end{subfigure}
 }
-        \caption{\textit{Shoreline contours at max runup.}}
+        \caption{\textit{Shoreline shapes at max runup.}}
         \label{fig:max_runup}
 \end{figure}
 
@@ -258,7 +284,11 @@ An estimate of the arrival time of the wave for FOV II, III and IV, were measure
 \label{vel_pro}
 
 Velocity profiles are extracted from the PIV data that are obtained from the four different FOV, approximately from 10cm to 120cm from the equilibrium shoreline. 
-First, a comparison between computed BIM and measured PIV velocities for $A/H=0.989$ will be given for FOV I and II, (See Figure \ref{fig:BIM3_tim}). There seems to be excellent agreement between measured and computed  velocity profiles. The computed velocities are over-predicted by the BIM model, in the front of the wave, for both the FOVs, and this may explain why the BIM computation over predicts the maximum runup given in the previous section.
+First, a comparison between computed BIM and measured PIV velocities for $A/H=0.989$ will be given for FOV I and II, (See Figure \ref{fig:BIM3_tim}). There is good agreement between measured and computed  velocity profiles. The computed velocities are larger in the front of the wave for both the FOVs. This complies with corresponding results in  \cite{pedersen2013runup} where the
+delay of the experimental wave was linked to cappilary effects, while
+an accumulative reduction of velocity, and hence runup height, was
+related to the viscous bodary layers at the beach.  Hence, the BIM 
+computation over-predicts the maximum runup as given in the previous section.\marginpar{Values ???}
 
 \begin{figure}
         \centering
@@ -286,8 +316,12 @@ First, a comparison between computed BIM and measured PIV velocities for $A/H=0.
 
 %Velocity profiles for non-breaking solitary waves are studied experimentally by \cite{pedersen2013runup}.Their measurements revealed that the velocity profiles obtained close to the still water shoreline, had a viscous boundary layer close to the beach, and a uniform velocity U outside the boundary layer (the outer flow). 
 
-In order to investigate the development of the boundary layer upwards the sloping beach, velocity profiles in the period close to outer flow reversal have been emphasized, and velocity profiles from  FOV II, III and IV will be presented.
-FOV II is located about 40cm from origo, and velocity profiles obtained from this FOV is shown in Figure \ref{fig:PIV_FOV4}. For $A/H=0.1981$ sparse seeding was obtained close to the surface, which led to artefacts in the velocity profiles near  $z\approx1$. The PIV method fails to calculate the velocity in this area due to the low particle density. An outer flow seems to be constant for both non-breaking and breaking waves. The event of a swash tongue moving with a constant velocity U upward a beach, can be compared to the problem of accelerating an infinite long plate from rest to a constant velocity U with a viscous fluid on top, Stokes first problem \citep{white2006viscous}. Dimensional analysis will then give us a relationship between the boundary layer thickness $\delta $ and the viscosity $\nu$ and the time $t$,  $\delta \approx \sqrt{\nu t}$.  This implies that the boundary layer will grow with time, and this seems to be the case for the small non-breaking waves with amplitude  $A/H=0.0989$ (Figure \ref{fig:BIM3_tim}). However, for the strong plunging breakers the boundary layer decreases with time. This implies that the motion is more  irregular than for the non-breaking waves. %In addition, is the boundary layer thicker for the breaking waves. 
+
+FOV II is located approximately 40cm from the origin, and velocity 
+profiles obtained from this FOV are shown in Figure \ref{fig:PIV_FOV4}.
+For $A/H=0.1981$ the particle density was too sparse close to the surface, which led to spurious vacillations in the velocity profiles near  $z\approx1$. 
+%Hit Geir: 1/3 10.25
+ An outer flow seems to be constant for both non-breaking and breaking waves. The event of a swash tongue moving with a constant velocity U upward a beach, can be compared to the problem of accelerating an infinite long plate from rest to a constant velocity U with a viscous fluid on top, Stokes first problem \citep{white2006viscous}. Dimensional analysis will then give us a relationship between the boundary layer thickness $\delta $ and the viscosity $\nu$ and the time $t$,  $\delta \approx \sqrt{\nu t}$.  This implies that the boundary layer will grow with time, and this seems to be the case for the small non-breaking waves with amplitude  $A/H=0.0989$ (Figure \ref{fig:BIM3_tim}). However, for the strong plunging breakers the boundary layer decreases with time. This implies that the motion is more  irregular than for the non-breaking waves. %In addition, is the boundary layer thicker for the breaking waves. 
 % For $A/H=0.2958$ to $A/H=0.4874$ the outer flow seems to start at higher values of z than for the non-breaking cases, this may imply that viscous effects has a larger influence on the breaking cases. For $A/H=0.0989$ to $A/H=0.1981$ the flow can be divided into three regions, the upper region (outer flow) where $\frac{du}{dz}=0$, the middle region where $\frac{du}{dz}>0$ and the region closest to the beach wall, where $\frac{du}{dz}<0$. 
 % For breaking cases $A/H=0.2958-0.4874$, it seemed that the region closest to the wall where $\frac{du}{dz}<0$ is almost non existent for the velocity profiles obtained before flow reversal. This can be interpreted as irregular motion. The section where $\frac{du}{dz}<0$, reoccurred for the velocity profiles obtained after flow reversal for cases  $A/H=0.2958-0.4874$. This indicated that the deceleration of the field makes the motion more regular.
 
