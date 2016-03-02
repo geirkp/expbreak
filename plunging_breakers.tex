@@ -1,4 +1,3 @@
-
 \documentclass[a4paper, 11pt, english, twoside, openright]{article}
   %\documentclass[a4paper,10pt]{scrartcl}
 \ProvidesPackage{mystyles}
@@ -321,11 +320,17 @@ computation over-predicts the maximum runup as given in the previous section.\ma
 
 FOV II is located approximately 40cm from the origin, and velocity 
 profiles obtained from this FOV are shown in Figure \ref{fig:PIV_FOV4}.
-For $A/H=0.1981$ the particle density was too sparse close to the surface, which led to spurious vacillations in the velocity profiles near  $z\approx1$. 
-%Hit Geir: 1/3 10.25
- An outer flow seems to be constant for both non-breaking and breaking waves. The event of a swash tongue moving with a constant velocity U upward a beach, can be compared to the problem of accelerating an infinite long plate from rest to a constant velocity U with a viscous fluid on top, Stokes first problem \citep{white2006viscous}. Dimensional analysis will then give us a relationship between the boundary layer thickness $\delta $ and the viscosity $\nu$ and the time $t$,  $\delta \approx \sqrt{\nu t}$.  This implies that the boundary layer will grow with time, and this seems to be the case for the small non-breaking waves with amplitude  $A/H=0.0989$ (Figure \ref{fig:BIM3_tim}). However, for the strong plunging breakers the boundary layer decreases with time. This implies that the motion is more  irregular than for the non-breaking waves. %In addition, is the boundary layer thicker for the breaking waves. 
-% For $A/H=0.2958$ to $A/H=0.4874$ the outer flow seems to start at higher values of z than for the non-breaking cases, this may imply that viscous effects has a larger influence on the breaking cases. For $A/H=0.0989$ to $A/H=0.1981$ the flow can be divided into three regions, the upper region (outer flow) where $\frac{du}{dz}=0$, the middle region where $\frac{du}{dz}>0$ and the region closest to the beach wall, where $\frac{du}{dz}<0$. 
-% For breaking cases $A/H=0.2958-0.4874$, it seemed that the region closest to the wall where $\frac{du}{dz}<0$ is almost non existent for the velocity profiles obtained before flow reversal. This can be interpreted as irregular motion. The section where $\frac{du}{dz}<0$, reoccurred for the velocity profiles obtained after flow reversal for cases  $A/H=0.2958-0.4874$. This indicated that the deceleration of the field makes the motion more regular.
+For $A/H=0.1981$ the particle density was too sparse close to the surface, which led to spurious vacillations in the velocity profiles near  $z\approx1$. Some distance below the surface a region of uniform flow is apparent for all cases. 
+Boundary layers are apparent for all the cases and they all
+display a flow reversal prior to that of the outer flow.
+However, the evolution of the boundary layers for the amplitudes up to just below
+$A/H=0.2$ and those close to $A/H=0.3$ and higher differ.
+The boundary layers for the higher amplitudes appear more irregular
+with a thicker and less pronounced region of reversed flow in the 
+boundary layers.  \marginpar{Geir: I really cannot see the evolution 
+of boundary layer thicknesses. The comparsion with Stokes problem is only relevant for the stages well before flow reversal}
+While the boundary layer for the lower amplitudes, including that of $A/H=0.198$, appears laminar the higher waves have boundary layers that 
+presumably are in a transition to tubulence.   
 
 \begin{figure}[]
 \centering
@@ -433,7 +438,14 @@ $x=121.25cm$} }
                 \label{fig:wave_in_time}
         \end{figure}      
          
-Inspection of movies of the front of the swash tongue from FOV IV (furthest up the beach) shows that a systematic swirling effect were present in the front of the swash tongue.  Particle Tracking Velocimetry (PTV) have been utilized to investigate this phenomenon. Figure \ref{fig:wave_in_time} shows how the velocities vary at one spot in fluid as a function of time. The velocities seem to oscillate, in addition to a linear decaying trend. The red line represents an interpolation of all the data, where 40 points are considered at each evaluation point. This indicates that there is a systematic velocity field in the front of the swash tongue. 
+Inspection of movies of the front of the swash tongue from FOV IV (furthest up the beach) shows that a systematic swirling effect were present in the front of the swash tongue.  Particle Tracking Velocimetry (PTV) have been utilized to investigate this phenomenon. Figure \ref{fig:wave_in_time} shows how the velocities vary at a single point in the
+fluid as a function of time.\marginpar{\footnotesize How the data is obtained must be better explained}
+Superimposed a steady deceleration of the fluid there is an 
+oscillation.
+Flow in decelerating boundary layers are prone to instabilites.
+However, the oscillations do not increase in magnitude and are present
+from the beginning. 
+   This indicates that the wave breaking induces irregularities, possibly in the form of vortices, that prevails during the subsequent motion. 
 
 
  
