@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.13)  1 MAR 2016 17:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.13)  2 MAR 2016 11:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1042,27 +1042,27 @@ LaTeX Warning: Unused global option(s):
 (./plunging_breakers.aux)
 \openout1 = `plunging_breakers.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 54.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1105,7 +1105,7 @@ Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 55.
+Package hyperref Info: Link coloring OFF on input line 54.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1115,9 +1115,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count184
 )
-LaTeX Info: Redefining \ref on input line 55.
-LaTeX Info: Redefining \pageref on input line 55.
-LaTeX Info: Redefining \nameref on input line 55.
+LaTeX Info: Redefining \ref on input line 54.
+LaTeX Info: Redefining \pageref on input line 54.
+LaTeX Info: Redefining \nameref on input line 54.
 
 (./plunging_breakers.out) (./plunging_breakers.out)
 \@outlinefile=\write3
@@ -1158,78 +1158,78 @@ LaTeX Info: Redefining \nameref on input line 55.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 57.
+LaTeX Font Info:    Try loading font information for U+msa on input line 56.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 57.
+LaTeX Font Info:    Try loading font information for U+msb on input line 56.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
 []\OT1/cmr/m/n/9 What did
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 []\OT1/cmr/m/n/9 Are the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 \OT1/cmr/m/n/9 am-pli-tudes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 \OT1/cmr/m/n/9 cor-rected ?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 \OT1/cmr/m/n/9 cor-rec-tion is
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 120.
+               Default added (so using `tbp') on input line 119.
 
 <./Figures/setup3.png, id=90, 1052.93375pt x 414.54875pt>
 File: ./Figures/setup3.png Graphic file (type png)
 
 <use ./Figures/setup3.png>
-Package pdftex.def Info: ./Figures/setup3.png used on input line 122.
+Package pdftex.def Info: ./Figures/setup3.png used on input line 121.
 (pdftex.def)             Requested size: 452.9679pt x 178.34103pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 130.
+               Default added (so using `tbp') on input line 129.
 
 
-Package natbib Warning: Citation `Liu...' on page 2 undefined on input line 143
+Package natbib Warning: Citation `Liu...' on page 2 undefined on input line 142
 .
 
 
-Underfull \hbox (badness 5105) in paragraph at lines 143--143
+Underfull \hbox (badness 5105) in paragraph at lines 142--142
 \OT1/cmr/m/n/9 ag-ing al-ways
  []
 
 [2 <./Figures/setup3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 163--163
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 []\OT1/cmr/m/n/9 Grid re-fine-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
 []\OT1/cmr/m/n/9 cannot just
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 169.
+               Default added (so using `tbp') on input line 168.
 
 Package epstopdf Info: Source file: <./Figures/BUBBLE/new_jan_bilde_bub.eps>
 (epstopdf)                    date: 2016-01-20 13:37:50
@@ -1240,7 +1240,7 @@ verted-to.pdf>
 (epstopdf)                    size: 158495 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BUBBLE/new_jan_b
 ilde_bub-eps-converted-to.pdf ./Figures/BUBBLE/new_jan_bilde_bub.eps>
-(epstopdf)             \includegraphics on input line 171.
+(epstopdf)             \includegraphics on input line 170.
 Package epstopdf Info: Output file is already uptodate.
 
 <./Figures/BUBBLE/new_jan_bilde_bub-eps-converted-to.pdf, id=113, 405.515pt x 1
@@ -1249,40 +1249,40 @@ File: ./Figures/BUBBLE/new_jan_bilde_bub-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use ./Figures/BUBBLE/new_jan_bilde_bub-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BUBBLE/new_jan_bilde_bub-eps-converted-to.pd
-f used on input line 171.
+f used on input line 170.
 (pdftex.def)             Requested size: 405.51399pt x 116.43471pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
 []\OT1/cmr/m/n/10.95 Must
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
 \OT1/cmr/m/n/10.95 ex-plain
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
 \OT1/cmr/m/n/10.95 why the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
 \OT1/cmr/m/n/10.95 dropouts
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
 \OT1/cmr/m/n/10.95 are there
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
 \OT1/cmr/m/n/10.95 and how
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
 \OT1/cmr/m/n/10.95 cor-rected
  []
 
@@ -1296,7 +1296,7 @@ pdf>
 (epstopdf)                    size: 32552 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BIM/BIM_probes-e
 ps-converted-to.pdf ./Figures/BIM/BIM_probes.eps>
-(epstopdf)             \includegraphics on input line 194.
+(epstopdf)             \includegraphics on input line 193.
 Package epstopdf Info: Output file is already uptodate.
 
 <./Figures/BIM/BIM_probes-eps-converted-to.pdf, id=125, 304.13625pt x 266.9975p
@@ -1304,12 +1304,12 @@ t>
 File: ./Figures/BIM/BIM_probes-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Figures/BIM/BIM_probes-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BIM/BIM_probes-eps-converted-to.pdf used on 
-input line 194.
+input line 193.
 (pdftex.def)             Requested size: 181.18439pt x 159.06306pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 212.
+               Default added (so using `tbp') on input line 211.
 
 Package epstopdf Info: Source file: <./Figures/BIM_s/case10.eps>
 (epstopdf)                    date: 2016-02-12 13:24:24
@@ -1320,14 +1320,14 @@ f>
 (epstopdf)                    size: 14866 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BIM_s/case10-eps
 -converted-to.pdf ./Figures/BIM_s/case10.eps>
-(epstopdf)             \includegraphics on input line 214.
+(epstopdf)             \includegraphics on input line 213.
 Package epstopdf Info: Output file is already uptodate.
 <./Figures/BIM_s/case10-eps-converted-to.pdf, id=127, 471.7625pt x 72.27pt>
 File: ./Figures/BIM_s/case10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figures/BIM_s/case10-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BIM_s/case10-eps-converted-to.pdf used on in
-put line 214.
+put line 213.
 (pdftex.def)             Requested size: 452.9679pt x 69.39162pt.
 Package epstopdf Info: Source file: <./Figures/BIM_s/case20.eps>
 (epstopdf)                    date: 2016-02-11 16:44:16
@@ -1338,7 +1338,7 @@ f>
 (epstopdf)                    size: 17907 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BIM_s/case20-eps
 -converted-to.pdf ./Figures/BIM_s/case20.eps>
-(epstopdf)             \includegraphics on input line 215.
+(epstopdf)             \includegraphics on input line 214.
 Package epstopdf Info: Output file is already uptodate.
 
 <./Figures/BIM_s/case20-eps-converted-to.pdf, id=128, 471.7625pt x 72.27pt>
@@ -1346,7 +1346,7 @@ File: ./Figures/BIM_s/case20-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figures/BIM_s/case20-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BIM_s/case20-eps-converted-to.pdf used on in
-put line 215.
+put line 214.
 (pdftex.def)             Requested size: 452.9679pt x 69.39162pt.
 Package epstopdf Info: Source file: <./Figures/BIM_s/case30.eps>
 (epstopdf)                    date: 2016-02-11 16:44:18
@@ -1357,7 +1357,7 @@ f>
 (epstopdf)                    size: 17607 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BIM_s/case30-eps
 -converted-to.pdf ./Figures/BIM_s/case30.eps>
-(epstopdf)             \includegraphics on input line 216.
+(epstopdf)             \includegraphics on input line 215.
 Package epstopdf Info: Output file is already uptodate.
 
 <./Figures/BIM_s/case30-eps-converted-to.pdf, id=129, 471.7625pt x 72.27pt>
@@ -1365,7 +1365,7 @@ File: ./Figures/BIM_s/case30-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figures/BIM_s/case30-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BIM_s/case30-eps-converted-to.pdf used on in
-put line 216.
+put line 215.
 (pdftex.def)             Requested size: 452.9679pt x 69.39162pt.
 Package epstopdf Info: Source file: <./Figures/BIM_s/case40.eps>
 (epstopdf)                    date: 2016-02-11 16:44:18
@@ -1376,7 +1376,7 @@ f>
 (epstopdf)                    size: 18246 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BIM_s/case40-eps
 -converted-to.pdf ./Figures/BIM_s/case40.eps>
-(epstopdf)             \includegraphics on input line 217.
+(epstopdf)             \includegraphics on input line 216.
 Package epstopdf Info: Output file is already uptodate.
 
 <./Figures/BIM_s/case40-eps-converted-to.pdf, id=130, 471.7625pt x 72.27pt>
@@ -1384,7 +1384,7 @@ File: ./Figures/BIM_s/case40-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Figures/BIM_s/case40-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BIM_s/case40-eps-converted-to.pdf used on in
-put line 217.
+put line 216.
 (pdftex.def)             Requested size: 452.9679pt x 69.39162pt.
 Package epstopdf Info: Source file: <./Figures/BIM_s/case50.eps>
 (epstopdf)                    date: 2016-02-11 16:44:20
@@ -1395,27 +1395,27 @@ f>
 (epstopdf)                    size: 18789 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BIM_s/case50-eps
 -converted-to.pdf ./Figures/BIM_s/case50.eps>
-(epstopdf)             \includegraphics on input line 218.
+(epstopdf)             \includegraphics on input line 217.
 Package epstopdf Info: Output file is already uptodate.
 
 <./Figures/BIM_s/case50-eps-converted-to.pdf, id=131, 478.78876pt x 102.3825pt>
 File: ./Figures/BIM_s/case50-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/BIM_s/case50-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BIM_s/case50-eps-converted-to.pdf used on in
-put line 218.
+put line 217.
 (pdftex.def)             Requested size: 459.76213pt x 98.3142pt.
 
-Overfull \hbox (6.79424pt too wide) in paragraph at lines 214--220
+Overfull \hbox (6.79424pt too wide) in paragraph at lines 213--219
  [] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 225.
+               Default added (so using `tbp') on input line 224.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 252.
+               Default added (so using `tbp') on input line 251.
 
 Package epstopdf Info: Source file: <Figures/runup10.eps>
 (epstopdf)                    date: 2014-10-27 15:24:20
@@ -1425,14 +1425,14 @@ Package epstopdf Info: Source file: <Figures/runup10.eps>
 (epstopdf)                    size: 6634 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/runup10-eps-conver
 ted-to.pdf Figures/runup10.eps>
-(epstopdf)             \includegraphics on input line 269.
+(epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
 <Figures/runup10-eps-converted-to.pdf, id=141, 304.13625pt x 248.93pt>
 File: Figures/runup10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/runup10-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/runup10-eps-converted-to.pdf used on input lin
-e 269.
+e 268.
 (pdftex.def)             Requested size: 172.1246pt x 140.885pt.
 Package epstopdf Info: Source file: <Figures/runup50.eps>
 (epstopdf)                    date: 2014-10-27 15:23:48
@@ -1442,7 +1442,7 @@ Package epstopdf Info: Source file: <Figures/runup50.eps>
 (epstopdf)                    size: 6561 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/runup50-eps-conver
 ted-to.pdf Figures/runup50.eps>
-(epstopdf)             \includegraphics on input line 269.
+(epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/runup50-eps-converted-to.pdf, id=142, 310.15875pt x 248.93pt>
@@ -1450,7 +1450,7 @@ File: Figures/runup50-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/runup50-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/runup50-eps-converted-to.pdf used on input lin
-e 269.
+e 268.
 (pdftex.def)             Requested size: 172.1246pt x 138.14258pt.
  [4 <./Figures/BUBBLE/new_jan_bilde_bub-eps-converted-to.pdf> <./Figures/BIM/BI
 M_probes-eps-converted-to.pdf>]
@@ -1466,7 +1466,7 @@ df>
 (epstopdf)                    size: 7752 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/shoreline2015-ep
 s-converted-to.pdf ./Figures/shoreline2015.eps>
-(epstopdf)             \includegraphics on input line 279.
+(epstopdf)             \includegraphics on input line 278.
 Package epstopdf Info: Output file is already uptodate.
 
 <./Figures/shoreline2015-eps-converted-to.pdf, id=216, 306.14375pt x 266.9975pt
@@ -1474,7 +1474,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: ./Figures/shoreline2015-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Figures/shoreline2015-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/shoreline2015-eps-converted-to.pdf used on i
-nput line 279.
+nput line 278.
 (pdftex.def)             Requested size: 183.68765pt x 160.19972pt.
  [6 <./Figures/runup10-eps-converted-to.pdf> <./Figures/runup50-eps-converted-t
 o.pdf> <./Figures/shoreline2015-eps-converted-to.pdf>]
@@ -1487,7 +1487,7 @@ erted-to.pdf>
 (epstopdf)                    size: 19563 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BIM/case10_FOV3_
 PIV_BIM-eps-converted-to.pdf ./Figures/BIM/case10_FOV3_PIV_BIM.eps>
-(epstopdf)             \includegraphics on input line 299.
+(epstopdf)             \includegraphics on input line 298.
 Package epstopdf Info: Output file is already uptodate.
 
 <./Figures/BIM/case10_FOV3_PIV_BIM-eps-converted-to.pdf, id=242, 306.14375pt x 
@@ -1496,7 +1496,7 @@ File: ./Figures/BIM/case10_FOV3_PIV_BIM-eps-converted-to.pdf Graphic file (type
  pdf)
  <use ./Figures/BIM/case10_FOV3_PIV_BIM-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BIM/case10_FOV3_PIV_BIM-eps-converted-to.pdf
- used on input line 299.
+ used on input line 298.
 (pdftex.def)             Requested size: 208.36827pt x 181.72292pt.
 Package epstopdf Info: Source file: <./Figures/BIM/case10_FOV4_BIM_PIV.eps>
 (epstopdf)                    date: 2016-03-01 17:46:16
@@ -1507,7 +1507,7 @@ erted-to.pdf>
 (epstopdf)                    size: 19046 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BIM/case10_FOV4_
 BIM_PIV-eps-converted-to.pdf ./Figures/BIM/case10_FOV4_BIM_PIV.eps>
-(epstopdf)             \includegraphics on input line 300.
+(epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 
 <./Figures/BIM/case10_FOV4_BIM_PIV-eps-converted-to.pdf, id=243, 306.14375pt x 
@@ -1516,12 +1516,51 @@ File: ./Figures/BIM/case10_FOV4_BIM_PIV-eps-converted-to.pdf Graphic file (type
  pdf)
  <use ./Figures/BIM/case10_FOV4_BIM_PIV-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BIM/case10_FOV4_BIM_PIV-eps-converted-to.pdf
- used on input line 300.
+ used on input line 299.
 (pdftex.def)             Requested size: 208.36827pt x 181.72292pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+[]\OT1/cmr/m/n/10.95 Geir: I
+ []
+
+
+Underfull \hbox (badness 4913) in paragraph at lines 331--331
+\OT1/cmr/m/n/10.95 re-ally can-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+\OT1/cmr/m/n/10.95 bound-ary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+\OT1/cmr/m/n/10.95 com-par-sion
+ []
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 331--331
+\OT1/cmr/m/n/10.95 prob-lem is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+\OT1/cmr/m/n/10.95 only rel-e-
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 331--331
+\OT1/cmr/m/n/10.95 stages well
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 331--331
+\OT1/cmr/m/n/10.95 be-fore flow
+ []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 330.
+               Default added (so using `tbp') on input line 335.
 
 Package epstopdf Info: Source file: <./Figures/BIM/profil10_feb.eps>
 (epstopdf)                    date: 2016-03-01 17:46:16
@@ -1532,15 +1571,15 @@ o.pdf>
 (epstopdf)                    size: 17234 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BIM/profil10_feb
 -eps-converted-to.pdf ./Figures/BIM/profil10_feb.eps>
-(epstopdf)             \includegraphics on input line 348.
+(epstopdf)             \includegraphics on input line 353.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIM/profil10_feb-eps-converted-to.pdf, id=248, 306.14375pt x 266.997
+<./Figures/BIM/profil10_feb-eps-converted-to.pdf, id=245, 306.14375pt x 266.997
 5pt>
 File: ./Figures/BIM/profil10_feb-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Figures/BIM/profil10_feb-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BIM/profil10_feb-eps-converted-to.pdf used o
-n input line 348.
+n input line 353.
 (pdftex.def)             Requested size: 129.09673pt x 112.58632pt.
 Package epstopdf Info: Source file: <./Figures/BIM/profil12_feb.eps>
 (epstopdf)                    date: 2016-03-01 17:46:16
@@ -1551,15 +1590,15 @@ o.pdf>
 (epstopdf)                    size: 13866 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BIM/profil12_feb
 -eps-converted-to.pdf ./Figures/BIM/profil12_feb.eps>
-(epstopdf)             \includegraphics on input line 348.
+(epstopdf)             \includegraphics on input line 353.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIM/profil12_feb-eps-converted-to.pdf, id=249, 306.14375pt x 266.997
+<./Figures/BIM/profil12_feb-eps-converted-to.pdf, id=246, 306.14375pt x 266.997
 5pt>
 File: ./Figures/BIM/profil12_feb-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Figures/BIM/profil12_feb-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BIM/profil12_feb-eps-converted-to.pdf used o
-n input line 348.
+n input line 353.
 (pdftex.def)             Requested size: 129.09673pt x 112.58632pt.
 Package epstopdf Info: Source file: <./Figures/BIM/profil20_feb.eps>
 (epstopdf)                    date: 2016-03-01 17:46:16
@@ -1570,15 +1609,15 @@ o.pdf>
 (epstopdf)                    size: 15971 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BIM/profil20_feb
 -eps-converted-to.pdf ./Figures/BIM/profil20_feb.eps>
-(epstopdf)             \includegraphics on input line 348.
+(epstopdf)             \includegraphics on input line 353.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIM/profil20_feb-eps-converted-to.pdf, id=250, 306.14375pt x 266.997
+<./Figures/BIM/profil20_feb-eps-converted-to.pdf, id=247, 306.14375pt x 266.997
 5pt>
 File: ./Figures/BIM/profil20_feb-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Figures/BIM/profil20_feb-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BIM/profil20_feb-eps-converted-to.pdf used o
-n input line 348.
+n input line 353.
 (pdftex.def)             Requested size: 129.09673pt x 112.58632pt.
 Package epstopdf Info: Source file: <./Figures/FOV_4/case30_sept2015.eps>
 (epstopdf)                    date: 2016-03-01 17:47:06
@@ -1589,16 +1628,16 @@ ted-to.pdf>
 (epstopdf)                    size: 18022 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_4/case30_sep
 t2015-eps-converted-to.pdf ./Figures/FOV_4/case30_sept2015.eps>
-(epstopdf)             \includegraphics on input line 365.
+(epstopdf)             \includegraphics on input line 370.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_4/case30_sept2015-eps-converted-to.pdf, id=251, 306.14375pt x 26
+<./Figures/FOV_4/case30_sept2015-eps-converted-to.pdf, id=248, 306.14375pt x 26
 6.9975pt>
 File: ./Figures/FOV_4/case30_sept2015-eps-converted-to.pdf Graphic file (type p
 df)
  <use ./Figures/FOV_4/case30_sept2015-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/FOV_4/case30_sept2015-eps-converted-to.pdf u
-sed on input line 365.
+sed on input line 370.
 (pdftex.def)             Requested size: 129.09673pt x 112.58632pt.
 Package epstopdf Info: Source file: <./Figures/FOV_4/case40_sept2015.eps>
 (epstopdf)                    date: 2016-03-01 17:47:06
@@ -1609,16 +1648,16 @@ ted-to.pdf>
 (epstopdf)                    size: 19398 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_4/case40_sep
 t2015-eps-converted-to.pdf ./Figures/FOV_4/case40_sept2015.eps>
-(epstopdf)             \includegraphics on input line 365.
+(epstopdf)             \includegraphics on input line 370.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_4/case40_sept2015-eps-converted-to.pdf, id=252, 306.14375pt x 26
+<./Figures/FOV_4/case40_sept2015-eps-converted-to.pdf, id=249, 306.14375pt x 26
 6.9975pt>
 File: ./Figures/FOV_4/case40_sept2015-eps-converted-to.pdf Graphic file (type p
 df)
  <use ./Figures/FOV_4/case40_sept2015-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/FOV_4/case40_sept2015-eps-converted-to.pdf u
-sed on input line 365.
+sed on input line 370.
 (pdftex.def)             Requested size: 129.09673pt x 112.58632pt.
 Package epstopdf Info: Source file: <./Figures/FOV_4/case50_sept2015.eps>
 (epstopdf)                    date: 2016-03-01 17:47:06
@@ -1629,21 +1668,21 @@ ted-to.pdf>
 (epstopdf)                    size: 19792 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_4/case50_sep
 t2015-eps-converted-to.pdf ./Figures/FOV_4/case50_sept2015.eps>
-(epstopdf)             \includegraphics on input line 365.
+(epstopdf)             \includegraphics on input line 370.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_4/case50_sept2015-eps-converted-to.pdf, id=253, 306.14375pt x 26
+<./Figures/FOV_4/case50_sept2015-eps-converted-to.pdf, id=250, 306.14375pt x 26
 6.9975pt>
 File: ./Figures/FOV_4/case50_sept2015-eps-converted-to.pdf Graphic file (type p
 df)
  <use ./Figures/FOV_4/case50_sept2015-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/FOV_4/case50_sept2015-eps-converted-to.pdf u
-sed on input line 365.
+sed on input line 370.
 (pdftex.def)             Requested size: 129.09673pt x 112.58632pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 370.
+               Default added (so using `tbp') on input line 375.
 
 Package epstopdf Info: Source file: <./Figures/FOV_5/PIV_FOV5_case20.eps>
 (epstopdf)                    date: 2016-03-01 17:47:13
@@ -1654,16 +1693,16 @@ ted-to.pdf>
 (epstopdf)                    size: 10119 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_5/PIV_FOV5_c
 ase20-eps-converted-to.pdf ./Figures/FOV_5/PIV_FOV5_case20.eps>
-(epstopdf)             \includegraphics on input line 383.
+(epstopdf)             \includegraphics on input line 388.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_5/PIV_FOV5_case20-eps-converted-to.pdf, id=255, 302.12875pt x 24
+<./Figures/FOV_5/PIV_FOV5_case20-eps-converted-to.pdf, id=252, 302.12875pt x 24
 2.9075pt>
 File: ./Figures/FOV_5/PIV_FOV5_case20-eps-converted-to.pdf Graphic file (type p
 df)
  <use ./Figures/FOV_5/PIV_FOV5_case20-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/FOV_5/PIV_FOV5_case20-eps-converted-to.pdf u
-sed on input line 383.
+sed on input line 388.
 (pdftex.def)             Requested size: 129.09673pt x 103.79213pt.
 Package epstopdf Info: Source file: <./Figures/FOV_5/PIV_FOV5_case30.eps>
 (epstopdf)                    date: 2016-03-01 17:47:13
@@ -1674,16 +1713,16 @@ ted-to.pdf>
 (epstopdf)                    size: 11902 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_5/PIV_FOV5_c
 ase30-eps-converted-to.pdf ./Figures/FOV_5/PIV_FOV5_case30.eps>
-(epstopdf)             \includegraphics on input line 383.
+(epstopdf)             \includegraphics on input line 388.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_5/PIV_FOV5_case30-eps-converted-to.pdf, id=256, 305.14pt x 242.9
+<./Figures/FOV_5/PIV_FOV5_case30-eps-converted-to.pdf, id=253, 305.14pt x 242.9
 075pt>
 File: ./Figures/FOV_5/PIV_FOV5_case30-eps-converted-to.pdf Graphic file (type p
 df)
  <use ./Figures/FOV_5/PIV_FOV5_case30-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/FOV_5/PIV_FOV5_case30-eps-converted-to.pdf u
-sed on input line 383.
+sed on input line 388.
 (pdftex.def)             Requested size: 129.09673pt x 102.76915pt.
 Package epstopdf Info: Source file: <./Figures/FOV_5/PIV_FOV5_case40.eps>
 (epstopdf)                    date: 2016-03-01 17:47:13
@@ -1694,16 +1733,16 @@ ted-to.pdf>
 (epstopdf)                    size: 12741 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_5/PIV_FOV5_c
 ase40-eps-converted-to.pdf ./Figures/FOV_5/PIV_FOV5_case40.eps>
-(epstopdf)             \includegraphics on input line 395.
+(epstopdf)             \includegraphics on input line 400.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_5/PIV_FOV5_case40-eps-converted-to.pdf, id=257, 305.14pt x 242.9
+<./Figures/FOV_5/PIV_FOV5_case40-eps-converted-to.pdf, id=254, 305.14pt x 242.9
 075pt>
 File: ./Figures/FOV_5/PIV_FOV5_case40-eps-converted-to.pdf Graphic file (type p
 df)
  <use ./Figures/FOV_5/PIV_FOV5_case40-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/FOV_5/PIV_FOV5_case40-eps-converted-to.pdf u
-sed on input line 395.
+sed on input line 400.
 (pdftex.def)             Requested size: 129.09673pt x 102.76915pt.
 Package epstopdf Info: Source file: <./Figures/FOV_5/PIV_FOV5_case50.eps>
 (epstopdf)                    date: 2016-03-01 17:47:13
@@ -1714,21 +1753,21 @@ ted-to.pdf>
 (epstopdf)                    size: 13400 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_5/PIV_FOV5_c
 ase50-eps-converted-to.pdf ./Figures/FOV_5/PIV_FOV5_case50.eps>
-(epstopdf)             \includegraphics on input line 395.
+(epstopdf)             \includegraphics on input line 400.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_5/PIV_FOV5_case50-eps-converted-to.pdf, id=258, 305.14pt x 242.9
+<./Figures/FOV_5/PIV_FOV5_case50-eps-converted-to.pdf, id=255, 305.14pt x 242.9
 075pt>
 File: ./Figures/FOV_5/PIV_FOV5_case50-eps-converted-to.pdf Graphic file (type p
 df)
  <use ./Figures/FOV_5/PIV_FOV5_case50-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/FOV_5/PIV_FOV5_case50-eps-converted-to.pdf u
-sed on input line 395.
+sed on input line 400.
 (pdftex.def)             Requested size: 129.09673pt x 102.76915pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 404.
+               Default added (so using `tbp') on input line 409.
 
 Package epstopdf Info: Source file: <./Figures/FOV_6/PIV_FOV6_case30.eps>
 (epstopdf)                    date: 2016-03-01 17:47:21
@@ -1739,16 +1778,16 @@ ted-to.pdf>
 (epstopdf)                    size: 11469 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_6/PIV_FOV6_c
 ase30-eps-converted-to.pdf ./Figures/FOV_6/PIV_FOV6_case30.eps>
-(epstopdf)             \includegraphics on input line 422.
+(epstopdf)             \includegraphics on input line 427.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_6/PIV_FOV6_case30-eps-converted-to.pdf, id=262, 305.14pt x 242.9
+<./Figures/FOV_6/PIV_FOV6_case30-eps-converted-to.pdf, id=259, 305.14pt x 242.9
 075pt>
 File: ./Figures/FOV_6/PIV_FOV6_case30-eps-converted-to.pdf Graphic file (type p
 df)
  <use ./Figures/FOV_6/PIV_FOV6_case30-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/FOV_6/PIV_FOV6_case30-eps-converted-to.pdf u
-sed on input line 422.
+sed on input line 427.
 (pdftex.def)             Requested size: 129.09673pt x 102.76915pt.
 Package epstopdf Info: Source file: <./Figures/FOV_6/PIV_FOV6_case40.eps>
 (epstopdf)                    date: 2016-03-01 17:47:21
@@ -1759,16 +1798,16 @@ ted-to.pdf>
 (epstopdf)                    size: 12135 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_6/PIV_FOV6_c
 ase40-eps-converted-to.pdf ./Figures/FOV_6/PIV_FOV6_case40.eps>
-(epstopdf)             \includegraphics on input line 422.
+(epstopdf)             \includegraphics on input line 427.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_6/PIV_FOV6_case40-eps-converted-to.pdf, id=263, 305.14pt x 242.9
+<./Figures/FOV_6/PIV_FOV6_case40-eps-converted-to.pdf, id=260, 305.14pt x 242.9
 075pt>
 File: ./Figures/FOV_6/PIV_FOV6_case40-eps-converted-to.pdf Graphic file (type p
 df)
  <use ./Figures/FOV_6/PIV_FOV6_case40-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/FOV_6/PIV_FOV6_case40-eps-converted-to.pdf u
-sed on input line 422.
+sed on input line 427.
 (pdftex.def)             Requested size: 129.09673pt x 102.76915pt.
 Package epstopdf Info: Source file: <./Figures/FOV_6/PIV_FOV6_case50.eps>
 (epstopdf)                    date: 2016-03-01 17:47:21
@@ -1779,21 +1818,21 @@ ted-to.pdf>
 (epstopdf)                    size: 12484 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/FOV_6/PIV_FOV6_c
 ase50-eps-converted-to.pdf ./Figures/FOV_6/PIV_FOV6_case50.eps>
-(epstopdf)             \includegraphics on input line 422.
+(epstopdf)             \includegraphics on input line 427.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_6/PIV_FOV6_case50-eps-converted-to.pdf, id=264, 305.14pt x 242.9
+<./Figures/FOV_6/PIV_FOV6_case50-eps-converted-to.pdf, id=261, 305.14pt x 242.9
 075pt>
 File: ./Figures/FOV_6/PIV_FOV6_case50-eps-converted-to.pdf Graphic file (type p
 df)
  <use ./Figures/FOV_6/PIV_FOV6_case50-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/FOV_6/PIV_FOV6_case50-eps-converted-to.pdf u
-sed on input line 422.
+sed on input line 427.
 (pdftex.def)             Requested size: 129.09673pt x 102.76915pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 427.
+               Default added (so using `tbp') on input line 432.
 
 Package epstopdf Info: Source file: <./Figures/tid_case50_run2.eps>
 (epstopdf)                    date: 2014-10-02 16:37:46
@@ -1804,15 +1843,35 @@ Package epstopdf Info: Source file: <./Figures/tid_case50_run2.eps>
 (epstopdf)                    size: 101430 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/tid_case50_run2-
 eps-converted-to.pdf ./Figures/tid_case50_run2.eps>
-(epstopdf)             \includegraphics on input line 431.
+(epstopdf)             \includegraphics on input line 436.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/tid_case50_run2-eps-converted-to.pdf, id=265, 310.15875pt x 240.9pt>
+<./Figures/tid_case50_run2-eps-converted-to.pdf, id=262, 310.15875pt x 240.9pt>
 File: ./Figures/tid_case50_run2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/tid_case50_run2-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/tid_case50_run2-eps-converted-to.pdf used on
- input line 431.
+ input line 436.
 (pdftex.def)             Requested size: 186.09668pt x 144.5411pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--442
+[]\OT1/cmr/m/n/9 How the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--442
+\OT1/cmr/m/n/9 data is ob-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--442
+\OT1/cmr/m/n/9 tained must
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--442
+\OT1/cmr/m/n/9 be bet-ter
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1830,7 +1889,7 @@ V_FOV6_case50-eps-converted-to.pdf> <./Figures/tid_case50_run2-eps-converted-to
 .pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 445.
+               Default added (so using `tbp') on input line 459.
 
 Package epstopdf Info: Source file: <./Figures/BUBBLE/bubble_30_run1.eps>
 (epstopdf)                    date: 2015-10-06 12:02:56
@@ -1841,16 +1900,16 @@ ted-to.pdf>
 (epstopdf)                    size: 261368 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BUBBLE/bubble_30
 _run1-eps-converted-to.pdf ./Figures/BUBBLE/bubble_30_run1.eps>
-(epstopdf)             \includegraphics on input line 447.
+(epstopdf)             \includegraphics on input line 461.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble_30_run1-eps-converted-to.pdf, id=423, 466.74374pt x 11
+<./Figures/BUBBLE/bubble_30_run1-eps-converted-to.pdf, id=420, 466.74374pt x 11
 8.4425pt>
 File: ./Figures/BUBBLE/bubble_30_run1-eps-converted-to.pdf Graphic file (type p
 df)
  <use ./Figures/BUBBLE/bubble_30_run1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BUBBLE/bubble_30_run1-eps-converted-to.pdf u
-sed on input line 447.
+sed on input line 461.
 (pdftex.def)             Requested size: 317.07614pt x 80.46573pt.
 Package epstopdf Info: Source file: <./Figures/BUBBLE/bubble_30_run2.eps>
 (epstopdf)                    date: 2016-01-06 13:29:40
@@ -1861,16 +1920,16 @@ ted-to.pdf>
 (epstopdf)                    size: 256390 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BUBBLE/bubble_30
 _run2-eps-converted-to.pdf ./Figures/BUBBLE/bubble_30_run2.eps>
-(epstopdf)             \includegraphics on input line 448.
+(epstopdf)             \includegraphics on input line 462.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble_30_run2-eps-converted-to.pdf, id=424, 466.74374pt x 11
+<./Figures/BUBBLE/bubble_30_run2-eps-converted-to.pdf, id=421, 466.74374pt x 11
 8.4425pt>
 File: ./Figures/BUBBLE/bubble_30_run2-eps-converted-to.pdf Graphic file (type p
 df)
  <use ./Figures/BUBBLE/bubble_30_run2-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BUBBLE/bubble_30_run2-eps-converted-to.pdf u
-sed on input line 448.
+sed on input line 462.
 (pdftex.def)             Requested size: 317.07614pt x 80.46573pt.
 Package epstopdf Info: Source file: <./Figures/BUBBLE/bubble_30_run3.eps>
 (epstopdf)                    date: 2016-01-06 13:29:40
@@ -1881,21 +1940,21 @@ ted-to.pdf>
 (epstopdf)                    size: 260267 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BUBBLE/bubble_30
 _run3-eps-converted-to.pdf ./Figures/BUBBLE/bubble_30_run3.eps>
-(epstopdf)             \includegraphics on input line 449.
+(epstopdf)             \includegraphics on input line 463.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble_30_run3-eps-converted-to.pdf, id=425, 466.74374pt x 11
+<./Figures/BUBBLE/bubble_30_run3-eps-converted-to.pdf, id=422, 466.74374pt x 11
 8.4425pt>
 File: ./Figures/BUBBLE/bubble_30_run3-eps-converted-to.pdf Graphic file (type p
 df)
  <use ./Figures/BUBBLE/bubble_30_run3-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BUBBLE/bubble_30_run3-eps-converted-to.pdf u
-sed on input line 449.
+sed on input line 463.
 (pdftex.def)             Requested size: 317.07614pt x 80.46573pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 455.
+               Default added (so using `tbp') on input line 469.
 
 Package epstopdf Info: Source file: <./Figures/BUBBLE/bubble_50_run1.eps>
 (epstopdf)                    date: 2016-01-20 09:44:24
@@ -1906,16 +1965,16 @@ ted-to.pdf>
 (epstopdf)                    size: 295817 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BUBBLE/bubble_50
 _run1-eps-converted-to.pdf ./Figures/BUBBLE/bubble_50_run1.eps>
-(epstopdf)             \includegraphics on input line 457.
+(epstopdf)             \includegraphics on input line 471.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble_50_run1-eps-converted-to.pdf, id=426, 354.32375pt x 13
+<./Figures/BUBBLE/bubble_50_run1-eps-converted-to.pdf, id=423, 354.32375pt x 13
 6.51pt>
 File: ./Figures/BUBBLE/bubble_50_run1-eps-converted-to.pdf Graphic file (type p
 df)
  <use ./Figures/BUBBLE/bubble_50_run1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BUBBLE/bubble_50_run1-eps-converted-to.pdf u
-sed on input line 457.
+sed on input line 471.
 (pdftex.def)             Requested size: 271.7835pt x 104.711pt.
 Package epstopdf Info: Source file: <./Figures/BUBBLE/bubble_50_run2.eps>
 (epstopdf)                    date: 2016-01-20 09:44:22
@@ -1926,16 +1985,16 @@ ted-to.pdf>
 (epstopdf)                    size: 318165 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BUBBLE/bubble_50
 _run2-eps-converted-to.pdf ./Figures/BUBBLE/bubble_50_run2.eps>
-(epstopdf)             \includegraphics on input line 458.
+(epstopdf)             \includegraphics on input line 472.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble_50_run2-eps-converted-to.pdf, id=427, 354.32375pt x 13
+<./Figures/BUBBLE/bubble_50_run2-eps-converted-to.pdf, id=424, 354.32375pt x 13
 6.51pt>
 File: ./Figures/BUBBLE/bubble_50_run2-eps-converted-to.pdf Graphic file (type p
 df)
  <use ./Figures/BUBBLE/bubble_50_run2-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BUBBLE/bubble_50_run2-eps-converted-to.pdf u
-sed on input line 458.
+sed on input line 472.
 (pdftex.def)             Requested size: 271.7835pt x 104.711pt.
 Package epstopdf Info: Source file: <./Figures/BUBBLE/bubble_50_run3.eps>
 (epstopdf)                    date: 2016-01-20 09:44:20
@@ -1946,25 +2005,29 @@ ted-to.pdf>
 (epstopdf)                    size: 302743 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Figures/BUBBLE/bubble_50
 _run3-eps-converted-to.pdf ./Figures/BUBBLE/bubble_50_run3.eps>
-(epstopdf)             \includegraphics on input line 459.
+(epstopdf)             \includegraphics on input line 473.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble_50_run3-eps-converted-to.pdf, id=428, 354.32375pt x 13
+<./Figures/BUBBLE/bubble_50_run3-eps-converted-to.pdf, id=425, 354.32375pt x 13
 6.51pt>
 File: ./Figures/BUBBLE/bubble_50_run3-eps-converted-to.pdf Graphic file (type p
 df)
  <use ./Figures/BUBBLE/bubble_50_run3-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/BUBBLE/bubble_50_run3-eps-converted-to.pdf u
-sed on input line 459.
+sed on input line 473.
 (pdftex.def)             Requested size: 271.7835pt x 104.711pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 466.
+               Default added (so using `tbp') on input line 480.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 491.
+               Default added (so using `tbp') on input line 505.
+
+
+Package natbib Warning: Citation `pedersen2013runp' on page 10 undefined on inp
+ut line 554.
 
 [10 <./Figures/BUBBLE/bubble_30_run1-eps-converted-to.pdf> <./Figures/BUBBLE/bu
 bble_30_run2-eps-converted-to.pdf> <./Figures/BUBBLE/bubble_30_run3-eps-convert
@@ -1974,21 +2037,21 @@ es/BUBBLE/bubble_50_run2-eps-converted-to.pdf> <./Figures/BUBBLE/bubble_50_run3
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 551.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 568.
 [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 551.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 568.
  (./plunging_breakers.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 551.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 551.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 568.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 568.
 Package rerunfilecheck Info: File `plunging_breakers.out' has not changed.
 (rerunfilecheck)             Checksum: BA16FD34136A0A5F0973502A08194726;748.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 551.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 568.
  ) 
 Here is how much of TeX's memory you used:
- 17502 strings out of 493304
- 291455 string characters out of 6139871
- 383855 words of memory out of 5000000
- 20566 multiletter control sequences out of 15000+600000
+ 17503 strings out of 493304
+ 291473 string characters out of 6139871
+ 384855 words of memory out of 5000000
+ 20567 multiletter control sequences out of 15000+600000
  14624 words of font info for 57 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,10n,42p,10380b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2006,10 +2069,10 @@ m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on plunging_breakers.pdf (13 pages, 2467016 bytes).
+Output written on plunging_breakers.pdf (13 pages, 2467578 bytes).
 PDF statistics:
- 563 PDF objects out of 1000 (max. 8388607)
- 435 compressed objects within 5 object streams
+ 560 PDF objects out of 1000 (max. 8388607)
+ 432 compressed objects within 5 object streams
  74 named destinations out of 1000 (max. 500000)
  254 words of extra memory for PDF output out of 10000 (max. 10000000)
 
