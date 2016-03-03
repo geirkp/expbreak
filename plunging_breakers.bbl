@@ -23,13 +23,6 @@ Elfrink, B. \harvardand\ Baldock, T.  \harvardyearleft 2002\harvardyearright ,
   ``Hydrodynamics and sediment transport in the swash zone: a review and
   perspectives'', {\em Coastal Engineering} , Vol.~45, Elsevier, pp.~149--167.
 
-\harvarditem[Grass et~al.]{Grass, Simons, Maciver, Mansour-Tehrani \harvardand\
-  Kalopedis}{1995}{grass1995shear}
-Grass, A., Simons, R., Maciver, R., Mansour-Tehrani, M. \harvardand\ Kalopedis,
-  A.  \harvardyearleft 1995\harvardyearright , ``Shear cell for direct
-  measurement of fluctuating bed shear stress vector in combined wave current
-  flow''.
-
 \harvarditem[Grilli et~al.]{Grilli, Svendsen \harvardand\
   Subramanya}{1997}{grilli1997breaking}
 Grilli, S., Svendsen, I. \harvardand\ Subramanya, R.  \harvardyearleft
@@ -44,12 +37,11 @@ Jensen, A., Pedersen, G.~K. \harvardand\ Wood, D.~J.  \harvardyearleft
   beach'', {\em Journal of Fluid Mechanics} , Vol. 486, Cambridge Univ Press,
   pp.~161--188.
 
-\harvarditem[Kikkerta et~al.]{Kikkerta, O'Donoghue, Pokrajacb \harvardand\
-  Dodd}{2011}{kikkert11}
-Kikkerta, G., O'Donoghue, T., Pokrajacb, D. \harvardand\ Dodd, N.
-  \harvardyearleft 2011\harvardyearright , ``Experimental study of bore-driven
-  swash hydrodynamics on impermeable rough slopes'', {\em Coastal Engineering}
-  .
+\harvarditem[Liu et~al.]{Liu, Park \harvardand\ Cowen}{2007}{liu2007boundary}
+Liu, P. L.-F., Park, Y.~S. \harvardand\ Cowen, E.~A.  \harvardyearleft
+  2007\harvardyearright , ``Boundary layer flow and bed shear stress under a
+  solitary wave'', {\em Journal of Fluid Mechanics} , Vol. 574, Cambridge Univ
+  Press, pp.~449--463.
 
 \harvarditem[Pedersen et~al.]{Pedersen, Lindstr{\o}m, Bertelsen, Jensen,
   Laskovski \harvardand\ S{\ae}levik}{2013}{pedersen2013runup}
@@ -75,11 +67,6 @@ Rivillas-Ospina, G., Pedrozo-Acu{\~n}a, A., Silva, R., Torres-Freyermuth, A.
   ``Estimation of the velocity field induced by plunging breakers in the surf
   and swash zones'', {\em Experiments in fluids} , Vol.~52, Springer,
   pp.~53--68.
-
-\harvarditem{Tanaka}{1986}{tanaka1986stability}
-Tanaka, M.  \harvardyearleft 1986\harvardyearright , ``The stability of
-  solitary waves'', {\em Physics of Fluids (1958-1988)} , Vol.~29, AIP
-  Publishing, pp.~650--655.
 
 \harvarditem{White \harvardand\ Corfield}{2006}{white2006viscous}
 White, F.~M. \harvardand\ Corfield, I.  \harvardyearleft 2006\harvardyearright
