@@ -156,20 +156,21 @@ where $\overline{\sigma}$ is the mean over the  repetitions.
 The evolution of the waves during shoaling, as well as the runup for the smallest amplitude, were 
 computed by a BIM (Boundary Integral Model) for fully nonlinear, inviscid flow.
 This model breaks down when a plunger re-attaches with fluid or impacts the beach. Moreover, the
-model  becomes
-singular when the contact angle at the shoreline exeeds $90^\circ$  and the results also become unreliable
-for contact angles slightly smaller.  
+model  becomes singular when the contact angle at the shoreline exeeds $90^\circ$  and the results also become unreliable for contact angles slightly smaller.  
 
 The potential flow model also provides the outer flow and the pressure gradient
 which are used as input to a FDM viscous boundary layer model. However, the coupling between the
-models is only one way as  there is no feed-back from the boundary layer to the potential
-flow model.   
-More details on both models are given in  \cite{pedersen2013runup}.\sidenote{Grid refinement?}   
+models is only one way as there is no feed-back from the boundary layer to the potential
+flow model. 
+More details on both models are given in  \cite{pedersen2013runup}.
+
+The simulations temporal resolution for all the waves was 0.0073s for the smallest wave and the number of grid points is 600 and three runs were a refinement gives runup values with less than 1\% difference. The same has 
+\sidenote{Grid refinement?}   
  
 \section{Results}
 \label{result}
 
-Visual inspection of the experiments revealed that the cases with normalized amplitude $A/H=0.0989$ and $A/H=0.1191$ did not break until the draw-down, while all the other cases developed into plunging breakers at or before the equilibrium shoreline. This is in compliance with numerical studies by \cite{grilli1997breaking}\marginpar{\footnotesize cannot just say this, but mut give the breaking limit from Grilli et al}. The plunger breakers encapsulated large amounts of air, which resulted in air bubbles in the swash tongue of the breaking waves (Figure \ref{fig:boble_bevis}).
+Visual inspection of the experiments revealed that the cases with normalized amplitude $A/H=0.0989$ and $A/H=0.1191$ did not break until the draw-down, while all the other cases developed into plunging breakers at or before the equilibrium shoreline. The plunger breakers encapsulated large amounts of air, which resulted in air bubbles in the swash tongue of the breaking waves (Figure \ref{fig:boble_bevis}).
 
 \begin{figure}[]
 \centering
@@ -190,8 +191,7 @@ a slightly too large surface elevation, due to the reflection from
 the beach, namely $\eta_b/H=...$. We then adjust the amplitude 
 according to $A=\eta_m-(\eta_b-\eta_m)$. 
 The result is $A/H=0.0989$ and the comparison with BIM results, obtained with this amplitude for the incident wave,
- is shown in Figure \ref{fig:surf_ele1}. Cubic polynomial regression is used to remove noise from the signal, and linear interpolation is used to fill 
-in  dropouts. The surface elevation measurements are in agreement with computed surface elevation from  the BIM simulatitions.\marginpar{Must explain why the dropouts are there and how reflection is corrected for.}
+ is shown in Figure \ref{fig:surf_ele1}. When the surface elevation of the incident waves are very steep, the ultra sonic signal will not get reflected back to the sensor. This leads to dropouts in the measurements, which have been filled in by linear interpolation.  Cubic polynomial regression is used to remove noise from the signal.  The surface elevation measurements are in agreement with computed surface elevation from  the BIM simulatitions.
 
 
 \begin{figure}
@@ -231,17 +231,17 @@ The measured maximum runup heights and deviations for each waves are available i
 slope angle of $10.54 ^\circ$ which leads to thicker flow depths and shorter inundation. In fact, in figure \ref{fig:max_runup} we observe transverse variations in the experiments and the average
 run up height is more than 5\% smaller than the maximum one.  The table shows that the maximum runup is repeatable for all waves including the breaking ones. % An image of shoreline at maximum runup for case 10 is shown in \ref{fig:overflate_10_bilde}.    
 \begin{table}[]
-\caption{\textit{Maximum runup measurements where $A/H$ is normalized amplitude, $S_o $ is \citep{grilli1997breaking} solitary wave breaking parameter, $r$ is the runup in the direction along the beach, R is the vertical projection of the maximum runup, t is the time corresponding to max runup and $e$ is the estimated error in the measurement }}
+\caption{\textit{Maximum runup measurements where $A/H$ is normalized amplitude, $r$ is the runup in the direction along the beach, R is the vertical projection of the maximum runup, t is the time corresponding to max runup and $e$ is the estimated error in the measurement }}
 \centering
 \begin{tabular}{ccccccc}
 \hline
-         $A/H$& \textbf{$S_o$}     & $r [cm]$ &$R/A$ & $e_r [\%]$ & $t$ & $e_t [\%]$ \\ \hline
-\textit{$0.0989$} &0.43 & 87.25    &    3.82  & 1.68             & 8.86 s        & 0.15               \\
-\textit{$0.1191$} &0.39 & 105. 67   &    3.85   & 0.27             & 8.67 s        & 0.15               \\
-\textit{$0.1981$} &0.30 & 147.37    &    3.22  & 0.93            & 8.53 s        & 0.31                \\
-\textit{$0.2958$} &0.25 & 191.67     &   2.80  & 1.08           & 8.03 s        & 0.78              \\
-\textit{$0.3938$} &0.22 & 227.42      &   2.50 & 0.11            & 7.82 s        & 0              \\
-\textit{$0.4874$} &0.19 & 267.46       &    2.37 & 2.27            & 7.30 s        & 1.64              
+         $A/H$&  $r [cm]$ &$R/A$ & $e_r [\%]$ & $t$ & $e_t [\%]$ \\ \hline
+\textit{$0.0989$}  & 87.25    &    3.82  & 1.68             & 8.86 s        & 0.15               \\
+\textit{$0.1191$}  & 105. 67   &    3.85   & 0.27             & 8.67 s        & 0.15               \\
+\textit{$0.1981$} & 147.37    &    3.22  & 0.93            & 8.53 s        & 0.31                \\
+\textit{$0.2958$}  & 191.67     &   2.80  & 1.08           & 8.03 s        & 0.78              \\
+\textit{$0.3938$}  & 227.42      &   2.50 & 0.11            & 7.82 s        & 0              \\
+\textit{$0.4874$}  & 267.46       &    2.37 & 2.27            & 7.30 s        & 1.64              
 \end{tabular}
 \label{tab:max_shore}
 \end{table}
@@ -337,9 +337,9 @@ $A/H=0.2$ and those close to $A/H=0.3$ and higher differ.
 The boundary layers for the higher amplitudes appear more irregular
 with a thicker and less pronounced region of reversed flow in the 
 boundary layers.  \marginpar{Geir: I really cannot see the evolution 
-of boundary layer thicknesses. The comparsion with Stokes problem is only relevant for the stages well before flow reversal}
+of boundary layer thicknesses. The comparison with Stokes problem is only relevant for the stages well before flow reversal}
 While the boundary layer for the lower amplitudes, including that of $A/H=0.198$, appears laminar the higher waves have boundary layers that 
-presumably are in a transition to tubulence.   
+presumably are in a transition to turbulence.   
 
 \begin{figure}[]
 \centering
@@ -377,7 +377,7 @@ presumably are in a transition to tubulence.
 \caption{\textit{$A/H=0.4874$}}
 \end{subfigure}%
 }
-\caption{ \textit{FOV II, mean velocity profiles before  and after the outer flow reverses ($\triangle$,$\square$). Colors: blue, cyan, green and red correspond to run 1,2,3 and BIM respectively.  $x=40.11cm$. } }
+\caption{ \textit{FOV II, mean velocity profiles before  and after the outer flow reverses ($\triangle$,$\bigcirc$,$\square$). Colors: blue, cyan, green and red correspond to run 1,2,3 and BIM respectively.  $x=40.11cm$. } }
 \label{fig:PIV_FOV4}
 \end{figure}
  FOV III is located about 80cm from origo along the beach. For $A/H=0.0989$ and $A/H=0.1191$, the swash tongues were too thin, and particles within the tongue were impossible to detect. Consequently, only $A/H=0.1981-0.4874$ will be presented for this FOV. None of the cases had an outer flow with constant velocity at times close to outer flow reversal (Figure \ref{fig:PIV_FOV5}). This indicates that the motion was more irregular for this FOV than for FOV II.
@@ -560,8 +560,8 @@ Tail velocity {[}m/s{]}   & 1.58  &   & 2.23
 For runup of non-beaking solitary waves on a $5.1^\circ$ slope we 
 observe laminar boundary layers. The presumption of laminarity is
  supported by the good agreement found with boundary layers computed 
-by combining a potential flow model with a standard boundary layer model on the beach. However, in accordance with \cite{pedersen2013runp} the
-potential flow model, without any feed back from the boundar layer model, overpredicts the
+by combining a potential flow model with a standard boundary layer model on the beach. However, in accordance with \cite{pedersen2013runup} the
+potential flow model, without any feed back from the boundary layer model, overpredicts the
 maximum runup height by  30\%.  
 The discrepancies between computations and measurements, which is mainly be due to viscosity and capillary effects , are in  reality larger since tiny deformation of the beach increases the maximum runup height in the experiments.. 
 
