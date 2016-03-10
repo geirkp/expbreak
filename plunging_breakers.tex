@@ -1,14 +1,14 @@
-\documentclass[a4paper, 11pt, english, twoside, openright]{article}
-  %\documentclass[a4paper,10pt]{scrartcl}
+%\documentclass[a4paper, 11pt, english, twoside, openright]{article}
+\documentclass[review]{elsarticle}
 \ProvidesPackage{mystyles}
  \usepackage[utf8]{inputenc}
-\usepackage[sort]{natbib}
-\usepackage{amsmath}
+%\usepackage[sort]{natbib}
+\usepackage{lineno,amsmath}
   \usepackage{authblk}
 \usepackage[version=3]{mhchem}
 \usepackage{graphicx}
 \usepackage{url}
-\usepackage{babel,textcomp} 
+%\usepackage{babel,textcomp} 
 \usepackage{listings}
 \setcounter{secnumdepth}{2}
 \setcounter{tocdepth}{2}
@@ -44,25 +44,36 @@
 \usepackage[margin=1in]{geometry}
 \usepackage[tableposition=top]{caption}
   
+\journal{Coastal Engineering}
 
-\title{Experimental investigation of solitary breaking waves in the swash zone. }
+\begin{document}
+\begin{frontmatter}
+\title{Experimental investigation of solitary breaking waves in the swash zone}
 \author[1]{Lisa Smith}	
 \author[1]{Atle Jensen}
 \author[1]{Geir Pedersen}
 
-\affil[1]{ Department of Mathematics, University of Oslo, Norway}
+\address[1]{ Department of Mathematics, University of Oslo, Norway}
 	% Activate to display a given date or no date
-\begin{document}
-\maketitle
 
 
-\setlength{\marginparwidth}{2cm}
+
+\setlength{\marginparwidth}{1.1cm}
 
 \begin{abstract}
 This study presents an experimental investigation of plunging breakers on a sloping beach with an inclination of $5.1^{\circ}$. The incident waves are solitary waves with various amplitudes from non-breaking waves to plunging breakers, and the area investigated is the swash zone. PIV (Particle Image Velocimetry) is performed on images captured at four different field of views (FOV). The PIV measurements are compared with computed velocity fields from a Boundary Integral Model (BIM). 
 There is excellent agreement between the experimental and the computed result for the non-breaking waves. The experimental results from the breaking waves indicate that the motion becomes more irregular as we move further up the beach. In addition, there are more irregularities present  for waves with larger amplitude. Shoreline position and maximum runup are measured, and are repeatable in both time and height, although  cross-sectional variations of the shoreline shape are observed at maximum runup.  Length and velocity of air bubbles entrapped by the plunger breakers are extracted from a image series captured with large a FOV. The images showed that a large air bubble remains intact for a time period during runup for the breaking waves.
 %Surface profiles of the runup were investigated at large scale and revealed that the surface of the breaking waves were unstable for a time period during uprush.
 \end{abstract}
+
+
+\begin{keyword}
+
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
 
 \section{Introduction}
 In shallow water with constant depth, the nonlinear effect and dispersion will be balanced for solitary waves \citep{peregrine1983breaking}. If the depth decreases as the wave travels towards the shore, the wave will steepen, and at some critical  point breaking may occur. Breaking waves are one of the most important physical features in the swash zone \citep{elfrink2002hydrodynamics}. Breaking waves have a large impact on sediment transport onshore, which can result in erosion on cliffs and affect construction located near the shore. Although breaking waves is a well-known phenomenon from our daily life, many physical aspects regarding wave breaking are still poorly understood.
@@ -191,7 +202,7 @@ the beach, namely $\eta_b/H=...$. We then adjust the amplitude
 according to $A=\eta_m-(\eta_b-\eta_m)$. 
 The result is $A/H=0.0989$ and the comparison with BIM results, obtained with this amplitude for the incident wave,
  is shown in Figure \ref{fig:surf_ele1}. Cubic polynomial regression is used to remove noise from the signal, and linear interpolation is used to fill 
-in  dropouts. The surface elevation measurements are in agreement with computed surface elevation from  the BIM simulatitions.\marginpar{Must explain why the dropouts are there and how reflection is corrected for.}
+in  dropouts. The surface elevation measurements are in agreement with computed surface elevation from  the BIM simulatitions.\sidenote{Must explain why the dropouts are there and how reflection is corrected for.}
 
 
 \begin{figure}
@@ -250,12 +261,18 @@ The shoreline at maximum runup are shown in Figure \ref{fig:max_runup}.It is fai
 depth (Figure \ref{fig:overflate_10}), but has a wedge-like shape. 
  This is presumably due to a cross-wise deformation  of the beach 
 which has been measured using a straightedge and a feeling gauge. 
-The maximum supression of the beach was 3.4mm and located at 2.0m from the 
-origin in the middle of the cross section of the beach. The variation
- of 3.4 mm in the $z$ direction should correspond to 3.4cm in the $x$ 
-direction since the beach slope is 1:10. It is clear from Figure 
-\ref{fig:max_runup} that the transverse variation is larger than this, 
-which points to  an accumulative effect. The  runup   varies much more for the three repititions of the breaking wave $A/H=0.4874$,
+The typical maximum suppression in each transect of the beach was 3mm.
+If we assume that the depressions were unsystematic and that the later
+stages of runup are governed by gravity alone (see, for instance, \cite{jensen2003experimental}) this should correspond to a variation
+ of 3cm on a 1 in 10 slope beach. However, even though the\sidenote{Should have had the average runup height}
+flow depth is small during runup, the momentum transport due to
+ the pressure is still noticeable (inferred from the simulations, results not shown). More importantly, there is a systematic suppression at the center-line of the beach and the beach width is 50cm, which is comparable to the inundation length for the smallest amplitude. 
+Hence, another relevant estimate of the runup variation is the suppression times the contact angle (angle of fluid wedge during runup) in radians. In  the simulations this angle approaches $0.5^\circ$ at maximum runup, which yields a a variation in $x$ of 30cm. This is modified by 
+the the capillary affects that affects the contact angle and 
+shape of fluid body near the shoreline. Unfortunately, we cannot
+quantify this effect from the experiments.  
+From Figure 
+\ref{fig:max_runup} it is clear that transverse variation is more in line with the latter estimate than the first one. The  runup   varies much more for the three repititions of the breaking wave $A/H=0.4874$,
 resulting in irregularly shaped shorelines  (Figure \ref{fig:overflate_50}).
 \begin{figure}[]
         \centering
@@ -573,7 +590,7 @@ transverse  variations were observed for the breaking waves. The bubble investig
 
 This work was funded by the Research Council of Norway through the research project DOMT - Developments in Optical Measurement Technologies (project number 231491).
  \bibliography{bibliography}
-\bibliographystyle{pjgsm}
+\bibliographystyle{elsarticle-num}
 
 
 \end{document}
