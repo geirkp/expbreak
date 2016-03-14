@@ -118,11 +118,10 @@ a piston type wave paddle using the method described in
 \cite{jensen2003experimental}. 
 A PETG (Polyethylene Terephthalate Glycol-modified) beach with an inclination of $5.1^{\circ}$ was placed in the wave tank with its toe 529.81cm from the start position of the wave paddle.   Two coordinate systems were introduced, one parallel to the still water level $(x',z')$, and one parallel to the beach $(x,z)$ (See Figure \ref{fig:beach_tegning}).  The origin of both is at the equilibrium shoreline.
 
-Nominally, the amplitude to depth ratios, $A/H$, should equal (0.1,0.2,0.3,0.4,0.5).  
+Nominally, the amplitude to depth ratios, $\alpha=A/H$, should equal  (0.1,0.12,0.2,0.3,0.4,0.5).  
 However, imperfection in the generation and frictional effects along
-the wave tank reduced the heights slightly.  
-An acoustic wave gauge (ultra Banner U-Gage S18U, sample frequency of 200Hz) measured the wave height at the toe of the beach and the amplitudes were found to be
-  $A/H=(0.0989, 0.1191, 0.1981, 0.2958, 0.3939, 0.4874)$.
+the wave tank reduced the heights slightly such that $\alpha \approx A/H$.  
+An acoustic wave gauge (ultra Banner U-Gage S18U, sample frequency of 200Hz) measured the wave height at the toe of the beach and the amplitudes were found to be $A/H=(0.0989, 0.1191, 0.1981, 0.2958, 0.3939, 0.4874)$. \sidenote{Sett inn riktig amplitude som er gitt av BIM}  
 
 
 \begin{figure}[]
@@ -157,12 +156,23 @@ The maximum runup was measured by capturing images of the shoreline at its maxim
 
 
 Each experiment was repeated at least three times.
-The scatter $\delta_i$ for some measured quantity, $\sigma_i$, is then calculated as,
+The scatter $\delta_i$ for some measured quantity, $x_i$, is then calculated as,
 \begin{equation}
-\delta_i=\frac{\sigma_i-\overline{\sigma}}{\overline{\sigma}}
+\delta_i=\frac{x_i-\overline{x}}{\overline{x}}
 \end{equation}
-where $\overline{\sigma}$ is the mean over the  repetitions.
+where $\overline{x}$ is the mean over the  repetitions and
 
+To find a measure for irregularities of the velocities in the swash tongue, the standard deviation for the the three repepitions are calculated, at the differents FOV. Deviations are extracted at times where the mean flow in an area from z=(0 - 0.6)cm is [40, 0, 40]cm/s.
+\begin{equation}
+\sigma=\frac{1}{N}\sum\sqrt{(x_i-\overline{x})^2}
+\end{equation}
+The average deviations are also calucuate from the area of z=(0 - 0.6)cm. Here M corresponds to number of gridpoints in z-direction in this area.
+\begin{equation}
+\overline{\sigma}=\frac{1}{M}\sum(\sigma_j)  \quad j=1..M
+\end{equation}
+
+
+ 
 \subsection{The potential flow and boundary layer models}
 The evolution of the waves during shoaling, as well as the runup for the smallest amplitude, were 
 computed by a BIM (Boundary Integral Model) for fully nonlinear, inviscid flow.
@@ -328,6 +338,19 @@ computation over-predicts the maximum runup as given in the previous section.\ma
               \label{fig:BIM3_tim}
       \end{figure}
 
+\begin{table}[]
+\caption{\textit{Irregulariety for $\alpha=0.50$, the men deviation from z=0-0.6 for the three repetitions }}
+\centering
+\begin{tabular}{ccccccc}
+\hline
+$\overline{\sigma}$  $[\frac{cm}{s}]$& $  40\frac{cm}{s}$  &$ 0\frac{cm}{s}$ & $-40\frac{cm}{s}$   \\ \hline
+\textit{FOV I}  & 0.52   &    0.24  & 0.51                       \\
+\textit{FOV II}  & 0.98   &    0.88   & 1.32                      \\
+\textit{FOV III} &  1.97   &    0.88  & 1.48                            \\
+\textit{FOV IV}  & 2.82    &   1.35  & 1.45                 \\
+\end{tabular}
+\label{tab:max_shore}
+\end{table}
 
 
  
