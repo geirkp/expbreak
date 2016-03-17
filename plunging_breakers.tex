@@ -1,6 +1,5 @@
 %\documentclass[a4paper, 11pt, english, twoside, openright]{article}
-\documentclass[review]{elsarticle}
-\ProvidesPackage{mystyles}
+\documentclass[review, authoryear]{elsarticle}
  \usepackage[utf8]{inputenc}
 \usepackage{lineno,amsmath}
 \usepackage{graphicx}
@@ -19,6 +18,7 @@
 \usepackage{rotating}
 \usepackage[margin=1in]{geometry}
 \usepackage[tableposition=top]{caption}
+
   
 \journal{Coastal Engineering}
 
@@ -208,10 +208,10 @@ To investigate shoaling and runup of the waves
 both simulation and measurements have been conducted. 
 BIM simulations of the near-shore evolution model is shown in figure \ref{fig:BIM}).
 For reasons explained previously we only compute the runup for the 
-smallest wave $A/H=0.0989$. The computed time, inundation length and height for 
+smallest wave $\alpha=0.10$. The computed time, inundation length and height for 
 maximum runup  
-were $t=9.08$s, $r=114.82$cm (measured along the beach), and $R/A=5.05$ 
-respectively. The BIM model had some difficulties with the waves with amplitude $A/H=0.1191$. For the other cases shown the numerical
+were $t=8.93$s, $r=112.78$cm (measured along the beach), and $R/A=4.95$ 
+respectively. The BIM model had some difficulties with the waves with amplitude $\alpha=0.12$. For the other cases shown the numerical
 model describes the evolution of the plunger, but nothing beyonds its impact onshore.  
 \begin{figure}[]
 \centering 
@@ -221,16 +221,16 @@ model describes the evolution of the plunger, but nothing beyonds its impact ons
 \includegraphics[width=0.5\textwidth]{./Figures/BIM/case40_BIM_runup.eps}
 \includegraphics[width=0.5\textwidth]{./Figures/BIM/case50_BIM_runup.eps}
 %http://commons.wikimedia.org/wiki/File:Breaking_wave_types.gif
-\caption{\textit{BIM simulation of the waves the upper to lower figures correspond to $A/H=(0.0989, 0.1981, 0.2958, 0.3939, 0.4874)$, respectively. In the top panel the curve marked 3 corresponds to the time of maximum runup.}}
+\caption{\textit{BIM simulation of the waves the upper to lower figures correspond to $\alpha=(0.10, 0.20, 0.30, 0.40, 0.50)$, respectively. In the top panel the curve marked 3 corresponds to the time of maximum runup.}}
 \label{fig:BIM}
 \end{figure}
 
-The measured maximum runup heights and deviations for each waves are available in Table \ref{tab:max_shore}. Compared to the teoretical values above, for $A/H=0.0989$,  the maximum runup height is reduced by $32$\% and the maximum occurs $0.22$s later.  The BIM model does not account for viscous effect or surface tension, and this is the likely reason for the differences. \cite{pedersen2013runup} reported differences that were similar, but were smaller in magnitude due to a steeper 
+The measured maximum runup heights and deviations for each waves are available in Table \ref{tab:max_shore}. Compared to the teoretical values above, for $\alpha=0.10$,  the maximum runup height is reduced by $22$\% and the maximum occurs $0.07$s later.  The BIM model does not account for viscous effect or surface tension, and this is the likely reason for the differences. \cite{pedersen2013runup} reported differences that were similar, but were smaller in magnitude due to a steeper 
 slope angle of $10.54 ^\circ$ which leads to thicker flow depths and shorter inundation. In fact, in figure \ref{fig:max_runup} we observe transverse variations in the experiments and the average
 run up height is more than 5\% smaller than the maximum one.  The table shows that the maximum runup is repeatable for all waves including the breaking ones. % An image of shoreline at maximum runup for case 10 is shown in \ref{fig:overflate_10_bilde}.  
 
 \begin{table}[]
-\caption{\textit{Maximum runup measurements where $A$ incident wave amplitude,$A_m$ is the measured amplitude, $r$ is the runup in the direction along the beach, R is the vertical projection of the maximum runup, t is the time corresponding to max runup and $e$ is the estimated error in the measurement }}
+\caption{\textit{Maximum runup measurements, where $A$ incident wave amplitude,$A_m$ is the measured amplitude, $r$ is the inundation length , R is the vertical maximum runup, t is the time corresponding to max runup and $e$ is the estimated error in the measurement }}
 \centering
 \begin{tabular}{cccccccc}
 \hline
@@ -245,7 +245,7 @@ run up height is more than 5\% smaller than the maximum one.  The table shows th
 \label{tab:max_shore}
 \end{table}
 
-The shoreline at maximum runup are shown in Figure \ref{fig:max_runup}.It is fairly repeatable for the amplitue close to $0.1$ times the 
+The shoreline at maximum runup are shown in Figure \ref{fig:max_runup}. It is fairly repeatable for the amplitude close to $0.1$ times the 
 depth (Figure \ref{fig:overflate_10}), but has a wedge-like shape. 
  This is presumably due to a cross-wise deformation  of the beach 
 which has been measured using a straightedge and a feeling gauge. 
@@ -254,13 +254,13 @@ If we assume that the depressions were unsystematic and that the later
 stages of runup are governed by gravity alone (see, for instance, \cite{jensen2003experimental}) this should correspond to a variation
  of 3cm on a 1 in 10 slope beach. However, even though the\sidenote{Should have had the average runup height}
 flow depth is small during runup, the momentum transport due to
- the pressure is still noticeable (inferred from the simulations, results not shown). More importantly, there is a systematic suppression at the center-line of the beach and the beach width is 50cm, which is comparable to the inundation length for the smallest amplitude. 
-Hence, another relevant estimate of the runup variation is the suppression times the contact angle (angle of fluid wedge during runup) in radians. In  the simulations this angle approaches $0.5^\circ$ at maximum runup, which yields a a variation in $x$ of 30cm. This is modified by 
+ the pressure is still noticeable (inferred from the simulations, results not shown). More importantly, there is a systematic suppression at the center-line of the beach and the beach width is 51cm, which is comparable to the inundation length for the smallest amplitude. 
+Hence, another relevant estimate of the runup variation is the suppression times the contact angle (angle of fluid wedge during runup) in radians. In  the simulations this angle approaches $0.5^\circ$ at maximum runup, which yields a variation in $x$ of 30cm. This is modified by 
 the the capillary affects that affects the contact angle and 
 shape of fluid body near the shoreline. Unfortunately, we cannot
 quantify this effect from the experiments.  
 From Figure 
-\ref{fig:max_runup} it is clear that transverse variation is more in line with the latter estimate than the first one. The  runup   varies much more for the three repititions of the breaking wave $A/H=0.4874$,
+\ref{fig:max_runup} it is clear that transverse variation is more in line with the latter estimate than the first one. The runup varies much more for the three repetitions of the breaking wave $\alpha=0.50$,
 resulting in irregularly shaped shorelines  (Figure \ref{fig:overflate_50}).
 \begin{figure}[]
         \centering
@@ -269,14 +269,14 @@ resulting in irregularly shaped shorelines  (Figure \ref{fig:overflate_50}).
           %(or a blank line to force the subfigure onto a new line)
         \begin{subfigure}[H]{0.4\textwidth}
                 \includegraphics[width=0.95\textwidth]{Figures/runup10.eps}
-                \caption{\textit{$A/H=0.0989$}}
+                \caption{\textit{$\alpha=0.10$}}
                 \label{fig:overflate_10}
         \end{subfigure}
          %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
           %(or a blank line to force the subfigure onto a new line)
         \begin{subfigure}[H]{0.4\textwidth}
                 \includegraphics[width=0.95\textwidth]{Figures/runup50.eps}
-                \caption{\textit{$A/H=0.4874$}}
+                \caption{\textit{$\alpha=0.50$}}
                 \label{fig:overflate_50}
         \end{subfigure}
 }
@@ -300,9 +300,9 @@ An estimate of the arrival time of the wave for FOV II, III and IV, were measure
 
 Velocity profiles are extracted from the PIV data that are obtained from the four different FOV, approximately from 10cm to 120cm from the equilibrium shoreline. 
 First, a comparison between computed BIM and measured PIV velocities for $A/H=0.989$ will be given for FOV I and II, (See Figure \ref{fig:BIM3_tim}). There is good agreement between measured and computed  velocity profiles. The computed velocities are larger in the front of the wave for both the FOVs. This complies with corresponding results in  \cite{pedersen2013runup} where the
-delay of the experimental wave was linked to cappilary effects, while
+delay of the experimental wave was linked to capillary effects, while
 an accumulative reduction of velocity, and hence runup height, was
-related to the viscous bodary layers at the beach.  Hence, the BIM 
+related to the viscous bondary layers at the beach.  Hence, the BIM 
 computation over-predicts the maximum runup as given in the previous section.\marginpar{Values ???}
 
 \begin{figure}
@@ -324,9 +324,11 @@ computation over-predicts the maximum runup as given in the previous section.\ma
                 \includegraphics[width=0.40\textwidth]{./Figures/BIM/case50_BIM_PIV_FOV4.eps}
                 \includegraphics[width=0.40\textwidth]{./Figures/BIM/case50_BIM_PIV_FOV5.eps}
                  \includegraphics[width=0.40\textwidth]{./Figures/BIM/case50_BIM_PIV_FOV6.eps}
-                \caption{\textit{\\ Left: Velocity profiles from FOV I x=8.7cm t=[7.48, 7.82, 8.15, 8.48, 8.81]s\\
-                 \quad Right:  Velocity profiles from FOV II x=40.1cm t=[7.76, 8.10, 8.76, 9.10]s}}
-              \label{fig:BIM3_tim}
+                \caption{\textit{Colors: blue, cyan and green correspond to run 1,2 and 3. \\Upper Left: Velocity profiles from FOV I x=8.7cm t=[6.12, 6.34, 6.50, 6.69, 6.84, 7.00, 7.27, 7.45]s\\
+                 \quad Upper Right:  Velocity profiles from FOV II x=40.1cm t=[6.43, 6.57, 6.74, 6.92, 7.14, 7.36, 7.56, 7.80]s\\
+                  \quad Lower Left:  Velocity profiles from FOV III x=81.4cm t=[6.34, 6.60, 6.94, 7.12, 7.34, 7.50, 7.80, 8.16]s\\
+                   \quad Lower Right:  Velocity profiles from FOV IV x=121.2cm t=[6.50, 6.78, 6.94, 7.10, 7.32, 7.60, 7.91, 8.20]s}}
+              \label{fig:plot50}
       \end{figure}
 
 \begin{table}[]
@@ -336,9 +338,9 @@ computation over-predicts the maximum runup as given in the previous section.\ma
 \hline
 $\overline{\sigma}$  $[\frac{cm}{s}]$& $  40\frac{cm}{s}$  &$ 0\frac{cm}{s}$ & $-40\frac{cm}{s}$   \\ \hline
 \textit{FOV I}  & 0.52   &    0.24  & 0.51                       \\
-\textit{FOV II}  & 0.98   &    0.88   & 1.32                      \\
-\textit{FOV III} &  1.97   &    0.88  & 1.48                            \\
-\textit{FOV IV}  & 2.82    &   1.35  & 1.45                 \\
+\textit{FOV II}  & 1.03   &    0.56   & 1.06                    \\
+\textit{FOV III} &  2.10   &    1.03 & 0.75                            \\
+\textit{FOV IV}  & 3.48    &   1.70  & 0.79                 \\
 \end{tabular}
 \label{tab:irr}
 \end{table}
@@ -378,37 +380,37 @@ presumably are in a transition to turbulence.
 \begin{subfigure}[b]{.3\textwidth}
 \centering
 \includegraphics[width=.95\textwidth]{./Figures/BIM/profil10_feb.eps}
-\caption{\textit{$A/H=0.0989$}}
+\caption{\textit{$\alpha=0.10$}}
 \end{subfigure}%
 \begin{subfigure}[b]{.3\textwidth}
 \centering
 \includegraphics[width=.95\textwidth]{./Figures/BIM/profil12_feb.eps}
-\caption{\textit{$A/H=0.1191$}} 
+\caption{\textit{$\alpha=0.12$}} 
 \end{subfigure}%
 \begin{subfigure}[b]{.3\textwidth}
 \centering
 \includegraphics[width=.95\textwidth]{./Figures/BIM/profil20_feb.eps}
-\caption{\textit{$A/H=0.1981$}}
+\caption{\textit{$\alpha=0.20$}}
 \end{subfigure}%
 }
 \makebox[\linewidth][c]{%
 \begin{subfigure}[b]{.3\textwidth}
 \centering
 \includegraphics[width=.95\textwidth]{./Figures/FOV_4/case30_sept2015.eps}
-\caption{\textit{$A/H=0.2958$}}
+\caption{\textit{$\alpha=0.30$}}
 \end{subfigure}%
 \begin{subfigure}[b]{.3\textwidth}
 \centering
 \includegraphics[width=.95\textwidth]{./Figures/FOV_4/case40_sept2015.eps}
-\caption{\textit{$A/H=0.3939$}}
+\caption{\textit{$\alpha=0.40$}}
 \end{subfigure}%
 \begin{subfigure}[b]{.3\textwidth}
 \centering
 \includegraphics[width=.95\textwidth]{./Figures/FOV_4/case50_sept2015.eps}
-\caption{\textit{$A/H=0.4874$}}
+\caption{\textit{$\alpha=0.50$}}
 \end{subfigure}%
 }
-\caption{ \textit{FOV II, mean velocity profiles before  and after the outer flow reverses ($\triangle$,$\bigcirc$,$\square$). Colors: blue, cyan, green and red correspond to run 1,2,3 and BIM respectively.  $x=40.11cm$. } }
+\caption{ \textit{FOV II, mean velocity profiles before  and after the outer flow reverses ($\triangle$,$\bigcirc$,$\square$). Colors: blue, cyan, green and red correspond to run 1,2,3 and BIM respectively.  $x=40.1cm$. } }
 \label{fig:PIV_FOV4}
 \end{figure}
  FOV III is located about 80cm from origo along the beach. For $A/H=0.0989$ and $A/H=0.1191$, the swash tongues were too thin, and particles within the tongue were impossible to detect. Consequently, only $A/H=0.1981-0.4874$ will be presented for this FOV. None of the cases had an outer flow with constant velocity at times close to outer flow reversal (Figure \ref{fig:PIV_FOV5}). This indicates that the motion was more irregular for this FOV than for FOV II.
@@ -439,7 +441,7 @@ presumably are in a transition to turbulence.
 \end{subfigure}%
 }
 \caption{ \textit{FOV III, mean velocity profiles before and after the outer flow reverses ($\triangle$,$\square$). Colors: blue, cyan and green correspond to run 1,2 and 3. 
-$x=81.40cm$} }
+$x=81.4cm$} }
 \label{fig:PIV_FOV5}
 \end{figure}
 
@@ -466,7 +468,7 @@ $x=81.40cm$} }
 \end{subfigure}%
 }
 \caption{\textit{FOV IV, mean velocity profiles before and after the outer flow reverses ($\triangle$,$\square$). Colors: blue, cyan and green correspond to run 1,2 and 3. 
-$x=121.25cm$} }
+$x=121.2cm$} }
 \label{fig:PIV_FOV6}
 \end{figure}
 \begin{figure}[]
@@ -478,11 +480,9 @@ $x=121.25cm$} }
                 \label{fig:wave_in_time}
         \end{figure}      
 \sidenote{Fig 11: is t=6.15 close to first arrival of wave in FOV III ?}         
-Inspection of movies of the front of the swash tongue from FOV IV (furthest up the beach) shows that a systematic swirling effect were present in the front of the swash tongue.  Particle Tracking Velocimetry (PTV) have been utilized to investigate this phenomenon. Figure \ref{fig:wave_in_time} shows how the velocities vary at a single point in the
-fluid as a function of time.\marginpar{\footnotesize How the data is obtained must be better explained}
-Superimposed a steady deceleration of the fluid there is an 
+Inspection of movies of the front of the swash tongue from FOV IV (furthest up the beach) shows that a systematic swirling effect were present in the front of the swash tongue for $\alpha=0.50$.  Particle Tracking Velocimetry (PTV) have been utilized on images captured immediately after the arrival of the swash tongue, to investigate this phenomenon. So for each image pair, the velocity for all the particles whitin a distance of 0.05cm from a given evaluation point (x,y)=(120,0.3)cm are plotted. Figure \ref{fig:wave_in_time} shows how the velocities vary as a function of time. Superimposed a steady deceleration of the fluid there is an 
 oscillation.
-Flow in decelerating boundary layers are prone to instabilites.
+Flow in decelerating boundary layers are prone to instabilities.
 However, the oscillations do not increase in magnitude and are present
 from the beginning. 
    This indicates that the wave breaking induces irregularities, possibly in the form of vortices, that prevails during the subsequent motion. 
