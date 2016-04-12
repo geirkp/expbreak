@@ -14,8 +14,13 @@
 \usepackage{longtable}
 \usepackage[hidelinks]{hyperref}
 \newcommand{\sidenote}[1]{\marginpar{\footnotesize #1}} 
+\newcommand{\s}{\,\mbox{s}}
 \newcommand{\cm}{\,\mbox{cm}}
+\newcommand{\Hz}{\,\mbox{Hz}}
+\newcommand{\m}{\,\mbox{m}}
+\newcommand{\mm}{\,\mbox{mm}}
 \newcommand{\cmps}{\,\mbox{cm/s}}
+\newcommand{\mps}{\,\mbox{m/s}}
 \newcommand{\cmbps}{\,\frac{\mbox{cm}}{\mbox{s}}}
 \restylefloat{table}
 \usepackage{rotating}
@@ -90,17 +95,17 @@ Until now, PIV measurements with high temporal resolution close to the beach hav
 \subsection{The wave tank}
 \label{wavetank}
 
-Laboratory experiments of non-breaking to plunging breaking waves in the swash zone were conducted in  a 25m long and 0.51m wide wave tank 
+Laboratory experiments of non-breaking to plunging breaking waves in the swash zone were conducted in  a $25\m$ long and $0.51\m$ wide wave tank 
 located at the Hydrodynamics Laboratory at the University of Oslo.
-Incident waves were generated in an equilibrium depth of $H=20.5$cm by
+Incident waves were generated in an equilibrium depth of $H=20.5\cm$ by
 a piston type wave maker using the method described in 
 \cite{jensen2003experimental}. 
-A PETG (Polyethylene Terephthalate Glycol-modified) beach with an inclination of $5.1^{\circ}$ was placed in the wave tank with its toe 529.81cm from the start position of the wave paddle.   Two coordinate systems were introduced, one parallel to the still water level $(x',z')$, and one parallel to the beach $(x,z)$ (See Figure \ref{fig:beach_tegning}).  The origin of both is at the equilibrium shoreline.
+A PETG (Polyethylene Terephthalate Glycol-modified) beach with an inclination of $5.1^{\circ}$ was placed in the wave tank with its toe $529.81\cm$ from the start position of the wave paddle. Two coordinate systems were introduced, one parallel to the still water level $(x',z')$, and one parallel to the beach $(x,z)$ (See Figure \ref{fig:beach_tegning}).  The origin of both is at the equilibrium shoreline.
 
 Nominally, the amplitude to depth ratios should equal $(\alpha=0.1,0.12,0.2,0.3,0.4,0.5)$.  
 However, imperfection in the generation and frictional effects along
 the wave tank reduced the heights slightly such that $\alpha \approx A/H$.  
-An acoustic wave gauge (ultra Banner U-Gage S18U, sample frequency of 200Hz) measured the wave height at the toe of the beach and the amplitudes were found to
+An acoustic wave gauge (ultra Banner U-Gage S18U, sample frequency of $200Hz$) measured the wave height at the toe of the beach and the amplitudes were found to
  be $A/H=(0.0986, 0.1184, 0.1977, 0.2959, 0.3930, 0.4863)$.
 
 \begin{figure}[]
@@ -113,10 +118,10 @@ An acoustic wave gauge (ultra Banner U-Gage S18U, sample frequency of 200Hz) mea
 
 \subsection{Instrumentation, measurements}
 \label{ins_measure}
-To obtain velocity fields in the swash zone, images were captured at four different field of views (FOV), located upward along the beach (Table \ref{tab:loc}). The different FOV's are denoted with roman numbers. The water in the tank was seeded with polymid particles with diameters of approximately 50 $\mu$m. A Quantronix Darwin Duo pulsed laser generated a light sheet parallel to the centreline of the wave tank, and a Photron SA5 high speed camera (1024 x 1024) synchronized with the laser, captured images of the illuminated particles. A Carl Zeiss Makro- Planer 2/50 zf (50mm) lens was used. Images were collected at 3000 frames per seconds (fps).
+To obtain velocity fields in the swash zone, images were captured at four different field of views (FOV), located upward along the beach (Table \ref{tab:loc}). The different FOV's are denoted with roman numbers. The water in the tank was seeded with polymid particles with diameters of approximately $50$ $\mu$m. A Quantronix Darwin Duo pulsed laser generated a light sheet parallel to the centreline of the wave tank, and a Photron SA5 high speed camera (1024 x 1024) synchronized with the laser, captured images of the illuminated particles. A Carl Zeiss Makro- Planer 2/50 zf ($50\mm$) lens was used. Images were collected at 3000 frames per seconds ($fps$).
  \begin{table}[]
  \centering
-\caption{\textit{Location of the different FOVs  in $cm$. The dimensions of the FOVs are approximately 4cm x 4cm.}}
+\caption{\textit{Location of the different FOVs  in $\cm$. The dimensions of the FOVs are approximately $4\cm$ x $4\cm$.}}
 \begin{tabular}{|c|c|c|c|c|c|c|}
 \hline
 \textbf{FOV:}      & I                   & II                 & III     & IV \\ \hline
@@ -129,7 +134,7 @@ To obtain velocity fields in the swash zone, images were captured at four differ
 \end{table}
 The image processing were performed in DigiFlow \citep{digiflow}. PIV was performed using interrogation windows of 32 x 8 pixels with a 75\% overlap. Oblong interrogation windows are beneficial in boundary layer flow and have been employed previously in \cite{liu2007boundary} and \cite{pedersen2013runup}. An averaging of 10 images was applied to reduce noise from the data. The number of images used in the average was carefully selected, such that the mean results were not affected by the averaging. 
 
-To investigate air bubbles encapsulated by the plunging breakers, the camera was moved further away from the wave tank, resulting in much larger FOV than the FOVs installed to obtain velocity fields. This FOV will be referred to as FOV A and is located at $x=[0-60]$cm.  500 fps were used in this investigation, and a continuous dedolight 400D was used as illumination, replacing the laser. A white background sheet was attached to the side wall of the wave tank and the water was dyed dark blue to increase the contrast of the images.
+To investigate air bubbles encapsulated by the plunging breakers, the camera was moved further away from the wave tank, resulting in much larger FOV than the FOVs installed to obtain velocity fields. This FOV will be referred to as FOV A and is located at $(0\cm< x <60\cm)$.  500 $fps$ were used in this investigation, and a continuous dedolight 400D was used as illumination, replacing the laser. A white background sheet was attached to the side wall of the wave tank and the water was dyed dark blue to increase the contrast of the images.
 
 The maximum runup was measured by capturing images of the shoreline at its maximum position. A high speed Photron APX  camera was mounted on rails above the beach in the wave tank with same inclination as the beach. A high pulsed white light was used as illumination. The field of views were based on estimates of the runup height for each case. The camera captured 125 frames per second. The maximum shoreline profiles were tracked manually for each wave. The experiments were repeated at least three times. The scatter $\delta_i$ for some measured quantity $x_i$, is then calculated in the following manner,
 
@@ -148,18 +153,12 @@ $40$, $0$ or $-40$, all measured in $\cmps$.
 \end{equation}
 
 
-The average deviations in the $z$-direction are calculated from the same area ($0\cm < z \le 0.6\cm$), and $M$ corresponds to number of vertically grid-points within this area.\sidenote{ Sloppy typesetting. $z$ must be in mathematical style throughout. As should all other mathematical symbols. Use also macros like the cm. }
+The average deviations in the $z$-direction are calculated from the same area ($0\cm < z \le 0.6\cm$), and $M$ corresponds to number of vertically grid-points within this area.
 
-
-\begin{equation}
-\overline{\sigma}=\frac{1}{M}\sum_{j=1}^{M}(\sigma_j)
-\label{av_g}
-\end{equation}
-{\em Better choice would have been
 \begin{equation}
 \overline{\sigma}=\sqrt{\frac{1}{M}\sum_{j=1}^{M}\sigma_j^2}
+\label{av_g}
 \end{equation}
-}
  
 \subsection{The potential flow and boundary layer models}
 The evolution of the waves during shoaling, as well as the runup for the smallest amplitude, were 
@@ -171,9 +170,9 @@ The potential flow model also provides the outer flow and the pressure gradient
 which are used as input to a FDM viscous boundary layer model. However, the coupling between the
 models is only one way as there is no feed-back from the boundary layer to the potential
 flow model. 
-More details on both models are given in  \cite{pedersen2013runup}. 
- Simulations are conducted with a range of various spatial resolutions. Grid refinements are engaged up to the point where the runup height and time was deterministic with a 0.2\% error. 
-{\em This is not at all clear or precise. Something like: A refinement of the grid of xx\% gave a change of yy\% in the runup heigt. As the model theoretically is third order in time and fourth order in space this indicates a an error less than zz\% }The same resolutions was applied to the breaking waves, and the finest resolution $\delta x'$ was approximately $0.07H$.  For all the waves the temporal increment was set to 0.0073s, which is twice as large as the temporal averaging used in PIV. The viscous boundary layer model generated 600 grid points along the beach, with a spatial increment of $0.0042 H$. The time resolution was kept the same as for BIM.
+More details on both models are given in \cite{pedersen2013runup}. 
+
+A refinement of the grid of 7.2\% gave a change of 0.1\% in the runup height. As the model theoretically is third order in time and fourth order in space this indicates an error less than zz\%\sidenote{ litt usikker på hvordan zz skal regnes ut}. The same resolutions was  applied to the breaking waves, and the finest resolution $\delta x'$ was approximately $0.07H$.  For all the waves the temporal increment was set to $0.0073\s$, which is twice as large as the temporal averaging used in PIV. The viscous boundary layer model generated 600 grid points along the beach, with a spatial increment of $0.0042H$. The time resolution was kept the same as for BIM.
 
 
 \section{Results}
@@ -191,7 +190,7 @@ Visual inspection of the experiments revealed that the cases with normalized amp
 
 \subsection{Surface elevation of the incident waves}
 \label{surf_elev}
-The amplitude of the smallest amplitude wave is determined by
+The amplitude of the smallest wave is determined by
 a simple correction scheme. First the maximum of the series from the 
 acoustic gauge $A_m$ is used as solitary wave amplitude in the BIM model.
 For the lowest wave this value is $A_m/H=0.0998$.
@@ -221,7 +220,7 @@ BIM simulations of the near-shore evolution model is shown in Figure \ref{fig:BI
 For reasons explained previously we only compute the runup for the 
 smallest wave $\alpha=0.10$. The computed time, inundation length and height for 
 maximum runup  
-were $t=8.93$s, $r=112.78$cm (measured along the beach), and $R/A=4.95$ 
+were $t=8.93\s$, $r=112.78\cm$ (measured along the beach), and $R/A=4.95$ 
 respectively. The BIM model had some difficulties with the waves with amplitude $\alpha=0.12$. For the other cases shown the numerical
 model describes the evolution of the plunger, but nothing beyond its impact onshore.  
 \begin{figure}[]
@@ -236,16 +235,16 @@ model describes the evolution of the plunger, but nothing beyond its impact onsh
 \label{fig:BIM}
 \end{figure}
 
-The measured maximum runup heights and deviations for each waves are available in Table \ref{tab:max_shore}. Compared to the teoretical values above, for $\alpha=0.10$,  the maximum runup height is reduced by $22$\% and the maximum occurs $0.07$s later.  The BIM model does not account for viscous effect or surface tension, and this is the likely reason for the differences. \cite{pedersen2013runup} reported differences that were similar, but were smaller in magnitude due to a steeper 
+The measured maximum runup heights and deviations for each waves are available in Table \ref{tab:max_shore}. Compared to the teoretical values above, for $\alpha=0.10$,  the maximum runup height is reduced by 22\% and the maximum occurs $0.07\s$ later.  The BIM model does not account for viscous effect or surface tension, and this is the likely reason for the differences. \cite{pedersen2013runup} reported differences that were similar, but were smaller in magnitude due to a steeper 
 slope angle of $10.54 ^\circ$ which leads to thicker flow depths and shorter inundation. In fact, in Figure \ref{fig:max_runup} we observe transverse variations in the experiments and the average
 run up height is more than 5\% smaller than the maximum one. Table \ref{tab:max_shore} shows that the maximum runup is repeatable for all waves including the breaking ones. % An image of shoreline at maximum runup for case 10 is shown in \ref{fig:overflate_10_bilde}.  
 
 \begin{table}[]
-\caption{\textit{Maximum runup measurements, where $A$ incident wave amplitude, $A_m$ is the measured amplitude at the toe of the beach, $r$ is the inundation length , R is the vertical maximum runup, t is the time corresponding to max runup and $e$ is the estimated error in the measurement }}
+\caption{\textit{Maximum runup measurements, where $A$ is incident wave amplitude, $A_m$ is the measured amplitude at the toe of the beach, $r$ is the inundation length , $R$ is the vertical maximum runup, $t$ is the time corresponding to max runup and $e$ is the estimated deviation in the measurement }}
 \centering
 \begin{tabular}{cccccccc}
 \hline
-      $\alpha$&  $A/H$&   $A_m/H$&  $r [cm]$ &$R/A$ & $e_r [\%]$ & $t$ & $e_t [\%]$ \\ \hline
+      $\alpha$&  $A/H$&   $A_m/H$&  $r [\cm]$ &$R/A$ & $e_r [\%]$ & $t$ & $e_t [\%]$ \\ \hline
 \textit{$0.10$} &\textit{$0.09865$}  &\textit{$0.0998$}  & 87.25    &    3.82  & 1.68             & 8.86 s        & 0.15              \\
 \textit{$0.12$}  &\textit{$0.1184$}  &\textit{$0.1194$}  & 105. 67   &    3.85   & 0.27             & 8.67 s        & 0.15               \\
 \textit{$0.20$}  &\textit{$0.1977$}  &\textit{$0.1984$} & 147.37    &    3.22  & 0.93            & 8.53 s        & 0.31                \\
@@ -257,22 +256,21 @@ run up height is more than 5\% smaller than the maximum one. Table \ref{tab:max_
 \end{table}
 
 The shoreline at maximum runup are shown in Figure \ref{fig:max_runup}. It is fairly repeatable for the amplitude close to $0.1$ times the 
-depth (Figure \ref{fig:overflate_10}), but has a wedge-like shape. 
+depth, but has a wedge-like shape. 
  This is presumably due to a cross-wise deformation  of the beach 
 which has been measured using a straightedge and a feeling gauge. 
-The typical maximum suppression in each transect of the beach was 3mm.
-If we assume that the depressions were unsystematic and that the later
+The typical maximum suppression in each transect of the beach was $3\mm$. If we assume that the depressions were unsystematic and that the later
 stages of runup are governed by gravity alone (see, for instance, \cite{jensen2003experimental}) this should correspond to a variation
- of 3cm on a 1 in 10 slope beach. However, even though the
+ of $3\cm$ on a 1 in 10 slope beach. However, even though the
 flow depth is small during runup, the momentum transport due to
- the pressure is still noticeable (inferred from the simulations, results not shown). More importantly, there is a systematic suppression at the center-line of the beach and the beach width is 51cm, which is comparable to the inundation length for the smallest amplitude. 
-Hence, another relevant estimate of the runup variation is the suppression times the contact angle (angle of fluid wedge during runup) in radians. In  the simulations this angle approaches $0.5^\circ$ at maximum runup, which yields a variation in $x$ of 30cm. This is modified by 
+ the pressure is still noticeable (inferred from the simulations, results not shown). More importantly, there is a systematic suppression at the center-line of the beach and the beach width is $51\cm$, which is comparable to the inundation length for the smallest amplitude. 
+Hence, another relevant estimate of the runup variation is the suppression times the contact angle (angle of fluid wedge during runup) in $radians$. In the simulations this angle approaches $0.5^\circ$ at maximum runup, which yields a variation in $x$ of $30\cm$. This is modified by 
 the the capillary affects that affects the contact angle and 
 shape of fluid body near the shoreline. Unfortunately, we cannot
 quantify this effect from the experiments.  
 From Figure 
 \ref{fig:max_runup} it is clear that transverse variation is more in line with the latter estimate than the first one. The runup varies much more for the three repetitions of the breaking wave $\alpha=0.50$,
-resulting in irregularly shaped shorelines  (Figure \ref{fig:overflate_50}).
+resulting in irregularly shaped shorelines  (Figure \ref{fig:max_runup}).
 \begin{figure}[]
         \centering
         \makebox[\linewidth][c]{%
@@ -280,17 +278,14 @@ resulting in irregularly shaped shorelines  (Figure \ref{fig:overflate_50}).
           %(or a blank line to force the subfigure onto a new line)
         \begin{subfigure}[H]{0.4\textwidth}
                 \includegraphics[width=0.95\textwidth]{Figures/runup10.eps}
-                
-                \label{fig:overflate_10}
         \end{subfigure}
          %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
           %(or a blank line to force the subfigure onto a new line)
         \begin{subfigure}[H]{0.4\textwidth}
                 \includegraphics[width=0.95\textwidth]{Figures/runup50.eps}
-                \label{fig:overflate_50}
         \end{subfigure}
 }
-        \caption{\textit{Cross sectional variation of the shoreline shapes at max runup. Left: $\alpha=0.10$ Right: $\alpha=0.50$}}
+        \caption{\textit{Cross-sectional variation of the shoreline shapes at max runup. Left: $\alpha=0.10$, Right: $\alpha=0.50$}}
         \label{fig:max_runup}
 \end{figure}
 
@@ -308,7 +303,7 @@ An estimate of the arrival time of the wave for FOV II, III and IV, were measure
 \subsection{Velocity profiles from the swash zone}
 \label{vel_pro}
 
-Velocity profiles are extracted from the PIV data that are obtained from the four different FOV, approximately from 10cm to 120cm from the equilibrium shoreline. 
+Velocity profiles are extracted from the PIV data that are obtained from the four different FOV, approximately from $10\cm$ to $120\cm$ from the equilibrium shoreline. 
 First, a comparison between computed BIM and measured PIV velocities for $\alpha=0.10$ will be given for FOV I and II, (See Figure \ref{fig:BIM3_tim}). There is good agreement between the measured and the computed velocity profiles. The computed velocities are higher in the front of the wave for both FOVs. The maximum deviation between measured and comuputed outer flow was at the begining of PIV timeseries, and was 4.7\% for FOV I and 6.8\% for FOV II (not shown). Deviation decreased for both FOVs as time increased.  This complies with corresponding results in  \cite{pedersen2013runup} where the
 delay of the experimental wave was linked to capillary effects, while
 an accumulative reduction of velocity, and hence runup height, was
@@ -321,8 +316,8 @@ computation over-predicts the maximum runup as given in the previous section.
           %(or a blank line to force the subfigure onto a new line)
                 \includegraphics[width=0.3\textwidth]{./Figures/BIM/case10_BIM_PIV_FOV3.eps}
                 \includegraphics[width=0.3\textwidth]{./Figures/BIM/case10_BIM_PIV_FOV4.eps}
-                \caption{\textit{ Velocity profiles for $\alpha=0.10$\\ Left: FOV I x=8.7cm t=[7.48, 7.82, 8.15, 8.48, 8.81]s\\
-                 \quad Right: FOV II x=40.1cm t=[7.76, 8.10, 8.76, 9.10]s}}
+                \caption{\textit{ Velocity profiles for $\alpha=0.10$\\ Left: FOV I $x=8.7\cm$ $t=[7.48, 7.82, 8.15, 8.48, 8.81]\s$\\
+                 \quad Right: FOV II $x=40.1\cm$ $t=[7.76, 8.10, 8.76, 9.10]\s$}}
               \label{fig:BIM3_tim}
       \end{figure}
       
@@ -335,10 +330,10 @@ computation over-predicts the maximum runup as given in the previous section.
                 \\
                 \includegraphics[width=0.3\textwidth]{./Figures/BIM/case50_BIM_PIV_FOV5.eps}
                  \includegraphics[width=0.3\textwidth]{./Figures/BIM/case50_BIM_PIV_FOV6.eps}
-                \caption{\textit{Velocity profiles for $\alpha=0.50$ Colors: blue, cyan and green correspond to run 1,2 and 3. \\Upper Left: FOV I x=8.7cm t=[6.12, 6.34, 6.50, 6.69, 6.84, 7.00, 7.27, 7.45]s\\
-                 \quad Upper Right: FOV II x=40.1cm t=[6.43, 6.57, 6.74, 6.92, 7.14, 7.36, 7.56, 7.80]s\\
-                  \quad Lower Left: FOV III x=81.4cm t=[6.34, 6.60, 6.94, 7.12, 7.34, 7.50, 7.80, 8.16]s\\
-                   \quad Lower Right: FOV IV x=121.2cm t=[6.50, 6.78, 6.94, 7.10, 7.32, 7.60, 7.91, 8.20]s}}
+                \caption{\textit{Velocity profiles for $\alpha=0.50$ Colors: blue, cyan and green correspond to run 1,2 and 3. \\Upper Left: FOV I $x=8.7cm$ $t=[6.12, 6.34, 6.50, 6.69, 6.84, 7.00, 7.27, 7.45]\s$\\
+                 \quad Upper Right: FOV II $x=40.1cm$ $t=[6.43, 6.57, 6.74, 6.92, 7.14, 7.36, 7.56, 7.80]\s$\\
+                  \quad Lower Left: FOV III $x=81.4cm$ $t=[6.34, 6.60, 6.94, 7.12, 7.34, 7.50, 7.80, 8.16]\s$\\
+                   \quad Lower Right: FOV IV $x=121.2cm$ $t=[6.50, 6.78, 6.94, 7.10, 7.32, 7.60, 7.91, 8.20]\s$}}
               \label{fig:plot50}
       \end{figure}
 
@@ -356,26 +351,26 @@ computation over-predicts the maximum runup as given in the previous section.
 
 
 %Velocity profiles for non-breaking solitary waves are studied experimentally by \cite{pedersen2013runup}.Their measurements revealed that the velocity profiles obtained close to the still water shoreline, had a viscous boundary layer close to the beach, and a uniform velocity U outside the boundary layer (the outer flow). 
-The PIV analysis of the breaking waves was difficult due to air bubbles in the flow, and challenges with particle seeding within the thin swash zone.  $\alpha=0.50$ has the longest runup of all the breaking waves, and that makes it the wave where most data can be extracted from all the FOVs. Velocity profiles for $\alpha=0.50$ are shown in Figure \ref{fig:plot50}. The velocity profiles are extracted at times after all the air bubbles have passed each of the FOV. It is clear that the velocities at FOV I resembles the velocities obtained for $\alpha=0.10$. The boundary layer is well defined and the deviation between the different runs is really small. For FOV II-IV the deviations tends to increase as we move further up the beach, however the largest irregularities are typically at the beginning of runup and decreases as the flow decelerates. The withdrawal has a well defined boundary layer and outer flow for all the FOVs. The deviation between different runs are indeed reduced. A measure of the irregularities (or the average deviations of the different runs) are presented in Table \ref{tab:irr}. The findings substantiate the interpretation made of the data shown in Figure \ref{fig:plot50}.
+The PIV analysis of the breaking waves was difficult due to air bubbles in the flow, and due to challenges with particle seeding within the thin swash zone.  $\alpha=0.50$ has the longest runup of all the breaking waves, and that makes it the wave where most data can be extracted from all the FOVs. Velocity profiles for $\alpha=0.50$ are shown in Figure \ref{fig:plot50}. The velocity profiles are extracted at times after all the air bubbles have passed each of the FOV. It is clear that the velocities at FOV I resembles the velocities obtained for $\alpha=0.10$. The boundary layer is well defined and the deviation between the different runs is really small. For FOV II-IV the deviations tends to increase as we move further up the beach, however the largest irregularities are typically at the beginning of runup and decreases as the flow decelerates. The withdrawal has a well defined boundary layer and outer flow for all the FOVs. The deviation between different runs are indeed reduced. A measure of the irregularities (or the average deviations of the different runs) are presented in Table \ref{tab:irr}. The findings substantiate the interpretation made of the data shown in Figure \ref{fig:plot50}.
 
 
 \begin{table}[]
-\caption{\textit{The irregulariety measure, $\overline{\sigma}$, for $\alpha=0.50$.}}
+\caption{\textit{The irregularity measure, $\overline{\sigma}$, for $\alpha=0.50$.}}
 \centering
 \begin{tabular}{ccccccc}
 \hline
 FOV& $  u\sim40\cmbps$  &$ u\sim 0\cmbps$ & $u\sim -40\cmbps$   \\ \hline
-\textit{I}  & 0.52   &    0.24  & 0.51                       \\
-\textit{II}  & 1.03   &    0.56   & 1.06                    \\
-\textit{III} &  2.10   &    1.03 & 0.75                            \\
-\textit{IV}  & 3.48    &   1.70  & 0.79                 \\
+\textit{I}  & 1.04   &    0.33  & 0.67                       \\
+\textit{II}  & 1.13   &    0.65   & 1.12                    \\
+\textit{III} &  2.26   &    1.11 &  1.06                            \\
+\textit{IV}  & 3.88    &   2.00  & 0.97                 \\
 \end{tabular}
 \label{tab:irr}
 \end{table}
 
 
 
-The velocities near flow reversal for all the different wave amplitudes will be discussed in the following. FOV II is located approximately 40cm from the origin, and velocity 
+The velocities near flow reversal for all the different wave amplitudes will be discussed in the following. FOV II is located approximately $40\cm$ from the origin, and velocity 
 profiles obtained from this FOV are shown in Figure \ref{fig:PIV_FOV4}.
 For $\alpha=0.20$ the particle density was too sparse close to the surface, which led to spurious vacillations in the velocity profiles near  $z\approx1$. Some distance below the surface a region of uniform flow is apparent for all cases. 
 Boundary layers are apparent for all the cases and they all
@@ -424,10 +419,10 @@ presumably are in a transition to turbulence.
 \caption{\textit{$\alpha=0.50$}}
 \end{subfigure}%
 }
-\caption{ \textit{FOV II, mean velocity profiles before  and after the outer flow reverses ($\triangle$,$\bigcirc$,$\square$). Colors: blue, cyan, green and red correspond to run 1,2,3 and BIM respectively.  $x=40.1cm$. } }
+\caption{ \textit{FOV II, mean velocity profiles before and after the outer flow reverses ($\triangle$,$\bigcirc$,$\square$). Colors: blue, cyan, green and red correspond to run 1,2,3 and BIM respectively.  $x=40.1\cm$. } }
 \label{fig:PIV_FOV4}
 \end{figure}
- FOV III is located about 80cm from origo along the beach. For $\alpha=0.10$ and $\alpha=0.12$, the swash tongues were too thin, and particles within the tongue were impossible to detect. Consequently, only $\alpha=0.20-0.50$ will be presented for this FOV. None of the cases had an outer flow with constant velocity at times close to outer flow reversal (Figure \ref{fig:PIV_FOV5}). This indicates that the motion was more irregular for this FOV than for FOV II.
+ FOV III is located about $80\cm$ from origo along the beach. For $\alpha=0.10$ and $\alpha=0.12$, the swash tongues were too thin, and particles within the tongue were impossible to detect. Consequently, only $\alpha=0.20-0.50$ will be presented for this FOV. None of the cases had an outer flow with constant velocity at times close to outer flow reversal (Figure \ref{fig:PIV_FOV5}). This indicates that the motion was more irregular for this FOV than for FOV II.
  \begin{figure}[]
 \centering
 \makebox[\linewidth][c]{%
@@ -455,11 +450,11 @@ presumably are in a transition to turbulence.
 \end{subfigure}%
 }
 \caption{ \textit{FOV III, mean velocity profiles before and after the outer flow reverses ($\triangle$,$\square$). Colors: blue, cyan and green correspond to run 1,2 and 3. 
-$x=81.4cm$} }
+$x=81.4\cm$} }
 \label{fig:PIV_FOV5}
 \end{figure}
 
- FOV IV is located about 120cm from where the still water reaches the beach. At this FOV, only $\alpha=0.30-0.50$ will be presented due to the thin swash tongue for the other waves. Velocity profiles are given in Figure \ref{fig:PIV_FOV6}. The velocity was less repeatable at this location than for the other FOVs. The velocity profiles were more irregular, especially for $\alpha=0.50$, where the average velocity profile obtained before flow reversal resembles the parbolic velocity profiles from fully developed turbulent channel flow, as described in \cite{white2006viscous}. %For laminar channel flow the velocity profiles has parabolic shape, and as the reynold number increases to fully developed turbulent channel flow, the velocity profiles has a larger area in middle of the channel where the velocity is constant. The velocity decays closer to the walls for turbulent regimes than for the laminar flow regimes. The mean velocity profile obtained for $A/H=0.4874$ has a shape that resembles the time average velocity profile for turbulent channel flow in addition to a frequent fluctuating velocity around this mean.
+ FOV IV is located about $120\cm$ from where the still water reaches the beach. At this FOV, only $\alpha=0.30-0.50$ will be presented due to the thin swash tongue for the other waves. Velocity profiles are given in Figure \ref{fig:PIV_FOV6}. The velocity was less repeatable at this location than for the other FOVs. The velocity profiles were more irregular, especially for $\alpha=0.50$, where the average velocity profile obtained before flow reversal resembles the parbolic velocity profiles from fully developed turbulent channel flow, as described in \cite{white2006viscous}. %For laminar channel flow the velocity profiles has parabolic shape, and as the reynold number increases to fully developed turbulent channel flow, the velocity profiles has a larger area in middle of the channel where the velocity is constant. The velocity decays closer to the walls for turbulent regimes than for the laminar flow regimes. The mean velocity profile obtained for $A/H=0.4874$ has a shape that resembles the time average velocity profile for turbulent channel flow in addition to a frequent fluctuating velocity around this mean.
 
 %The shape of the velocity profiles seems to differ more from the shape observed for the non-breaking solitary waves in \citep{pedersen2013runup} as we move further up the beach. In addition, it seems like stronger breakers differs more from the non-breaking shape, than the small breakers. Overall, the velocities before and after flow reversal, seemed to become more irregular as the waves washes up the beach.  
 \begin{figure}[]
@@ -482,7 +477,7 @@ $x=81.4cm$} }
 \end{subfigure}%
 }
 \caption{\textit{FOV IV, mean velocity profiles before and after the outer flow reverses ($\triangle$,$\square$). Colors: blue, cyan and green correspond to run 1,2 and 3. 
-$x=121.2cm$} }
+$x=121.2\cm$} }
 \label{fig:PIV_FOV6}
 \end{figure}
 \begin{figure}[]
@@ -490,11 +485,11 @@ $x=121.2cm$} }
         ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
           %(or a blank line to force the subfigure onto a new line)
                 \includegraphics[scale=0.6]{./Figures/tid_case50_run2.eps}
-                \caption{\textit{FOV IV Collection of velocities of particles within a distance of 0.05cm from the point(x,z)=(120,0.3)cm. The data is collected from  $\alpha=0.50$, run 2. Blue circles: Raw data points. Red line: 2 order interpolation with 40 evaluation points}}
+                \caption{\textit{FOV IV Collection of velocities of particles within a distance of $0.05\cm$ from the point $(x,z)=(120,0.3)\cm$. The data is collected from  $\alpha=0.50$, run 2. Blue circles: Raw data points. Red line: 2 order interpolation with 40 evaluation points}}
                 \label{fig:wave_in_time}
         \end{figure}      
 
-Inspection of movies of the front of the swash tongue from FOV IV (furthest up the beach) shows that a systematic swirling effect were present in the front of the swash tongue for $\alpha=0.50$. To investigate this phenomenon, Particle Tracking Velocimetry (PTV) has been utilized on images captured close to arrival of the swash tongue (5.33s). There were sparse particle seeding in the front of the tongue, and the first time where enough particles were present for an ensemble PTV analysis, were at $t=6.16s$. This is still long before the large bubble arrives at this FOV. For each image pair after this, the velocity for all the particles within a distance of 0.05cm from a given evaluation point (x,y)=(120,0.3)cm are assessed. Figure \ref{fig:wave_in_time} shows how the velocities vary as a function of time. Superimposed a steady deceleration of the fluid there is an 
+Inspection of movies of the front of the swash tongue from FOV IV (furthest up the beach) shows that a systematic swirling effect were present in the front of the swash tongue for $\alpha=0.50$. To investigate this phenomenon, Particle Tracking Velocimetry (PTV) has been utilized on images captured close to arrival of the swash tongue ($5.33\s$). There were sparse particle seeding in the front of the tongue, and the first time where enough particles were present for an ensemble PTV analysis, was at $t=6.16\s$. This is still long before the large bubble arrives at this FOV. For each image pair after this, the velocity for all the particles within a distance of $0.05\cm$ from a given evaluation point $(x,y)=(120,0.3)\cm$ are assessed. Figure \ref{fig:wave_in_time} shows how the velocities vary as a function of time. Superimposed a steady deceleration of the fluid there is an 
 oscillation.
 Flow in decelerating boundary layers are prone to instabilities.
 However, the oscillations do not increase in magnitude and are present
@@ -505,18 +500,18 @@ from the beginning.
  
  \subsection{Bubble investigation}
  \label{bub_inv}
- For the plunging breakers ($\alpha=0.20-0.50$) one large air bubble is encapsulated. As the waves propagated upward the beach, this bubble disintegrated into smaller and smaller bubbles. Before maximum runup,  all the 
-bubbles  have escaped the surface. The images captured with the large FOV A provides some information about this air bubble formation, (see Figure \ref{fig:bubble_30} and \ref{fig:bubble_50}). To enhance the shape of the bubbles the gradient magnitude image is represented. The shape of the main bubble is oval with a thin tongue in the front, for $\alpha=0.30$. The shape of the main air bubble appears less repeatable for $\alpha=0.50$. In particular, in run 2 the large air bubble cannot
- be identified in the image at all. The length of the main bubble for three different runs is given in Table \ref{tab:b_case30}. It is clear from the images and Table \ref{tab:b_case30}, that the three different runs are more similar for $\alpha=0.30$ than for $\alpha=0.50$. This supports the assertion that larger plungers are more irregular. The air bubbles will eventually rise to the surface, and consequently the air bubbles must have a vertically velocity component at some point. This may introduce irregularities in the flow regime, since velocities  in the fluid must equal the velocity of the bubbles close to the bubble surface. 
-
-The air bubble velocity in the direction along the beach is given in Table \ref{vel_bubb}. The largest velocities were obtained in the front of the bubbles for most of the runs, and may explain the shape of the thin tongue in the front of the air bubble observed for $\alpha=0.30$. The bubbles velocities are comparable to the velocities of the developing shoreline (See Figure \ref{fig:arr_tim}). The average shoreline velocity from  FOV II to FOV III was found to be $1.87 m/s$ for $\alpha=30$ and $2.75m/s$ for $\alpha=50$, and the average is taken within a time interval close to the times of bubble investigation. The average shoreline motion was smaller than the average bubble velocity for $\alpha=30$, which interpret that the bubbles will not be lagged relative to the swash tongue for this wave, and the bubbles may not affect the later stages of the runup as much as we first presumed. However for $\alpha=0.50$ the average bubble velocity is smaller than the shoreline velocity which makes the bubble lagged relative to the swash tongue, and the area of the swash tongue where air bubbles are present may be extended. This may be one of the reasons for the large irregularities measured with the PIV system in the beginning of the swash tongue (see Figure \ref{fig:plot50}).
+ For the plunging breakers ($\alpha=0.20-0.50$) one large air bubble is encapsulated. As the waves propagated upward the beach, this bubble disintegrated into smaller and smaller bubbles. Before maximum runup, all the 
+bubbles have escaped the surface. The images captured with the large FOV A provides some information about this air bubble formation (see Figure \ref{fig:bubble_30} and \ref{fig:bubble_50}). To enhance the shape of the bubbles the gradient magnitude image is represented. The shape of the main bubble is oval with a thin tongue in the front, for $\alpha=0.30$. The shape of the main air bubble appears less repeatable for $\alpha=0.50$. In particular, in run 2 the large air bubble cannot
+ be identified in the image at all. The length of the main bubble for three different runs is given in Table \ref{tab:b_case30}. It is clear from the images and Table \ref{tab:b_case30}, that the three different runs are more similar for $\alpha=0.30$ than for $\alpha=0.50$. This supports the assertion that larger plungers are more irregular.
+ 
+The air bubble velocity in the direction along the beach is given in Table \ref{vel_bubb}. The largest velocities were obtained in the front of the bubbles for most of the runs, and may explain the shape of the thin tongue in the front of the air bubble observed for $\alpha=0.30$. The bubbles velocities can be compared to the velocities of the developing shoreline (Figure \ref{fig:arr_tim}). The average shoreline velocity from  FOV II to FOV III was found to be $1.87\mps$ for $\alpha=30$ and $2.75\mps$ for $\alpha=50$, and the average is taken within a time interval close to the times of the bubble investigation. The average shoreline motion was smaller than the average bubble velocity for $\alpha=30$, which interpret that the bubbles will not be lagged relative to the swash tongue for this wave, and the bubbles may not affect the later stages of the runup as much as first presumed. However for $\alpha=0.50$ the average bubble velocity is smaller than the shoreline velocity which makes the bubble lagged relative to the swash tongue, and the area where air bubbles are present may be extended. This may be one of the reasons for the large irregularities measured with the PIV system in the beginning of the swash tongue (see Figure \ref{fig:plot50}).
 \begin{figure}[]
 \centering
 \includegraphics[width=0.7\textwidth]{./Figures/BUBBLE/bubble_30_run1.eps}
 \includegraphics[width=0.7\textwidth]{./Figures/BUBBLE/bubble_30_run2.eps}
 \includegraphics[width=0.7\textwidth]{./Figures/BUBBLE/bubble_30_run3.eps}
 %http://commons.wikimedia.org/wiki/File:Breaking_wave_types.gif
-\caption{\textit{$\alpha=0.30$, run 1,2 and 3. t=6.06s}}
+\caption{\textit{Gradient magnitude images of the swash tongue for $\alpha=0.30$, run 1,2 and 3. $t=6.06\s$. The red line shows the length of the main air bubble}}
 \label{fig:bubble_30}
 \end{figure}
 
@@ -527,18 +522,18 @@ The air bubble velocity in the direction along the beach is given in Table \ref{
 \includegraphics[width=0.6\textwidth]{./Figures/BUBBLE/bubble_50_run2.eps}
 \includegraphics[width=0.6\textwidth]{./Figures/BUBBLE/bubble_50_run3.eps}
 %http://commons.wikimedia.org/wiki/File:Breaking_wave_types.gif
-\caption{\textit{$\alpha=0.50$, run 1,2 and 3. t=5.54s}}
+\caption{\textit{Gradient magnitude images of the swash tongue for $\alpha=0.50$, run 1,2 and 3. $t=5.54\s$. The red line shows the length of the main air bubble}}
 \label{fig:bubble_50}
 \end{figure} 
 
 
 \begin{table}[]
 \centering
-\caption{\textit{ Size of the main bubble measured at t=6.06s for $\alpha=0.30$, and t=5.54s for $\alpha=0.50$}}
+\caption{\textit{ Size of the main bubble measured at $t=6.06\s$ for $\alpha=0.30$, and $t=5.54\s$ for $\alpha=0.50$}}
 \label{my-label}
 \begin{tabular}{|c|c|c|c|}
 \hline
-\textbf{Main bubble size }              & \textbf{Run 1 {[}cm{]}} & \textbf{Run 2 {[}cm{]}} & \textbf{Run 3 {[}cm{]}} \\ \hline
+\textbf{Main bubble size }              & \textbf{Run 1 {[}$\cm${]}} & \textbf{Run 2 {[}$\cm${]}} & \textbf{Run 3 {[}$\cm${]}} \\ \hline
 $\alpha=0.30$:  & 8.00     & 8.94     & 7.90     \\ \hline
 $\alpha=0.50$: & 9.24     &      & 8.17     \\ \hline
 \end{tabular}
@@ -559,13 +554,13 @@ $\alpha=0.50$: & 9.24     &      & 8.17     \\ \hline
  
 \begin{table}[]
 \centering
-\caption{\textit{ Velocities along the beach for the main air bubble.  t=6.06s for $\alpha=0.30$, and t=5.54s for $\alpha=0.50$}}
+\caption{\textit{ Velocities along the beach for the main air bubble. $t=6.06\s$ for $\alpha=0.30$, and $t=5.54\s$ for $\alpha=0.50$}}
 \label{vel_bubb}
 \begin{tabular}{llll}
 \hline
 {\bf $\alpha=0.30$}                    & Run 1 & Run 2 & Run 3 \\ \hline
-Front velocity {[}m/s{]}  & 2.05  & 2.20  & 2.48  \\
-Tail velocity {[}m/s{]}  & 2.10  & 2.05  & 2.23  \\ \hline
+Front velocity {[}$\mps${]}  & 2.05  & 2.20  & 2.48  \\
+Tail velocity {[}$\mps${]}  & 2.10  & 2.05  & 2.23  \\ \hline
 {\bf $\alpha=0.50$}                    &       &       &       \\ \hline
 Front velocity {[}m/s{]}  & 3.26  &   & 2.01  \\
 Tail velocity {[}m/s{]}   & 1.58  &   & 2.23 
@@ -609,7 +604,7 @@ observe laminar boundary layers. The presumption of laminarity is
 by combining a potential flow model with a standard boundary layer model on the beach. However, in accordance with \cite{pedersen2013runup} the
 potential flow model, without any feed back from the boundary layer model, overpredicts the
 maximum runup height by  30\%.  
-The discrepancies between computations and measurements, which is mainly be due to viscosity and capillary effects, are in reality larger since tiny deformation of the beach increases the maximum runup height in the experiments.. 
+The discrepancies between computations and measurements, which is mainly be due to viscosity and capillary effects, are in reality larger since tiny deformation of the beach increases the maximum runup height in the experiments.
 
 The measurement of the breaking waves showed that the fluid motion becomes more irregular and less repeatable as we move further up the beach. In addition, the motion was more irregular for the waves with the stronger plunger breakers than for those with smaller amplitude. The maximum runup was fairly repeatable, but marked an irregular
 transverse  variations were observed for the breaking waves. The bubble investigation indicated
