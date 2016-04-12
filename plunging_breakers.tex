@@ -14,6 +14,9 @@
 \usepackage{longtable}
 \usepackage[hidelinks]{hyperref}
 \newcommand{\sidenote}[1]{\marginpar{\footnotesize #1}} 
+\newcommand{\cm}{\,\mbox{cm}}
+\newcommand{\cmps}{\,\mbox{cm/s}}
+\newcommand{\cmbps}{\,\frac{\mbox{cm}}{\mbox{s}}}
 \restylefloat{table}
 \usepackage{rotating}
 \usepackage[margin=1in]{geometry}
@@ -136,19 +139,27 @@ The maximum runup was measured by capturing images of the shoreline at its maxim
 
 where $\overline{x}$ is the mean over the repetitions.
 
-To find a measure of the irregularities present in the PIV measurements, the standard deviations of the velocities are calculated at the different FOV for the strongest plunging breaker. Deviations are extracted at times where the mean flow in an area near the beach (z=[0 - 0.6]cm) has a specified velocity ( [40, 0, -40]cm/s).
+
+To find a measure of the irregularities present in the PIV measurements, the standard deviations are calculated at the different FOV for the strongest plunging breaker. Deviations are extracted at times where the mean flow, $u$, in an area near the  has a velocity close to either
+$40$, $0$ or $-40$, all measured in $\cmps$.
 
 \begin{equation}
 \sigma=\sqrt{\frac{1}{N-1}\sum_{i=1}^{N}(x_i-\overline{x})^2} 
 \end{equation}
 
-The average deviations in the z-direction are calculated from the same area (z=[0 - 0.6]cm), and are given by Equation \ref{av_g}. M corresponds to number of vertically grid-points within this area.
+
+The average deviations in the $z$-direction are calculated from the same area ($0\cm < z \le 0.6\cm$), and $M$ corresponds to number of vertically grid-points within this area.\sidenote{ Sloppy typesetting. $z$ must be in mathematical style throughout. As should all other mathematical symbols. Use also macros like the cm. }
+
 
 \begin{equation}
 \overline{\sigma}=\frac{1}{M}\sum_{j=1}^{M}(\sigma_j)
 \label{av_g}
 \end{equation}
-
+{\em Better choice would have been
+\begin{equation}
+\overline{\sigma}=\sqrt{\frac{1}{M}\sum_{j=1}^{M}\sigma_j^2}
+\end{equation}
+}
  
 \subsection{The potential flow and boundary layer models}
 The evolution of the waves during shoaling, as well as the runup for the smallest amplitude, were 
@@ -161,8 +172,9 @@ which are used as input to a FDM viscous boundary layer model. However, the coup
 models is only one way as there is no feed-back from the boundary layer to the potential
 flow model. 
 More details on both models are given in  \cite{pedersen2013runup}. 
+ Simulations are conducted with a range of various spatial resolutions. Grid refinements are engaged up to the point where the runup height and time was deterministic with a 0.2\% error. 
+{\em This is not at all clear or precise. Something like: A refinement of the grid of xx\% gave a change of yy\% in the runup heigt. As the model theoretically is third order in time and fourth order in space this indicates a an error less than zz\% }The same resolutions was applied to the breaking waves, and the finest resolution $\delta x'$ was approximately $0.07H$.  For all the waves the temporal increment was set to 0.0073s, which is twice as large as the temporal averaging used in PIV. The viscous boundary layer model generated 600 grid points along the beach, with a spatial increment of $0.0042 H$. The time resolution was kept the same as for BIM.
 
- Simulations are conducted with a range of various spatial resolutions. Grid refinements are engaged up to the point where the runup height and time was deterministic with a 0.2\% deviation. The same resolutions was applied to the breaking waves, and the finest resolution $\delta x'$ was approximately $0.07H$.  For all the waves the temporal increment was set to 0.0073s, which is twice as large as the temporal averaging used in PIV. The viscous boundary layer model generated 600 grid points along the beach, with a spatial increment of $0.0042 H$. The time resolution was kept the same as for the BIM.
 
 \section{Results}
 \label{result}
@@ -348,15 +360,15 @@ The PIV analysis of the breaking waves was difficult due to air bubbles in the f
 
 
 \begin{table}[]
-\caption{\textit{Irregulariety for $\alpha=0.50$, the men deviation from z=0-0.6 for the three repetitions }}
+\caption{\textit{The irregulariety measure, $\overline{\sigma}$, for $\alpha=0.50$.}}
 \centering
 \begin{tabular}{ccccccc}
 \hline
-$\overline{\sigma}$  $[\frac{cm}{s}]$& $  40\frac{cm}{s}$  &$ 0\frac{cm}{s}$ & $-40\frac{cm}{s}$   \\ \hline
-\textit{FOV I}  & 0.52   &    0.24  & 0.51                       \\
-\textit{FOV II}  & 1.03   &    0.56   & 1.06                    \\
-\textit{FOV III} &  2.10   &    1.03 & 0.75                            \\
-\textit{FOV IV}  & 3.48    &   1.70  & 0.79                 \\
+FOV& $  u\sim40\cmbps$  &$ u\sim 0\cmbps$ & $u\sim -40\cmbps$   \\ \hline
+\textit{I}  & 0.52   &    0.24  & 0.51                       \\
+\textit{II}  & 1.03   &    0.56   & 1.06                    \\
+\textit{III} &  2.10   &    1.03 & 0.75                            \\
+\textit{IV}  & 3.48    &   1.70  & 0.79                 \\
 \end{tabular}
 \label{tab:irr}
 \end{table}
