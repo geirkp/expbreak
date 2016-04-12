@@ -79,7 +79,7 @@ small flow depth makes the swash zone a challenging region to study experimental
 
 % \cite{kikkert11} did measurements on a bore driven swash. The experiments were carried out in a 20m long flume with a width of 0.45m. They used PIV to measure velocities and Laser-Induced Fluorescence (LIF) to measure the water depth. The beach slope was 1:10 and the experiments were repeated on beaches with different roughness. This study concludes that the up-rush friction factors are smaller than friction factors for backwash. This contradicts the findings from the work done by \cite{cowen03} and \cite{Barnes09}. \cite{rivillas2012estimation} used Bubble image Velocimetry (BIV) to investigate velocity fields in the swash and surf zone for plunging breakers. A numerical model based on Reynolds Average Navier Stokes (RANS) equation was used to compare the measurements. \cite{rivillas2012estimation} found that the BIV measurements were in agreement with the RANS model. 
 
-Until now, PIV measurements with high resolution close to the beach have not been reported for plunging breakers waves in the swash zone. This paper presents PIV measurements where the amplitude of the solitary breaking waves varies. The paper starts with a description of both the experimental set-up and the computational Boundary Integral Model used in this study (chapter \ref{experimnetal-set-up}). Further on, results from different parts of the experiment will be presented, herein the surface elevation of the incident waves in chapter \ref{surf_elev}, surface development and maximum runup in chapter \ref{max_run}, velocity profiles from the swash zone in chapter \ref{vel_pro}, and air bubble investigation in chapter \ref{bub_inv}. Finally, a discussion of the findings will be presented in chapter \ref{con_rem}.
+Until now, PIV measurements with high temporal resolution close to the beach have not been reported for plunging breakers waves in the swash zone. This paper presents PIV measurements where the amplitude of the solitary breaking waves varies. The paper starts with a description of both the experimental set-up and the computational Boundary Integral Model used in this study (chapter \ref{experimnetal-set-up}). Further on,  measured and computed results will be presented, herein the surface elevation of the incident waves in chapter \ref{surf_elev}, surface development and maximum runup in chapter \ref{max_run}, velocity profiles from the swash zone in chapter \ref{vel_pro}, and air bubble investigation in chapter \ref{bub_inv}. Finally, a discussion of the findings will be presented in chapter \ref{con_rem}.
 
 \section{Experimental set-up and formulation}
 \label{experimnetal-set-up}
@@ -89,8 +89,8 @@ Until now, PIV measurements with high resolution close to the beach have not bee
 
 Laboratory experiments of non-breaking to plunging breaking waves in the swash zone were conducted in  a 25m long and 0.51m wide wave tank 
 located at the Hydrodynamics Laboratory at the University of Oslo.
-Incident waves were generated in an equilibrium depth of $20.5$cm by
-a piston type wave paddle using the method described in 
+Incident waves were generated in an equilibrium depth of $H=20.5$cm by
+a piston type wave maker using the method described in 
 \cite{jensen2003experimental}. 
 A PETG (Polyethylene Terephthalate Glycol-modified) beach with an inclination of $5.1^{\circ}$ was placed in the wave tank with its toe 529.81cm from the start position of the wave paddle.   Two coordinate systems were introduced, one parallel to the still water level $(x',z')$, and one parallel to the beach $(x,z)$ (See Figure \ref{fig:beach_tegning}).  The origin of both is at the equilibrium shoreline.
 
@@ -110,7 +110,7 @@ An acoustic wave gauge (ultra Banner U-Gage S18U, sample frequency of 200Hz) mea
 
 \subsection{Instrumentation, measurements}
 \label{ins_measure}
-To obtain velocity fields in the swash zone, images were captured at four different field of views (FOV), located upward along the beach (Table \ref{tab:loc}). The different FOV's are denoted with roman numbers. The water in the tank was seeded with polymid particles with diameters of approximately 50 $\mu$m. A Quantronix Darwin Duo pulsed laser generated a light sheet parallel to the centreline of the wave tank, and a Photron SA5 high speed camera (1024 x 1024) synchronized with the laser, captured images of the illuminated particles. A Carl Zeiss Makro- Planer 2/50 zf lens was used. Images were collected at 3000 frames per seconds (fps).
+To obtain velocity fields in the swash zone, images were captured at four different field of views (FOV), located upward along the beach (Table \ref{tab:loc}). The different FOV's are denoted with roman numbers. The water in the tank was seeded with polymid particles with diameters of approximately 50 $\mu$m. A Quantronix Darwin Duo pulsed laser generated a light sheet parallel to the centreline of the wave tank, and a Photron SA5 high speed camera (1024 x 1024) synchronized with the laser, captured images of the illuminated particles. A Carl Zeiss Makro- Planer 2/50 zf (50mm) lens was used. Images were collected at 3000 frames per seconds (fps).
  \begin{table}[]
  \centering
 \caption{\textit{Location of the different FOVs  in $cm$. The dimensions of the FOVs are approximately 4cm x 4cm.}}
@@ -126,9 +126,9 @@ To obtain velocity fields in the swash zone, images were captured at four differ
 \end{table}
 The image processing were performed in DigiFlow \citep{digiflow}. PIV was performed using interrogation windows of 32 x 8 pixels with a 75\% overlap. Oblong interrogation windows are beneficial in boundary layer flow and have been employed previously in \cite{liu2007boundary} and \cite{pedersen2013runup}. An averaging of 10 images was applied to reduce noise from the data. The number of images used in the average was carefully selected, such that the mean results were not affected by the averaging. 
 
-To investigate air bubbles encapsulated by the plunging breakers, the camera was moved further away from the wave tank, resulting in much larger FOV than the FOVs installed to obtain velocity fields. This FOV will be referred to as FOV A and is located at $x=[0-60]$cm.  500 fps were used in this investigation, and a continuous dedolight 400D was used as illumination, replacing the laser. A white background sheet was attached to the side wall of  the wave tank and the water was dyed dark blue to increase the contrast in the images.
+To investigate air bubbles encapsulated by the plunging breakers, the camera was moved further away from the wave tank, resulting in much larger FOV than the FOVs installed to obtain velocity fields. This FOV will be referred to as FOV A and is located at $x=[0-60]$cm.  500 fps were used in this investigation, and a continuous dedolight 400D was used as illumination, replacing the laser. A white background sheet was attached to the side wall of the wave tank and the water was dyed dark blue to increase the contrast of the images.
 
-The maximum runup was measured by capturing images of the shoreline at its maximum position. A high speed Photron APX  camera was mounted on rails above the beach in the wave tank with same inclination as the beach. A high pulsed white light was used as illumination. The field of views were based on estimates of the runup height for each case. The camera captured 125 frames per second. The maximum shoreline profiles were tracked manually for each wave. The experiments were repeated at least three times. The scatter $\delta_i$ for some measured quantity, $x_i$, is then calculated in the following manner,
+The maximum runup was measured by capturing images of the shoreline at its maximum position. A high speed Photron APX  camera was mounted on rails above the beach in the wave tank with same inclination as the beach. A high pulsed white light was used as illumination. The field of views were based on estimates of the runup height for each case. The camera captured 125 frames per second. The maximum shoreline profiles were tracked manually for each wave. The experiments were repeated at least three times. The scatter $\delta_i$ for some measured quantity $x_i$, is then calculated in the following manner,
 
 \begin{equation}
 \delta_i=\frac{x_i-\overline{x}}{\overline{x}}
@@ -136,22 +136,23 @@ The maximum runup was measured by capturing images of the shoreline at its maxim
 
 where $\overline{x}$ is the mean over the repetitions.
 
-To find a measure of the irregularities present in the PIV measurements, the standard deviations are calculated at the different FOV for the strongest plunging breaker. Deviations are extracted at times where the mean flow in an area near the beach (z=[0 - 0.6]cm) has a specified velocity ( [40, 0, -40]cm/s).
+To find a measure of the irregularities present in the PIV measurements, the standard deviations of the velocities are calculated at the different FOV for the strongest plunging breaker. Deviations are extracted at times where the mean flow in an area near the beach (z=[0 - 0.6]cm) has a specified velocity ( [40, 0, -40]cm/s).
 
 \begin{equation}
 \sigma=\sqrt{\frac{1}{N-1}\sum_{i=1}^{N}(x_i-\overline{x})^2} 
 \end{equation}
 
-The average deviations in the z-direction are calculated from the same area (z=[0 - 0.6]cm), and M corresponds to number of vertically grid-points within this area.
+The average deviations in the z-direction are calculated from the same area (z=[0 - 0.6]cm), and are given by Equation \ref{av_g}. M corresponds to number of vertically grid-points within this area.
 
 \begin{equation}
 \overline{\sigma}=\frac{1}{M}\sum_{j=1}^{M}(\sigma_j)
+\label{av_g}
 \end{equation}
 
  
 \subsection{The potential flow and boundary layer models}
 The evolution of the waves during shoaling, as well as the runup for the smallest amplitude, were 
-computed by a BIM (Boundary Integral Model) for fully nonlinear, inviscid flow.
+computed by a BIM (Boundary Integral Model) for fully nonlinear, inviscid flow \citep{pedersen2013runup}.
 This model breaks down when a plunger re-attaches with fluid or impacts the beach. Moreover, the
 model  becomes singular when the contact angle at the shoreline exeeds $90^\circ$  and the results also become unreliable for contact angles slightly smaller.  
 
@@ -161,7 +162,7 @@ models is only one way as there is no feed-back from the boundary layer to the p
 flow model. 
 More details on both models are given in  \cite{pedersen2013runup}. 
 
- Simulations are conducted with a range of various spatial resolutions. Grid refinements are engaged up to the point where the runup height and time was deterministic with a 0.2\% error. The same resolutions was applied to the breaking waves, and the finest resolution $\delta x'$ was approximately $0.07H$.  For all the waves the temporal increment was set to 0.0073s, which is twice as large as the temporal averaging used in PIV. The viscous boundary layer model generated 600 grid points along the beach, with a spatial increment of $0.0042 H$. The time resolution was kept the same as for BIM.
+ Simulations are conducted with a range of various spatial resolutions. Grid refinements are engaged up to the point where the runup height and time was deterministic with a 0.2\% deviation. The same resolutions was applied to the breaking waves, and the finest resolution $\delta x'$ was approximately $0.07H$.  For all the waves the temporal increment was set to 0.0073s, which is twice as large as the temporal averaging used in PIV. The viscous boundary layer model generated 600 grid points along the beach, with a spatial increment of $0.0042 H$. The time resolution was kept the same as for the BIM.
 
 \section{Results}
 \label{result}
@@ -172,7 +173,7 @@ Visual inspection of the experiments revealed that the cases with normalized amp
 \centering
 \scalebox{1}[-1]{\includegraphics[angle=180,width=0.7\textwidth]{./Figures/BUBBLE/new_jan_bilde_bub.eps}}
 %http://commons.wikimedia.org/wiki/File:Breaking_wave_types.gif
-\caption{\textit{Image of the swash tongue for $\alpha=0.50$. }}
+\caption{\textit{Image of the swash tongue for $\alpha=0.50$. The camera is tilted with the same inclination as the beach, and the swash tongue is propagating from left to right.}}
 \label{fig:boble_bevis}
 \end{figure}
 
@@ -186,7 +187,7 @@ When BIM data are extracted at the gauge position we obtain
 a slightly too large surface elevation $A_b=0.1008$, due to the reflection from 
 the beach. We then adjust the amplitude 
 according to $A=A_m (1- \frac{ (A_b-A_m)}{A_m})$. 
-The result is $A/H=0.09865$ and the comparison with BIM results, obtained with this amplitude for the incident wave, is shown in Figure \ref{fig:surf_ele1}. When the surface elevation of the incident waves are very steep, the ultra sonic signal will not get reflected back and registered by the sensor. This leads to dropouts in the measurements, which have been filled in by linear interpolation.  Cubic polynomial regression is used to remove noise from the signal. The surface elevation measurements are in agreement with computed surface elevation from the BIM simulatitions. The corrected and measured amplitudes for all the other waves are given in Table \ref{tab:max_shore}.
+The result is $A/H=0.09865$ and the comparison with BIM results, obtained with this amplitude for the incident wave, is shown in Figure \ref{fig:surf_ele1}. When the surface elevation of the incident waves are very steep, the ultra sonic signal will not get reflected back and registered by the sensor. This leads to dropouts in the measurements, which have been filled in by linear interpolation.  Cubic polynomial regression is used to remove noise from the signal. The surface elevation measurements are in agreement with computed surface elevation from the BIM simulations. The corrected and measured amplitudes for all the other waves are given in Table \ref{tab:max_shore}.
 
 
 
@@ -210,7 +211,7 @@ smallest wave $\alpha=0.10$. The computed time, inundation length and height for
 maximum runup  
 were $t=8.93$s, $r=112.78$cm (measured along the beach), and $R/A=4.95$ 
 respectively. The BIM model had some difficulties with the waves with amplitude $\alpha=0.12$. For the other cases shown the numerical
-model describes the evolution of the plunger, but nothing beyonds its impact onshore.  
+model describes the evolution of the plunger, but nothing beyond its impact onshore.  
 \begin{figure}[]
 \centering 
 \includegraphics[width=0.5\textwidth]{./Figures/BIM/case10_BIM_runup.eps}
@@ -267,18 +268,17 @@ resulting in irregularly shaped shorelines  (Figure \ref{fig:overflate_50}).
           %(or a blank line to force the subfigure onto a new line)
         \begin{subfigure}[H]{0.4\textwidth}
                 \includegraphics[width=0.95\textwidth]{Figures/runup10.eps}
-                \caption{\textit{$\alpha=0.10$}}
+                
                 \label{fig:overflate_10}
         \end{subfigure}
          %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
           %(or a blank line to force the subfigure onto a new line)
         \begin{subfigure}[H]{0.4\textwidth}
                 \includegraphics[width=0.95\textwidth]{Figures/runup50.eps}
-                \caption{\textit{$\alpha=0.50$}}
                 \label{fig:overflate_50}
         \end{subfigure}
 }
-        \caption{\textit{Shoreline shapes at max runup.}}
+        \caption{\textit{Cross sectional variation of the shoreline shapes at max runup. Left: $\alpha=0.10$ Right: $\alpha=0.50$}}
         \label{fig:max_runup}
 \end{figure}
 
@@ -482,7 +482,7 @@ $x=121.2cm$} }
                 \label{fig:wave_in_time}
         \end{figure}      
 
-Inspection of movies of the front of the swash tongue from FOV IV (furthest up the beach) shows that a systematic swirling effect were present in the front of the swash tongue for $\alpha=0.50$. To investigate this phenomenon, Particle Tracking Velocimetry (PTV) has been utilized on images captured close to arrival of the swash tongue (5.33s). In the front of the swash tongue, sparse seeding of particles prevented us from obtaining velocities right after flow arrival. So the first time where enough particles were within the tongue for  this PTV analysis was at t=6.16s, but this is still long before the large bubble arrives at this FOV. For each image pair after this, the velocity for all the particles within a distance of 0.05cm from a given evaluation point (x,y)=(120,0.3)cm are assessed. Figure \ref{fig:wave_in_time} shows how the velocities vary as a function of time. Superimposed a steady deceleration of the fluid there is an 
+Inspection of movies of the front of the swash tongue from FOV IV (furthest up the beach) shows that a systematic swirling effect were present in the front of the swash tongue for $\alpha=0.50$. To investigate this phenomenon, Particle Tracking Velocimetry (PTV) has been utilized on images captured close to arrival of the swash tongue (5.33s). There were sparse particle seeding in the front of the tongue, and the first time where enough particles were present for an ensemble PTV analysis, were at $t=6.16s$. This is still long before the large bubble arrives at this FOV. For each image pair after this, the velocity for all the particles within a distance of 0.05cm from a given evaluation point (x,y)=(120,0.3)cm are assessed. Figure \ref{fig:wave_in_time} shows how the velocities vary as a function of time. Superimposed a steady deceleration of the fluid there is an 
 oscillation.
 Flow in decelerating boundary layers are prone to instabilities.
 However, the oscillations do not increase in magnitude and are present
@@ -591,13 +591,13 @@ Tail velocity {[}m/s{]}   & 1.58  &   & 2.23
 \section{Discussion}
 \label{con_rem}
 
-For runup of non-beaking solitary waves on a $5.1^\circ$ slope we 
+For runup of non-breaking solitary waves on a $5.1^\circ$ slope we 
 observe laminar boundary layers. The presumption of laminarity is
  supported by the good agreement found with boundary layers computed 
 by combining a potential flow model with a standard boundary layer model on the beach. However, in accordance with \cite{pedersen2013runup} the
 potential flow model, without any feed back from the boundary layer model, overpredicts the
 maximum runup height by  30\%.  
-The discrepancies between computations and measurements, which is mainly be due to viscosity and capillary effects , are in  reality larger since tiny deformation of the beach increases the maximum runup height in the experiments.. 
+The discrepancies between computations and measurements, which is mainly be due to viscosity and capillary effects, are in reality larger since tiny deformation of the beach increases the maximum runup height in the experiments.. 
 
 The measurement of the breaking waves showed that the fluid motion becomes more irregular and less repeatable as we move further up the beach. In addition, the motion was more irregular for the waves with the stronger plunger breakers than for those with smaller amplitude. The maximum runup was fairly repeatable, but marked an irregular
 transverse  variations were observed for the breaking waves. The bubble investigation indicated
