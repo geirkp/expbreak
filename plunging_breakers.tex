@@ -136,7 +136,7 @@ The image processing were performed in DigiFlow \citep{digiflow}. PIV was perfor
 
 To investigate air bubbles encapsulated by the plunging breakers, the camera was moved further away from the wave tank, resulting in much larger FOV than the FOVs installed to obtain velocity fields. This FOV will be referred to as FOV A and is located at $(0\cm< x <60\cm)$.  500 $fps$ were used in this investigation, and a continuous dedolight 400D was used as illumination, replacing the laser. A white background sheet was attached to the side wall of the wave tank and the water was dyed dark blue to increase the contrast of the images.
 
-The maximum runup was measured by capturing images of the shoreline at its maximum position. A high speed Photron APX  camera was mounted on rails above the beach in the wave tank with same inclination as the beach. A high pulsed white light was used as illumination. The field of views were based on estimates of the runup height for each case. The camera captured 125 frames per second. The maximum shoreline profiles were tracked manually for each wave. The experiments were repeated at least three times. The scatter $\delta_i$ for some measured quantity $x_i$, is then calculated in the following manner,
+The maximum runup was measured by capturing images of the shoreline at its maximum position. A high speed Photron APX  camera was mounted on rails above the beach in the wave tank with same inclination as the beach. A high pulsed white light was used as illumination, and the field of views were based on estimates of the runup height for each case. The camera captured 125 frames per second, and the maximum shoreline profiles were tracked manually for each wave. The experiments were repeated at least three times. The scatter $\delta_i$ for some measured quantity $x_i$, is then calculated in the following manner,
 
 \begin{equation}
 \delta_i=\frac{x_i-\overline{x}}{\overline{x}}
@@ -153,7 +153,7 @@ $40$, $0$ or $-40$, all measured in $\cmps$.
 \end{equation}
 
 
-The average deviations in the $z$-direction are calculated from the same area ($0\cm < z \le 0.6\cm$), and $M$ corresponds to number of vertically grid-points within this area.
+The average deviations in the $z$-direction are calculated from the area ($0\cm < z \le 0.6\cm$), and $M$ corresponds to number of vertically grid-points within this area.
 
 \begin{equation}
 \overline{\sigma}=\sqrt{\frac{1}{M}\sum_{j=1}^{M}\sigma_j^2}
@@ -172,7 +172,7 @@ models is only one way as there is no feed-back from the boundary layer to the p
 flow model. 
 More details on both models are given in \cite{pedersen2013runup}. 
 
-A refinement of the grid of 50\% gave a change of 0.9\% in the runup height for the non-breaking waves. The same resolutions was applied to the breaking waves, and the finest resolution $\delta x'$ was approximately $0.07H$.  For all the waves the temporal increment was set to $0.0073\s$, which is twice as large as the temporal averaging used in PIV. The viscous boundary layer model generated 600 grid points along the beach, with a spatial increment of $0.0042H$. The time resolution was kept the same as for BIM.
+A refinement of the grid of 50\% gave a change of 0.9\% in the runup height for the non-breaking waves. The same resolutions was applied to the breaking waves, and the finest resolution $\delta x'$ was approximately $0.07H$.  For all the waves the temporal increment was set to $0.0073\s$, which is twice as large as the temporal averaging used in PIV. The viscous boundary layer model generated 600 grid points along the beach, with a spatial increment of $0.0042H$. The time resolution was kept the same as for the BIM.
 
 
 \section{Results}
@@ -184,7 +184,7 @@ Visual inspection of the experiments revealed that the cases with normalized amp
 \centering
 \scalebox{1}[-1]{\includegraphics[angle=180,width=0.7\textwidth]{./Figures/BUBBLE/new_jan_bilde_bub.eps}}
 %http://commons.wikimedia.org/wiki/File:Breaking_wave_types.gif
-\caption{\textit{Image of the swash tongue for $\alpha=0.50$. The camera is tilted with the same inclination as the beach, and the swash tongue is propagating from left to right.}}
+\caption{\textit{Image of the swash tongue for $\alpha=0.50$. The camera is tilted with the same inclination as the beach, and the swash tongue propagates from left to right.}}
 \label{fig:boble_bevis}
 \end{figure}
 
@@ -240,12 +240,12 @@ slope angle of $10.54 ^\circ$ which leads to thicker flow depths and shorter inu
 run up height is more than 5\% smaller than the maximum one. Table \ref{tab:max_shore} shows that the maximum runup is repeatable for all waves including the breaking ones. % An image of shoreline at maximum runup for case 10 is shown in \ref{fig:overflate_10_bilde}.  
 
 \begin{table}[]
-\caption{\textit{Maximum runup measurements, where $A$ is incident wave amplitude, $A_m$ is the measured amplitude at the toe of the beach, $r$ is the inundation length , $R$ is the vertical maximum runup, $t$ is the time corresponding to max runup and $e$ is the estimated deviation in the measurement }}
+\caption{\textit{Maximum runup measurements, where $A$ is incident wave amplitude, $A_m$ is the measured amplitude at the toe of the beach, $r$ is the inundation length , $R$ is the vertical maximum runup, $t$ is the time corresponding to max runup and $e$ is the estimated deviation in the measurement.}}
 \centering
 \begin{tabular}{cccccccc}
 \hline
       $\alpha$&  $A/H$&   $A_m/H$&  $r [\cm]$ &$R/A$ & $e_r [\%]$ & $t$ & $e_t [\%]$ \\ \hline
-\textit{$0.10$} &\textit{$0.09865$}  &\textit{$0.0998$}  & 87.25    &    3.82  & 1.68             & 8.86 s        & 0.15              \\
+\textit{$0.10$} &\textit{$0.0986$}  &\textit{$0.0998$}  & 87.25    &    3.82  & 1.68             & 8.86 s        & 0.15              \\
 \textit{$0.12$}  &\textit{$0.1184$}  &\textit{$0.1194$}  & 105. 67   &    3.85   & 0.27             & 8.67 s        & 0.15               \\
 \textit{$0.20$}  &\textit{$0.1977$}  &\textit{$0.1984$} & 147.37    &    3.22  & 0.93            & 8.53 s        & 0.31                \\
 \textit{$0.30$}  &\textit{$0.2959$}  &\textit{$0.2967$}  & 191.67     &   2.80  & 1.08           & 8.03 s        & 0.78              \\
@@ -285,7 +285,7 @@ resulting in irregularly shaped shorelines  (Figure \ref{fig:max_runup}).
                 \includegraphics[width=0.95\textwidth]{Figures/runup50.eps}
         \end{subfigure}
 }
-        \caption{\textit{Cross-sectional variation of the shoreline shapes at max runup. Left: $\alpha=0.10$, Right: $\alpha=0.50$}}
+        \caption{\textit{Cross-sectional variation of the shoreline shapes at max runup. Left: $\alpha=0.10$, Right: $\alpha=0.50$.}}
         \label{fig:max_runup}
 \end{figure}
 
@@ -295,7 +295,7 @@ An estimate of the arrival time of the wave for FOV II, III and IV, were measure
         ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
           %(or a blank line to force the subfigure onto a new line)
                 \includegraphics[scale=0.6]{./Figures/shoreline2016.eps}
-                \caption{\textit{Shoreline position as a function of time for all cases. The first measurements correspond to the swash tongue arrival time for FOV II, III, IV. The last measuring point for all cases correspond to measurement of maximum runup}}
+                \caption{\textit{Shoreline position as a function of time for all cases. The first measurements correspond to the swash tongue arrival time for FOV II, III, IV. The last measuring point for all cases correspond to measurement of maximum runup.}}
               \label{fig:arr_tim}
       \end{figure}
 
@@ -316,8 +316,8 @@ computation over-predicts the maximum runup as given in the previous section.
           %(or a blank line to force the subfigure onto a new line)
                 \includegraphics[width=0.3\textwidth]{./Figures/BIM/case10_BIM_PIV_FOV3.eps}
                 \includegraphics[width=0.3\textwidth]{./Figures/BIM/case10_BIM_PIV_FOV4.eps}
-                \caption{\textit{ Velocity profiles for $\alpha=0.10$\\ Left: FOV I $x=8.7\cm$ $t=[7.48, 7.82, 8.15, 8.48, 8.81]\s$\\
-                 \quad Right: FOV II $x=40.1\cm$ $t=[7.76, 8.10, 8.76, 9.10]\s$}}
+                \caption{\textit{ Velocity profiles for $\alpha=0.10$.\\ Left: FOV I $x=8.7\cm$ $t=[7.48, 7.82, 8.15, 8.48, 8.81]\s$.\\
+                 \quad Right: FOV II $x=40.1\cm$ $t=[7.76, 8.10, 8.76, 9.10]\s$.}}
               \label{fig:BIM3_tim}
       \end{figure}
       
@@ -330,10 +330,10 @@ computation over-predicts the maximum runup as given in the previous section.
                 \\
                 \includegraphics[width=0.3\textwidth]{./Figures/BIM/case50_BIM_PIV_FOV5.eps}
                  \includegraphics[width=0.3\textwidth]{./Figures/BIM/case50_BIM_PIV_FOV6.eps}
-                \caption{\textit{Velocity profiles for $\alpha=0.50$ Colors: blue, cyan and green correspond to run 1,2 and 3. \\Upper Left: FOV I $x=8.7cm$ $t=[6.12, 6.34, 6.50, 6.69, 6.84, 7.00, 7.27, 7.45]\s$\\
-                 \quad Upper Right: FOV II $x=40.1cm$ $t=[6.43, 6.57, 6.74, 6.92, 7.14, 7.36, 7.56, 7.80]\s$\\
-                  \quad Lower Left: FOV III $x=81.4cm$ $t=[6.34, 6.60, 6.94, 7.12, 7.34, 7.50, 7.80, 8.16]\s$\\
-                   \quad Lower Right: FOV IV $x=121.2cm$ $t=[6.50, 6.78, 6.94, 7.10, 7.32, 7.60, 7.91, 8.20]\s$}}
+                \caption{\textit{Velocity profiles for $\alpha=0.50$. Colors: blue, cyan and green correspond to run 1,2 and 3. \\Upper Left: FOV I $x=8.7cm$ $t=[6.12, 6.34, 6.50, 6.69, 6.84, 7.00, 7.27, 7.45]\s.$\\
+                 \quad Upper Right: FOV II $x=40.1cm$ $t=[6.43, 6.57, 6.74, 6.92, 7.14, 7.36, 7.56, 7.80]\s.$\\
+                  \quad Lower Left: FOV III $x=81.4cm$ $t=[6.34, 6.60, 6.94, 7.12, 7.34, 7.50, 7.80, 8.16]\s.$\\
+                   \quad Lower Right: FOV IV $x=121.2cm$ $t=[6.50, 6.78, 6.94, 7.10, 7.32, 7.60, 7.91, 8.20]\s.$}}
               \label{fig:plot50}
       \end{figure}
 
@@ -450,7 +450,7 @@ presumably are in a transition to turbulence.
 \end{subfigure}%
 }
 \caption{ \textit{FOV III, mean velocity profiles before and after the outer flow reverses ($\triangle$,$\square$). Colors: blue, cyan and green correspond to run 1,2 and 3. 
-$x=81.4\cm$} }
+$x=81.4\cm$}. }
 \label{fig:PIV_FOV5}
 \end{figure}
 
@@ -477,7 +477,7 @@ $x=81.4\cm$} }
 \end{subfigure}%
 }
 \caption{\textit{FOV IV, mean velocity profiles before and after the outer flow reverses ($\triangle$,$\square$). Colors: blue, cyan and green correspond to run 1,2 and 3. 
-$x=121.2\cm$} }
+$x=121.2\cm$}. }
 \label{fig:PIV_FOV6}
 \end{figure}
 \begin{figure}[]
@@ -485,7 +485,7 @@ $x=121.2\cm$} }
         ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
           %(or a blank line to force the subfigure onto a new line)
                 \includegraphics[scale=0.6]{./Figures/tid_case50_run2.eps}
-                \caption{\textit{FOV IV Collection of velocities of particles within a distance of $0.05\cm$ from the point $(x,z)=(120,0.3)\cm$. The data is collected from  $\alpha=0.50$, run 2. Blue circles: Raw data points. Red line: 2 order interpolation with 40 evaluation points}}
+                \caption{\textit{FOV IV Collection of velocities of particles within a distance of $0.05\cm$ from the point $(x,z)=(120,0.3)\cm$. The data is collected from  $\alpha=0.50$, run 2. Blue circles: Raw data points. Red line: 2 order interpolation with 40 evaluation points}.}
                 \label{fig:wave_in_time}
         \end{figure}      
 
@@ -511,7 +511,7 @@ The air bubble velocity in the direction along the beach is given in Table \ref{
 \includegraphics[width=0.7\textwidth]{./Figures/BUBBLE/bubble_30_run2.eps}
 \includegraphics[width=0.7\textwidth]{./Figures/BUBBLE/bubble_30_run3.eps}
 %http://commons.wikimedia.org/wiki/File:Breaking_wave_types.gif
-\caption{\textit{Gradient magnitude images of the swash tongue for $\alpha=0.30$, run 1,2 and 3. $t=6.06\s$. The red line shows the length of the main air bubble}}
+\caption{\textit{Gradient magnitude images of the swash tongue for $\alpha=0.30$, run 1, 2 and 3. $t=6.06\s$. The red line shows the length of the main air bubble}.}
 \label{fig:bubble_30}
 \end{figure}
 
@@ -522,14 +522,14 @@ The air bubble velocity in the direction along the beach is given in Table \ref{
 \includegraphics[width=0.6\textwidth]{./Figures/BUBBLE/bubble_50_run2.eps}
 \includegraphics[width=0.6\textwidth]{./Figures/BUBBLE/bubble_50_run3.eps}
 %http://commons.wikimedia.org/wiki/File:Breaking_wave_types.gif
-\caption{\textit{Gradient magnitude images of the swash tongue for $\alpha=0.50$, run 1,2 and 3. $t=5.54\s$. The red line shows the length of the main air bubble}}
+\caption{\textit{Gradient magnitude images of the swash tongue for $\alpha=0.50$, run 1, 2 and 3. $t=5.54\s$. The red line shows the length of the main air bubble}.}
 \label{fig:bubble_50}
 \end{figure} 
 
 
 \begin{table}[]
 \centering
-\caption{\textit{ Size of the main bubble measured at $t=6.06\s$ for $\alpha=0.30$, and $t=5.54\s$ for $\alpha=0.50$}}
+\caption{\textit{ Size of the main bubble measured at $t=6.06\s$ for $\alpha=0.30$, and $t=5.54\s$ for $\alpha=0.50$}.}
 \label{my-label}
 \begin{tabular}{|c|c|c|c|}
 \hline
@@ -554,7 +554,7 @@ $\alpha=0.50$: & 9.24     &      & 8.17     \\ \hline
  
 \begin{table}[]
 \centering
-\caption{\textit{ Velocities along the beach for the main air bubble. $t=6.06\s$ for $\alpha=0.30$, and $t=5.54\s$ for $\alpha=0.50$}}
+\caption{\textit{ Velocities along the beach for the main air bubble. $t=6.06\s$ for $\alpha=0.30$, and $t=5.54\s$ for $\alpha=0.50$}.}
 \label{vel_bubb}
 \begin{tabular}{llll}
 \hline
