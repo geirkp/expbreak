@@ -233,13 +233,13 @@ model describes the evolution of the plunger, but nothing beyond its impact onsh
 
 For $\alpha=0.1$ the computed time, inundation length and height for  
 maximum runup  
-were $t=8.93\s$, $r=112.78\cm$ (measured along the beach), and $R/A=4.95$ 
+were $t^*61.77$, $r/H=5.5015$ (measured along the beach), and $R/A=4.95$ 
 respectively. 
-Comparing this the the measurements in Table \ref{tab:max_shore} we observe that the theoretical runup height is  30\%  too large and and occurs $0.07\s$ later.   \cite{pedersen2013runup} reported differences that were similar, but smaller, deviations
+Comparing this the the measurements in Table \ref{tab:max_shore} we observe that the theoretical runup height is  30\%  too large and and occurs $0.47$ times later.   \cite{pedersen2013runup} reported differences that were similar, but smaller, deviations
 between experiments and potential flow soloutions which they suggested were caused by the lack of viscous effects and surface tension in the model. The dicreapancies of  \cite{pedersen2013runup} were presumably smaller than those herein because the 
 beach was steeper in the reference ($10.54 ^\circ$) which led to thicker flow depths and shorter inundations. 
-In fact, in Figure \ref{fig:max_runup} we observe transverse variations in the experiments and the average
-runup height is more than 5\% smaller than the maximum one, which implies that real difference between theoretical and computed
+In fact, in Figure \ref{fig:max_runup} we observe transverse variations in the field og views in the experiments and the average FOV
+runup height for the smallest wave $(\alpha=0.10)$ is 4.10, \marginpar{Endring} which is more than 3.76\% smaller than the maximum one, which implies that real difference between theoretical and computed
 runup is larger than indicated by the maximum values. Table \ref{tab:max_shore} shows that the maximum runup is fairly repeatable for all waves including the breaking ones. % An image of shoreline at maximum runup for case 10 is shown in \ref{fig:overflate_10_bilde}.  
 
 \begin{table}[]
@@ -248,12 +248,12 @@ runup is larger than indicated by the maximum values. Table \ref{tab:max_shore} 
 \begin{tabular}{cccccccc}
 \hline
       $\alpha$&  $A/H$&   $A_m/H$&  $r/H$ &$R/A$ & $e_r [\%]$ & $t^*$ & $e_t [\%]$ \\ \hline
-\textit{$0.10$} &\textit{$0.0986$}  &\textit{$0.0998$}  & 87.25    &    3.82  & 1.68             & 8.86 s        & 0.15              \\
-\textit{$0.12$}  &\textit{$0.1184$}  &\textit{$0.1194$}  & 105. 67   &    3.85   & 0.27             & 8.67 s        & 0.15               \\
-\textit{$0.20$}  &\textit{$0.1977$}  &\textit{$0.1984$} & 147.37    &    3.22  & 0.93            & 8.53 s        & 0.31                \\
-\textit{$0.30$}  &\textit{$0.2959$}  &\textit{$0.2967$}  & 191.67     &   2.80  & 1.08           & 8.03 s        & 0.78              \\
-\textit{$0.40$}  &\textit{$0.3930$}  &\textit{$0.3936$}  & 227.42      &   2.50 & 0.11            & 7.82 s        & 0              \\
-\textit{$0.50$}  &\textit{$0.4863$}  &\textit{$0.4869$}  & 267.46       &    2.37 & 2.27            & 7.30 s        & 1.64              
+\textit{$0.10$} &\textit{$0.0986$}  &\textit{$0.0998$}  & 4.26    &    3.82  & 1.68             & 61.30  & 0.15              \\
+\textit{$0.12$}  &\textit{$0.1184$}  &\textit{$0.1194$}  & 5.15   &    3.85   & 0.27             & 59.98        & 0.15               \\
+\textit{$0.20$}  &\textit{$0.1977$}  &\textit{$0.1984$} & 7.19    &    3.22  & 0.93            & 59.01        & 0.31                \\
+\textit{$0.30$}  &\textit{$0.2959$}  &\textit{$0.2967$}  & 9.35     &   2.80  & 1.08           & 55.55        & 0.78              \\
+\textit{$0.40$}  &\textit{$0.3930$}  &\textit{$0.3936$}  & 11.09      &   2.50 & 0.11            & 54.01         & 0              \\
+\textit{$0.50$}  &\textit{$0.4863$}  &\textit{$0.4869$}  & 13.05       &    2.37 & 2.27            & 7.30  & 1.64              
 \end{tabular}
 \label{tab:max_shore}
 \end{table}
@@ -264,10 +264,10 @@ depth, but has a wedge-like shape.
 which has been measured using a straightedge and a feeling gauge. 
 The typical maximum suppression in each transect of the beach was $3\mm$. If we assume that the depressions were unsystematic and that the later
 stages of runup are governed by gravity alone (see, for instance, \cite{jensen2003experimental}) this should correspond to a variation
- of $3\cm$ on a 1 in 10 slope beach. However, even though the
+ of $3\cm$ (dimensionless 0.15) on a 1 in 10 slope beach. However, even though the
 flow depth is small during runup, the momentum transport due to
  the pressure is still noticeable (inferred from the simulations, results not shown). More importantly, there is a systematic suppression at the center-line of the beach and the beach width is $51\cm$, which is comparable to the inundation length for the smallest amplitude. 
-Hence, another relevant estimate of the runup variation is the suppression times the contact angle (angle of fluid wedge during runup) in $radians$. In the simulations this angle approaches $0.5^\circ$ at maximum runup, which yields a variation in $x$ of $30\cm$. This is modified by 
+Hence, another relevant estimate of the runup variation is the suppression times the contact angle (angle of fluid wedge during runup) in $radians$. In the simulations this angle approaches $0.5^\circ$ at maximum runup, which yields a variation in $x$ of $30\cm$ (dimensionless 1.5). This is modified by 
 surface tension that affects the contact angle and 
 shape of fluid body near the shoreline. Unfortunately, we cannot
 quantify this effect from the experiments.  

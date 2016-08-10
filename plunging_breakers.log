@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.10)  10 AUG 2016 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.10)  10 AUG 2016 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -986,7 +986,7 @@ eps-converted-to.pdf ./Figures/shoreline2016_r.eps>
 (epstopdf)             \includegraphics on input line 300.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/shoreline2016_r-eps-converted-to.pdf, id=250, 302.12875pt x 238.8925
+<./Figures/shoreline2016_r-eps-converted-to.pdf, id=248, 302.12875pt x 238.8925
 pt>
 File: ./Figures/shoreline2016_r-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Figures/shoreline2016_r-eps-converted-to.pdf>
@@ -1007,7 +1007,7 @@ IV_FOV3-eps-converted-to.pdf ./Figures/BIM/case10_BIM_PIV_FOV3.eps>
 (epstopdf)             \includegraphics on input line 321.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIM/case10_BIM_PIV_FOV3-eps-converted-to.pdf, id=270, 313.17pt x 270
+<./Figures/BIM/case10_BIM_PIV_FOV3-eps-converted-to.pdf, id=268, 313.17pt x 270
 .00874pt>
 File: ./Figures/BIM/case10_BIM_PIV_FOV3-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1027,7 +1027,7 @@ IV_FOV4-eps-converted-to.pdf ./Figures/BIM/case10_BIM_PIV_FOV4.eps>
 (epstopdf)             \includegraphics on input line 322.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIM/case10_BIM_PIV_FOV4-eps-converted-to.pdf, id=271, 308.15125pt x 
+<./Figures/BIM/case10_BIM_PIV_FOV4-eps-converted-to.pdf, id=269, 308.15125pt x 
 270.00874pt>
 File: ./Figures/BIM/case10_BIM_PIV_FOV4-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1047,7 +1047,7 @@ IV_FOV3-eps-converted-to.pdf ./Figures/BIM/case50_BIM_PIV_FOV3.eps>
 (epstopdf)             \includegraphics on input line 332.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIM/case50_BIM_PIV_FOV3-eps-converted-to.pdf, id=272, 313.17pt x 270
+<./Figures/BIM/case50_BIM_PIV_FOV3-eps-converted-to.pdf, id=270, 313.17pt x 270
 .00874pt>
 File: ./Figures/BIM/case50_BIM_PIV_FOV3-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1067,7 +1067,7 @@ IV_FOV4-eps-converted-to.pdf ./Figures/BIM/case50_BIM_PIV_FOV4.eps>
 (epstopdf)             \includegraphics on input line 333.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIM/case50_BIM_PIV_FOV4-eps-converted-to.pdf, id=273, 313.17pt x 270
+<./Figures/BIM/case50_BIM_PIV_FOV4-eps-converted-to.pdf, id=271, 313.17pt x 270
 .00874pt>
 File: ./Figures/BIM/case50_BIM_PIV_FOV4-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1087,7 +1087,7 @@ IV_FOV5-eps-converted-to.pdf ./Figures/BIM/case50_BIM_PIV_FOV5.eps>
 (epstopdf)             \includegraphics on input line 335.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIM/case50_BIM_PIV_FOV5-eps-converted-to.pdf, id=274, 302.12875pt x 
+<./Figures/BIM/case50_BIM_PIV_FOV5-eps-converted-to.pdf, id=272, 302.12875pt x 
 270.00874pt>
 File: ./Figures/BIM/case50_BIM_PIV_FOV5-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1107,7 +1107,7 @@ IV_FOV6-eps-converted-to.pdf ./Figures/BIM/case50_BIM_PIV_FOV6.eps>
 (epstopdf)             \includegraphics on input line 336.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIM/case50_BIM_PIV_FOV6-eps-converted-to.pdf, id=275, 302.12875pt x 
+<./Figures/BIM/case50_BIM_PIV_FOV6-eps-converted-to.pdf, id=273, 302.12875pt x 
 270.00874pt>
 File: ./Figures/BIM/case50_BIM_PIV_FOV6-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1142,7 +1142,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 397.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIM/profil10_feb-eps-converted-to.pdf, id=327, 306.14375pt x 266.997
+<./Figures/BIM/profil10_feb-eps-converted-to.pdf, id=325, 306.14375pt x 266.997
 5pt>
 File: ./Figures/BIM/profil10_feb-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Figures/BIM/profil10_feb-eps-converted-to.pdf>
@@ -1161,7 +1161,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 397.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIM/profil12_feb-eps-converted-to.pdf, id=328, 306.14375pt x 266.997
+<./Figures/BIM/profil12_feb-eps-converted-to.pdf, id=326, 306.14375pt x 266.997
 5pt>
 File: ./Figures/BIM/profil12_feb-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Figures/BIM/profil12_feb-eps-converted-to.pdf>
@@ -1180,7 +1180,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 397.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BIM/profil20_feb-eps-converted-to.pdf, id=329, 306.14375pt x 266.997
+<./Figures/BIM/profil20_feb-eps-converted-to.pdf, id=327, 306.14375pt x 266.997
 5pt>
 File: ./Figures/BIM/profil20_feb-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Figures/BIM/profil20_feb-eps-converted-to.pdf>
@@ -1199,7 +1199,7 @@ t2015-eps-converted-to.pdf ./Figures/FOV_4/case30_sept2015.eps>
 (epstopdf)             \includegraphics on input line 414.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_4/case30_sept2015-eps-converted-to.pdf, id=330, 306.14375pt x 26
+<./Figures/FOV_4/case30_sept2015-eps-converted-to.pdf, id=328, 306.14375pt x 26
 6.9975pt>
 File: ./Figures/FOV_4/case30_sept2015-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1219,7 +1219,7 @@ t2015-eps-converted-to.pdf ./Figures/FOV_4/case40_sept2015.eps>
 (epstopdf)             \includegraphics on input line 414.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_4/case40_sept2015-eps-converted-to.pdf, id=331, 306.14375pt x 26
+<./Figures/FOV_4/case40_sept2015-eps-converted-to.pdf, id=329, 306.14375pt x 26
 6.9975pt>
 File: ./Figures/FOV_4/case40_sept2015-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1239,7 +1239,7 @@ t2015-eps-converted-to.pdf ./Figures/FOV_4/case50_sept2015.eps>
 (epstopdf)             \includegraphics on input line 414.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_4/case50_sept2015-eps-converted-to.pdf, id=332, 306.14375pt x 26
+<./Figures/FOV_4/case50_sept2015-eps-converted-to.pdf, id=330, 306.14375pt x 26
 6.9975pt>
 File: ./Figures/FOV_4/case50_sept2015-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1264,7 +1264,7 @@ ase20-eps-converted-to.pdf ./Figures/FOV_5/PIV_FOV5_case20.eps>
 (epstopdf)             \includegraphics on input line 432.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_5/PIV_FOV5_case20-eps-converted-to.pdf, id=334, 302.12875pt x 24
+<./Figures/FOV_5/PIV_FOV5_case20-eps-converted-to.pdf, id=332, 302.12875pt x 24
 2.9075pt>
 File: ./Figures/FOV_5/PIV_FOV5_case20-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1284,7 +1284,7 @@ ase30-eps-converted-to.pdf ./Figures/FOV_5/PIV_FOV5_case30.eps>
 (epstopdf)             \includegraphics on input line 432.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_5/PIV_FOV5_case30-eps-converted-to.pdf, id=335, 305.14pt x 242.9
+<./Figures/FOV_5/PIV_FOV5_case30-eps-converted-to.pdf, id=333, 305.14pt x 242.9
 075pt>
 File: ./Figures/FOV_5/PIV_FOV5_case30-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1304,7 +1304,7 @@ ase40-eps-converted-to.pdf ./Figures/FOV_5/PIV_FOV5_case40.eps>
 (epstopdf)             \includegraphics on input line 444.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_5/PIV_FOV5_case40-eps-converted-to.pdf, id=336, 305.14pt x 242.9
+<./Figures/FOV_5/PIV_FOV5_case40-eps-converted-to.pdf, id=334, 305.14pt x 242.9
 075pt>
 File: ./Figures/FOV_5/PIV_FOV5_case40-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1324,7 +1324,7 @@ ase50-eps-converted-to.pdf ./Figures/FOV_5/PIV_FOV5_case50.eps>
 (epstopdf)             \includegraphics on input line 444.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_5/PIV_FOV5_case50-eps-converted-to.pdf, id=337, 305.14pt x 242.9
+<./Figures/FOV_5/PIV_FOV5_case50-eps-converted-to.pdf, id=335, 305.14pt x 242.9
 075pt>
 File: ./Figures/FOV_5/PIV_FOV5_case50-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1353,7 +1353,7 @@ ase30-eps-converted-to.pdf ./Figures/FOV_6/PIV_FOV6_case30.eps>
 (epstopdf)             \includegraphics on input line 470.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_6/PIV_FOV6_case30-eps-converted-to.pdf, id=406, 305.14pt x 242.9
+<./Figures/FOV_6/PIV_FOV6_case30-eps-converted-to.pdf, id=404, 305.14pt x 242.9
 075pt>
 File: ./Figures/FOV_6/PIV_FOV6_case30-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1373,7 +1373,7 @@ ase40-eps-converted-to.pdf ./Figures/FOV_6/PIV_FOV6_case40.eps>
 (epstopdf)             \includegraphics on input line 470.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_6/PIV_FOV6_case40-eps-converted-to.pdf, id=407, 305.14pt x 242.9
+<./Figures/FOV_6/PIV_FOV6_case40-eps-converted-to.pdf, id=405, 305.14pt x 242.9
 075pt>
 File: ./Figures/FOV_6/PIV_FOV6_case40-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1393,7 +1393,7 @@ ase50-eps-converted-to.pdf ./Figures/FOV_6/PIV_FOV6_case50.eps>
 (epstopdf)             \includegraphics on input line 470.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/FOV_6/PIV_FOV6_case50-eps-converted-to.pdf, id=408, 305.14pt x 242.9
+<./Figures/FOV_6/PIV_FOV6_case50-eps-converted-to.pdf, id=406, 305.14pt x 242.9
 075pt>
 File: ./Figures/FOV_6/PIV_FOV6_case50-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1418,7 +1418,7 @@ eps-converted-to.pdf ./Figures/tid_case50_run2.eps>
 (epstopdf)             \includegraphics on input line 479.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/tid_case50_run2-eps-converted-to.pdf, id=409, 310.15875pt x 240.9pt>
+<./Figures/tid_case50_run2-eps-converted-to.pdf, id=407, 310.15875pt x 240.9pt>
 File: ./Figures/tid_case50_run2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Figures/tid_case50_run2-eps-converted-to.pdf>
 Package pdftex.def Info: ./Figures/tid_case50_run2-eps-converted-to.pdf used on
@@ -1445,7 +1445,7 @@ run1_r-eps-converted-to.pdf ./Figures/BUBBLE/bubble30_run1_r.eps>
 (epstopdf)             \includegraphics on input line 502.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble30_run1_r-eps-converted-to.pdf, id=487, 487.8225pt x 11
+<./Figures/BUBBLE/bubble30_run1_r-eps-converted-to.pdf, id=485, 487.8225pt x 11
 5.43124pt>
 File: ./Figures/BUBBLE/bubble30_run1_r-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1465,7 +1465,7 @@ run2_r-eps-converted-to.pdf ./Figures/BUBBLE/bubble30_run2_r.eps>
 (epstopdf)             \includegraphics on input line 503.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble30_run2_r-eps-converted-to.pdf, id=488, 487.8225pt x 11
+<./Figures/BUBBLE/bubble30_run2_r-eps-converted-to.pdf, id=486, 487.8225pt x 11
 5.43124pt>
 File: ./Figures/BUBBLE/bubble30_run2_r-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1485,7 +1485,7 @@ run3_r-eps-converted-to.pdf ./Figures/BUBBLE/bubble30_run3_r.eps>
 (epstopdf)             \includegraphics on input line 504.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble30_run3_r-eps-converted-to.pdf, id=489, 487.8225pt x 11
+<./Figures/BUBBLE/bubble30_run3_r-eps-converted-to.pdf, id=487, 487.8225pt x 11
 5.43124pt>
 File: ./Figures/BUBBLE/bubble30_run3_r-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1510,7 +1510,7 @@ run1_r-eps-converted-to.pdf ./Figures/BUBBLE/bubble50_run1_r.eps>
 (epstopdf)             \includegraphics on input line 513.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble50_run1_r-eps-converted-to.pdf, id=505, 487.8225pt x 16
+<./Figures/BUBBLE/bubble50_run1_r-eps-converted-to.pdf, id=503, 487.8225pt x 16
 3.61125pt>
 File: ./Figures/BUBBLE/bubble50_run1_r-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1530,7 +1530,7 @@ run2_r-eps-converted-to.pdf ./Figures/BUBBLE/bubble50_run2_r.eps>
 (epstopdf)             \includegraphics on input line 514.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble50_run2_r-eps-converted-to.pdf, id=506, 487.8225pt x 16
+<./Figures/BUBBLE/bubble50_run2_r-eps-converted-to.pdf, id=504, 487.8225pt x 16
 3.61125pt>
 File: ./Figures/BUBBLE/bubble50_run2_r-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1550,7 +1550,7 @@ run3_r-eps-converted-to.pdf ./Figures/BUBBLE/bubble50_run3_r.eps>
 (epstopdf)             \includegraphics on input line 515.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble50_run3_r-eps-converted-to.pdf, id=507, 487.8225pt x 16
+<./Figures/BUBBLE/bubble50_run3_r-eps-converted-to.pdf, id=505, 487.8225pt x 16
 3.61125pt>
 File: ./Figures/BUBBLE/bubble50_run3_r-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1590,7 +1590,7 @@ Here is how much of TeX's memory you used:
  13522 multiletter control sequences out of 15000+600000
  13140 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,42p,1241b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,42p,1241b,572s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -1613,10 +1613,10 @@ ist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2015/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on plunging_breakers.pdf (17 pages, 2441034 bytes).
+Output written on plunging_breakers.pdf (17 pages, 2441052 bytes).
 PDF statistics:
- 663 PDF objects out of 1000 (max. 8388607)
- 512 compressed objects within 6 object streams
+ 661 PDF objects out of 1000 (max. 8388607)
+ 510 compressed objects within 6 object streams
  81 named destinations out of 1000 (max. 500000)
  274 words of extra memory for PDF output out of 10000 (max. 10000000)
 
