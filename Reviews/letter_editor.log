@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.10)  10 AUG 2016 15:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.10)  10 AUG 2016 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -183,7 +183,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 38.
-) (./rev2.tex [2]) [3]
+) (./rev2.tex [2]
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+) [3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 28.
  (./letter_editor.aux)
@@ -204,7 +209,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on letter_editor.pdf (3 pages, 55950 bytes).
+Output written on letter_editor.pdf (3 pages, 56897 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
