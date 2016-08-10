@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.10)  9 AUG 2016 12:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.10)  10 AUG 2016 12:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -676,13 +676,30 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.8 3
-     . The gradient magnitude images tell us where you have sharp edges in t...
-
+     .
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no . in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 8--9
+[] 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10  T
+       he gradient magnitude images tell us where you have sharp edges in th...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -812,7 +829,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 8--9
+Overfull \hbox (20.0pt too wide) in paragraph at lines 10--11
 []
  []
 
@@ -823,7 +840,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 4
+l.14 4
       . The maximum runup height for the breaking waves for the BIM model we...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1098,7 +1115,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 12--13
+Overfull \hbox (20.0pt too wide) in paragraph at lines 14--15
 []
  []
 
@@ -1109,7 +1126,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 5
+l.16 5
       .
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1117,7 +1134,7 @@ If that doesn't work, type  X <return>  to quit.
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 14--15
+Overfull \hbox (20.0pt too wide) in paragraph at lines 16--17
 [] 
  []
 
@@ -1128,7 +1145,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 6
+l.19 6
       .
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1136,7 +1153,7 @@ If that doesn't work, type  X <return>  to quit.
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 17--18
+Overfull \hbox (20.0pt too wide) in paragraph at lines 19--20
 [] 
  []
 
@@ -1147,7 +1164,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 7
+l.21 7
       . The figures are so unsmooth due to the relatively small size of the ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1216,7 +1233,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no h in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 19--20
+Overfull \hbox (20.0pt too wide) in paragraph at lines 21--22
 []
  []
 
@@ -1227,7 +1244,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 8
+l.24 8
       . In the paper by Chang and Liu, they see an bias error in PIV algorit...
 
 You're in trouble here.  Try typing  <return>  to proceed.
