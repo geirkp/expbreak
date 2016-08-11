@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.10)  11 AUG 2016 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.10)  11 AUG 2016 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -175,20 +175,30 @@ LaTeX Info: Redefining \nameref on input line 4.
  (./rev1.tex [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 38.
+(Font)              <7> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 38.
-) (./rev2.tex [2]
+(Font)              <5> on input line 42.
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 76--85
+
+ []
+
+[3]) (./rev2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -198,7 +208,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-) [3] [4]
+) [5]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 28.
  (./letter_editor.aux)
@@ -209,20 +219,22 @@ Package rerunfilecheck Info: File `letter_editor.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
  ) 
 Here is how much of TeX's memory you used:
- 4161 strings out of 493089
- 63017 string characters out of 6134842
- 145293 words of memory out of 5000000
- 7668 multiletter control sequences out of 15000+600000
- 3986 words of font info for 15 fonts, out of 8000000 for 9000
+ 4165 strings out of 493089
+ 63048 string characters out of 6134842
+ 144293 words of memory out of 5000000
+ 7670 multiletter control sequences out of 15000+600000
+ 4294 words of font info for 16 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,6n,21p,544b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on letter_editor.pdf (4 pages, 59137 bytes).
+ 29i,6n,21p,637b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on letter_editor.pdf (5 pages, 90520 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
+ 49 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
