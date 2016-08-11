@@ -7,45 +7,45 @@ Repeated entry---line 344 of file bibliography.bib
  : @article{elfrink2002hydrodynamics
  :                                  ,
 I'm skipping whatever remains of this entry
-You've used 14 entries,
+You've used 15 entries,
             2821 wiz_defined-function locations,
-            720 strings with 7295 characters,
-and the built_in function-call counts, 7316 in all, are:
-= -- 720
-> -- 464
+            723 strings with 7444 characters,
+and the built_in function-call counts, 7804 in all, are:
+= -- 763
+> -- 499
 < -- 6
-+ -- 177
-- -- 159
-* -- 668
-:= -- 1356
-add.period$ -- 43
-call.type$ -- 14
-change.case$ -- 123
-chr.to.int$ -- 14
-cite$ -- 14
-duplicate$ -- 244
-empty$ -- 432
-format.name$ -- 203
-if$ -- 1421
++ -- 190
+- -- 171
+* -- 711
+:= -- 1447
+add.period$ -- 46
+call.type$ -- 15
+change.case$ -- 131
+chr.to.int$ -- 15
+cite$ -- 15
+duplicate$ -- 262
+empty$ -- 464
+format.name$ -- 218
+if$ -- 1518
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 14
-newline$ -- 49
-num.names$ -- 56
-pop$ -- 114
+missing$ -- 16
+newline$ -- 52
+num.names$ -- 60
+pop$ -- 127
 preamble$ -- 1
-purify$ -- 109
+purify$ -- 117
 quote$ -- 0
-skip$ -- 191
+skip$ -- 204
 stack$ -- 0
-substring$ -- 353
-swap$ -- 30
+substring$ -- 364
+swap$ -- 32
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 123
+type$ -- 129
 warning$ -- 0
-while$ -- 58
+while$ -- 61
 width$ -- 0
-write$ -- 157
+write$ -- 167
 (There was 1 error message)
