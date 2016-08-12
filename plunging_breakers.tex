@@ -32,7 +32,9 @@
 
 \begin{document}
 \begin{frontmatter}
-\title{Experimental investigation of solitary breaking waves in the swash zone}
+%\title{Experimental investigation of solitary breaking waves in the swash zone}
+\title{Investigation of breaking and non-breaking solitary waves and mesurements of swash zone dynamics on 
+a $5^\circ$ beach}
 \author[1]{Lisa Smith}	
 \author[1]{Atle Jensen}
 \author[1]{Geir Pedersen}
@@ -134,7 +136,9 @@ The image processing were performed in DigiFlow \citep{digiflow}. PIV was perfor
 To investigate air bubbles encapsulated by the plunging breakers, the camera was moved further away from the wave tank, resulting in much larger FOV than the FOVs installed to obtain velocity fields. This FOV will be referred to as FOV A and covers $0\cm< x <60\cm$. The frame rate was reduced to  500 $fps$  
 and a continuous dedolight 400D was used as illumination, replacing the laser. A white background sheet was attached to the side wall of the wave tank and the water was dyed dark blue to increase the contrast of the images.
 
-The maximum runup was measured by capturing images of the shoreline at its maximum position. A high speed Photron APX  camera was mounted on rails above the beach in the wave tank with same inclination as the beach. A high pulsed white light was used as illumination. The camera captured 125 frames per second, and the maximum shoreline profiles were tracked manually for each wave. All the experiments were repeated at least three times. The scatter $\delta_i$ for some measured quantity $x_i$, is then calculated in the following manner,
+The maximum runup was measured by capturing images of the shoreline at its maximum position. A high speed Photron APX  camera was mounted on rails above the beach in the wave tank with same inclination as the beach. A high pulsed white light was used as illumination. The camera captured 125 frames per second, and the maximum shoreline profiles were tracked manually for each wave. All the experiments were repeated at least three times to assure repeatability. However,
+we emphasize that this is insufficient for determination of a standard deviation, let alone extraction of turbulent intensities.  
+The scatter $\delta_i$ for some measured quantity $x_i$, is then calculated in the following manner,
 
 \begin{equation}
 \delta_i=\frac{x_i-\overline{x}}{\overline{x}},
@@ -143,12 +147,15 @@ The maximum runup was measured by capturing images of the shoreline at its maxim
 where $\overline{x}$ is the mean over the repetitions.
 
 
-To find a measure of the irregularities present in the PIV measurements, the standard deviations of the velocities are calculated for the strongest plunging breaker. Deviations are extracted at times where the mean flow, $u$, in an area near the beach has a velocity close to either
+To find a measure of the irregularities present in the PIV measurements, the  deviations of the velocities are calculated for the strongest plunging breaker. Deviations are extracted at times where the mean flow, $u$, in an area near the beach has a velocity close to either
 $40$, $0$ or $-40$, all measured in $\cmps$.
 \begin{equation}
 \sigma=\sqrt{\frac{1}{N-1}\sum_{i=1}^{N}(x_i-\overline{x})^2}, 
 \end{equation}
-where $N$ is the number of repetitions.
+where $N$ is the number of repetitions. It is remarked that while $\sigma$ 
+ is  computed by the formula for standard deviation it may only be conceived as
+a rough estimate of repeatability and regularity due to the small value for
+$N$.
 The average deviations in the $z$-direction are calculated from the area ($0\cm < z \le 0.6\cm$)
 \begin{equation}
 \overline{\sigma}=\sqrt{\frac{1}{M}\sum_{j=1}^{M}\sigma_j^2},
@@ -156,11 +163,13 @@ The average deviations in the $z$-direction are calculated from the area ($0\cm 
 \end{equation}
 where $M$ corresponds to number of  grid points in the given $z$-range.
 
+
 \subsection{The potential flow and boundary layer models}
+\label{BIMsec}
 The evolution of the waves during shoaling, as well as the runup for the smallest amplitude, were 
 computed by a BIM (Boundary Integral Model) for  inviscid flow \citep{pedersen2013runup}. This model may accurately describe the runup of fully nonlinear non-breaking waves and the evolution of plunging breakers.
 However, the model breaks down when a plunger re-attaches with fluid or impacts the beach. Moreover, the
-model  becomes singular when the contact angle at the shoreline exeeds $90^\circ$  and the results  become unreliable for contact angles slightly smaller than this.  
+model  becomes singular when the contact angle at the shoreline exeeds $90^\circ$  and the results  become unreliable for contact angles slightly smaller than this.  As a consequence a maximum runup height from the BIM model is obtained only for $\alpha=0.10$.
 
 The potential flow model also provides the outer flow and the pressure gradient
 which are used as input to a FDM viscous boundary layer model. However, the coupling between the
@@ -216,7 +225,7 @@ This leads to dropouts in the measurements, which have been filled in by linear 
 \label{max_run}
 
 BIM simulations of the near-shore evolution model is shown in Figure \ref{fig:BIM}.
-For reasons explained previously we only compute the runup for the 
+For reasons explained previously (section \ref{BIMsec}) we only compute the runup for the 
 smallest wave, $\alpha=0.10$.  For the other cases shown the numerical
 model describes the evolution of the plunger, but nothing beyond its impact onshore.  
 \begin{figure}[]
@@ -238,8 +247,8 @@ respectively.
 Comparing this the the measurements in Table \ref{tab:max_shore} we observe that the theoretical runup height is  30\%  too large and and occurs $0.47$ times later.   \cite{pedersen2013runup} reported differences that were similar, but smaller, deviations
 between experiments and potential flow soloutions which they suggested were caused by the lack of viscous effects and surface tension in the model. The dicreapancies of  \cite{pedersen2013runup} were presumably smaller than those herein because the 
 beach was steeper in the reference ($10.54 ^\circ$) which led to thicker flow depths and shorter inundations. 
-In fact, in Figure \ref{fig:max_runup} we observe transverse variations in the field of views, and the average FOV
-runup height for the smallest wave $(\alpha=0.10)$ is 4.10. This \marginpar{Endring} is more than 3.76\% smaller than the maximum one, but still presumably larger than the true average runup height due to lack of information near the side walls of the wave tank. This implies that real difference between theoretical and computed runup is larger than indicated by the maximum values. Table \ref{tab:max_shore} shows that the maximum runup is fairly repeatable for all waves including the breaking ones. % An image of shoreline at maximum runup for case 10 is shown in \ref{fig:overflate_10_bilde}.  
+In fact, in Figure \ref{fig:max_runup} we observe transverse variations in the field of views. The average runup height, over the FOV, for the smallest wave $(\alpha=0.10)$ is 4.10. This  is  3.76\% smaller than the maximum one, but the 
+total cross-beach average, which is not available, is presumably even smaller. This implies that real difference between theoretical and computed runup is larger than indicated by the maximum values. Table \ref{tab:max_shore} shows that the maximum runup is fairly repeatable for all waves including the breaking ones. % An image of shoreline at maximum runup for case 10 is shown in \ref{fig:overflate_10_bilde}.  
 
 \begin{table}[]
 \caption{\textit{Amplitudes and runup. $A$ is  the incident wave amplitude, $A_m$ is the maximum measured surface elevation at the toe of the beach, $r$ is the inundation length , $R$ is the vertical maximum runup, $t$ is the time corresponding to max runup and $e$ is the estimated deviation in the measurement.}}
@@ -343,7 +352,9 @@ computation over-predicts the maximum runup as given in the previous section.
 
 The PIV analysis of the breaking waves was difficult due to air bubbles in the flow, and due to challenges with particle seeding within the thin swash zone.  The case $\alpha=0.50$ has the longest runup of all the breaking waves, and that makes it the one for which 
  most data can be extracted from all the FOVs. Velocity profiles for $\alpha=0.50$ are shown in Figure \ref{fig:plot50}. The velocity profiles are extracted at times after all the air bubbles have passed each of the FOV. It is clear that the velocities at FOV I resembles the velocities obtained for $\alpha=0.10$. The boundary layer is well defined and the deviation between the different runs is really small. For FOV II-IV the deviations tend to increase. However the largest irregularities are in the
- runup phase, while they decreases in the retreating flow. Hence, the withdrawal phase has a more regular boundary layer and a well defined outer flow for all the FOVs. The scatter parameter $\overline{\sigma}$, defined in Equation (\ref{av_g}) is presented in Table \ref{tab:irr}. The findings substantiate the interpretation made of the data shown in Figure \ref{fig:plot50}.
+ runup phase, while they decreases in the retreating flow. Hence, the withdrawal phase has a more regular boundary layer and a well defined outer flow for all the FOVs. The scatter parameter $\overline{\sigma}$, defined in Equation (\ref{av_g}) is presented in Table \ref{tab:irr}. 
+The deviations in the table for $\alpha=0.50$ are larger in the locations far up the beach, in agreement with Figure \ref{fig:plot50}. This may indicate that 
+the flow in the upper surf zone is more irregular. On the other hand, the particle distribution may make measurements less accurate in the upper part of the surf zone. 
 
 
 \begin{table}[]
@@ -447,7 +458,11 @@ $x=81.4\cm$}. }
 \end{figure}
 
  FOV IV is located about $120\cm$ from where the still water reaches the beach. At this FOV, only $\alpha=0.30-0.50$ will be presented due to the thin swash tongue for the other waves. Velocity profiles are given in Figure \ref{fig:PIV_FOV6}. The velocity was less repeatable at this location than for the other FOVs. The velocity profiles were more irregular, especially for $\alpha=0.50$, where the average velocity profile obtained before flow reversal is reminiscent of the parbolic velocity profiles from fully developed turbulent channel flow, as described in \cite{white2006viscous}. 
-  
+Since the irregularity increases with distance from the equilibrium shoreline it is  likely inherited from the breaking processes. \cite{Pedersen2013} claimed possible instabilities in the upper part of the swash zone for runup of non-breaking waves on a $10.54^\circ$ beach. Moreover, in a study of boundary instabilities in the boundary layer under solitary waves \cite{Verschaeve2014} concluded that instabilities were generally present in retarded boundary layer flows under waves. The crucial point is then if the noise level and growth potential, together, make the flow perturbations significant. Due to the gentler slope and
+the noise due to breaking one would anticipate that the waves on the present beach are prone to instability than those on a $10^\circ$ beach.    
+Instability, leading to flow transition is definitely a possible explanation 
+for the increased irregularity. However, in figure  \ref{fig:PIV_FOV6} the boundary layer thickness is comparable to the total flow depth which may be 
+an important difference from the cases described in the references.      
 \begin{figure}[]
 \centering
 \makebox[\linewidth][c]{%
@@ -482,10 +497,10 @@ $x=121.2\cm$}. }
 
 Inspection of videos of the front of the swash tongue from FOV IV (furthest up the beach) indicates that a systematic swirling effect were present in the front of the swash tongue for $\alpha=0.50$. To investigate this phenomenon, Particle Tracking Velocimetry (PTV) has been utilized on images captured close to arrival of the swash tongue ($5.33\s$). There were sparse particle seeding in the front of the tongue, and the first time where enough particles were present for an ensemble PTV analysis, was at $t=6.16\s$. This is still long before the large bubble arrives at this FOV. For each image pair after this, the velocity for all the particles within a distance of $0.05\cm$ from a given evaluation point $(x,y)=(120\cm,0.3\cm)$ are assessed. Figure \ref{fig:wave_in_time} shows how the velocities vary as a function of time. Superimposed a steady deceleration of the fluid there is an 
 oscillation.
-Flow in decelerating boundary layers are prone to instabilities.
+Flow in decelerating boundary layers are prone to instabilities, as mentiones above.
 However, the oscillations do not increase in magnitude and are present
-from the beginning. 
-   This indicates that the wave breaking induces irregularities, possibly in the form of vortices, that prevails during the subsequent motion. 
+from the beginning and do thus not appear to be the result of any instability. 
+ Hence, it is plausible that the wave breaking induces irregularities, possibly in the form of vortices, that prevails during the subsequent motion. 
 
 
  
@@ -562,6 +577,13 @@ The discrepancies between computations and measurements, which probably are due 
 The measurement of the breaking waves showed that the fluid motion becomes more irregular and less repeatable as we move further up the beach. In addition, the motion was more irregular for the waves with the stronger plunger than for those with smaller amplitude. The maximum runup was fairly repeatable, but marked an irregular
 transverse  variations were observed for the breaking waves. The bubble investigation indicated
  that the air bubble shapes  were repeatable  for the waves with amplitude $\alpha=0.30$ but not for the waves with amplitude $\alpha=0.50$. Overall, irregular motion increases with larger breaking waves and as the waves propagate upwards the beach.  
+
+The present experiments are performed on relatively small scale (equilibrium depth $20.5\cm$) and some of the phenomena are thus scale dependent due to viscosity and surface tension. The amplification during shoaling, the wave overturning and breaking, as well as the initial formation of the large bubbles, are 
+presumably only mildly dependent on scale. However, the disintegration of 
+the bubbles is likely to differ from what would be observed in a tsunami, say,
+due to both scale and the use of fresh water versus brine. Moreover, the boundary layers will be turbulent on a larger scale and, probably, the turbulence will
+spread quickly through the small flow depth of the swash zone.
+Hence, results from this investigation may be conveyed to real applications in coastal engineering only with care.  
 
 \section*{Acknowledgement}
 

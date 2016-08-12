@@ -3,6 +3,8 @@
 \newcommand{\todo}[1]{\ \\ {\bf To do: #1}}
 Reviewer \#1:
 
+We appreciate the positive assessment of the referee and  feel that his points has helped us to clarify and improve the paper significantly.
+
 \refpoint{This paper reports a combined laboratory and numerical modeling of a set of solitary-wave runup tests 
 with mostly plunging breaking waves during the process.  Laboratory measurements were conducted in a small scale tank 
 (water depth 0.2 m) with the velocity field measured using PIV at 4 locations and the runup height measured using a 
@@ -11,7 +13,7 @@ camera as well as acoustic gauges.  The experiment seems to be carefully conduct
  viscous boundary layer model, is not new - it has been published in Physics of Fluids in 2013 by the authors.}
 Yes, the BIM and boundary layer models have been presented and used before, and are thus only sketchily described 
 in the present paper. Still, the smaller inclination angle, in relation to the 2013 article, makes the 
-computations more demanding. Hence, new tests and documentaion on accaracy are required.\\
+computations more demanding. Hence, new tests and documentation on accaracy are required.\\
 Anyway, these models are not at the hearth of the submitted paper.
 The main point of their application  is to demonstrate that the experimental setup do
 provide data in good agreement with theory when the flow is regular. This supports that the irregularities
@@ -39,15 +41,14 @@ results, similar to what they did in Table 2.  For example, the measured velocit
  (similar to what Grilli did). }
 
 It is not clear to us exactly what paper of Grilli the referee has in mind, but we take it that he suggests a scaling
-with the waterdepth $H$ as length scale and $\sqrt{gH}$ as velocity scale. This may be appropriate for quantities like outer flow velocities and run, but not at all for boundary thicknesses, for instance.
+with the waterdepth $H$ as length scale and $\sqrt{gH}$ as velocity scale. This may be appropriate for some quantities, but not at all for boundary thicknesses, for instance.
 The figure with the measured surface elevation (FIG 3, and  FIG 4) have been  made dimensionless  by the water depth. Also the runup height and the shoreline positions figures FIG 5 and 6 is scaled with the water depth. The figures that show boundary layers are still given with units. 
-\todo{Geir; check axis legends in changed plots}
+\todo{Lisa; check axis legends in changed plots}
 
 \refpoint{2.	Line 38.  Based on Figs. 8-11, N = 3 was used in the study?  The information is not provided in the text.  
 If so, it is too small if the flow is turbulent. }
-The number of repetitions is three (N=3). This number is chosen due to practical reasons. Between each of the run, the water needs settle, which takes approximately 45 minutes depending on wave characteristics. 
-We do not attempt to quantify turbulence . Instead we investigate the evolution of overall velocity profiles on the beach.
-\todo{Fix the text}
+The number of repetitions is three (N=3). This number is chosen due to practical reasons. Between each of the run, the water needs settle, which takes approximately 45 minutes depending on wave characteristics. More experiments than is reported in the article were also performed. Moreover, the processing of PIV/PTV velocities for densely resolved time spans is time consuming etc. Hence, it was beyond the resources available to increase $N$ to 20, say.  
+We do not attempt to quantify turbulence. Instead we investigate the evolution of overall velocity profiles on the beach.
 
 \refpoint{3.The photos in Figs. 2 and 13-14 are difficult to read and understand. Not sure what the causes are (the original images, the image enhancing (gradient) process, and/or the pseudo color?)!}
 
@@ -57,31 +58,32 @@ Figure 2 is changed to a raw image from $\alpha=0.30$, where the contrast has be
 
 \refpoint{4.	How was the maximum runup height defined in Fig. 5 for breaking waves? Was it defined only up to the impingement
  (after that the model cannot handle)?  If so, that is not a typical definition of wave runup height. }
-4. The maximum runup height for the breaking waves for the BIM model were not defined, since the model breaks down long before maximum runup. This is explicitly stated in the start of sections 2.3 and 3.2.  The text is also amended in these locations. Figure 5 displays the observed shoreline from the wavetank. The maximum runup height is defined as the highest beach elevation water on the beach for both the BIM model (available only for the smallest amplitude) and the experiments. \todo{Add which cases are computed by BIM in 2.3, make back reference on start 0f 3.2 more explicit}
+4. The maximum runup heights for the breaking waves for the BIM model were not defined, since the model breaks down long before maximum runup. This is explicitly stated in the start of sections 2.3 (line 99-100) and 3.2.  The text is also amended in these locations. Figure 5 displays the observed shoreline from the wavetank. The maximum runup height is defined as the highest shoreline elevation  for both the BIM model (available only for the smallest amplitude) and the experiments. 
 
 \refpoint{5.	The average deviation, sigma bar, in Table 3 varies from 0.01 to 0.1 if normalized by u = 0.4 m/s.  
 This magnitude is too small to resemble the turbulent level in a turbulent flow, but too large to resemble the
  fluctuation level in a laminar flow.  Even though the authors mentioned that the flow was laminar and transitional, 
 the results in the table need more elaboration to interpret.
  }
-Our point is to quantify the apparent poorer repeatability for case 50 than for ... This poorer repeatability then
+Our point is simply to quantify the apparent poorer repeatability for case 50 higher up on the beach. This poorer repeatability then
 points to a transitional flow due to the breaking or local instabilities. We are at present not able to
 distinguish firmly.  
-\todo{Add some more lines close to 176}
+\todo{Check point on particle disribution.}
 
 
 \refpoint{6.	The flow is unlikely in the turbulent regime due to the small physical scale.  It is perfectly fine to conduct
  such laboratory-scale experiment so advanced techniques such as PIV can be employed for detailed flow measurements.  
 However, the authors should also address the limitation of using such a small scale setting and its results in practical
  applications. }
-Most experiment are performed on a small scale and some effects are probably less scale dependent than others.
-We definetely agree with the referee that this should be emphasized as a rule.
-Possible limitations due to the small scale is now discussed in the discussion section.
-\todo{Discuss it}
+We definetely agree with the referee that this should be emphasized.
+Possible limitations due to the small scale is now outlined in the discussion section.
+
 \refpoint{ 7.	Figs. 10-11.  Why are the mean velocities so unsmooth?  If the flow is turbulent or transitional, presenting the
  mean velocity based on 3 repetitions is too meaningful.
  }
-\todo{Is it the seeding or what ? What is stated in the text. }The figures are so unsmooth due to the relatively small size of the swash 
+We are not certain. However, previous investigations may indicate that it is due to instabilites. We are now discussing this (lines ....), but we cannot make 
+firm conclusions. 
+\todo{Is it the seeding or what ?}
 
 
 \refpoint{8.	 Fig. 12.  Are these "oscillations," as the authors described, realistic?  I would think such oscillations may 
@@ -93,6 +95,7 @@ replaced by pixels.
  }
 Figure 12 shows results 120 in-beach, meaning that it is after breaking. However, such oscillation are conceivable
 also without breaking; they may be due to infection point instability in the retarded boundary layer (see Pedersen et al 2013), but one would then expect a growth. The discussion of this around 203 is now elaborated. 
- In the paper by Chang and Liu, they see an bias error in PIV algoritm, which result in Psedo turbulence intensities in the non breaking waves. They sugguest that the error is related to the ratio (1:6 in their case) of the particle image to the pixel size in the images. This is often referred to as peak locking in PIV. However the oscillations in Figure 12, is found by  performing PTV on the images. Moreover, our particles range from ... to ... pixels in size and
-our results are thus not prone to peak-locking.
-\todo{Beskrevet partikkel/pixel rate i tekst ? Improve text around 203}
+ In the paper by Chang and Liu, they see an bias error in PIV algoritm, which result in Psedo turbulence intensities in the non breaking waves. They sugguest that the error is related to the ratio (1:6 in their case) of the particle image to the pixel size in the images. This is often referred to as peak locking in PIV. However the oscillations in Figure 12, is found by  performing PTV on the images. Moreover, our particles are around 3 pixels in size and
+our results are thus not prone to peak-locking. This is now explicitly stated
+at line 72?? 
+
