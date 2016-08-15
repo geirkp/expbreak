@@ -131,7 +131,7 @@ To obtain velocity fields in the swash zone, high speed video was recorded at fo
 \end{tabular}
 \label{tab:loc}
 \end{table}
-The image processing were performed in DigiFlow \citep{digiflow}. PIV was performed using interrogation windows of 32 x 8 pixels with a 75\% overlap. Oblong interrogation windows are beneficial in boundary layer flow and have been employed previously in \cite{liu2007boundary} and \cite{pedersen2013runup}. A temporal averaging of 10 images was applied to reduce noise from the data. No differences in the measurements were obtained when velocities from an averaging of 10 and 15 images were compared to each other. This implies that a temporal averaging of $1/300 \s$ (10 images) is acceptable. The errors related to the PIV algorithm are described in detailed in \cite{raffel2013particle}. The average particle image diameter for a randomly chosen image from this experiment was found to be approximative 3.16 pixels. This is close to the particle size that minimizes the PIV error related to peaklocking. The high capturing rate allows us to investigate large velocity without large pixel displacements preventing aliasing, and also the high temporal resolution minimize the error concerning out of plane motion. If there is no loss of particles, and the particle distribution is uniform, the PIV error can be limited to 0.05 pixels \citep{kahler2016main}. This corresponds to an error of approximately ($0.5\cmps$).
+The image processing were performed in DigiFlow \citep{digiflow}. PIV was performed using interrogation windows of 32 x 8 pixels with a 75\% overlap. Oblong interrogation windows are beneficial in boundary layer flow and have been employed previously in \cite{liu2007boundary} and \cite{pedersen2013runup}. A temporal averaging of 10 images was applied to reduce noise from the data. No differences in the measurements were obtained when velocities from an averaging of 10 and 15 images were compared to each other. This implies that a temporal averaging of $1/300 \s$ (10 images) is acceptable. The errors related to the PIV algorithm are described in detailed in \cite{raffel2013particle}. The average particle image diameter for a randomly chosen image from this experiment was found to be approximative 3.16 pixels. This is close to the particle size that minimizes the PIV error related to peaklocking. The high capturing rate allows us to investigate large velocity without large pixel displacements preventing aliasing, and also the high temporal resolution minimize the error concerning out of plane motion. If there is no loss of particles, and the particle distribution is uniform, the PIV error can be limited to 0.05 pixels \citep{kahler2016main}. This corresponds to an error of approximately $0.5\cmps$ for instantaneous measurements. The averaging in time applied to the measurements will also reduce this error.
 
 To investigate air bubbles encapsulated by the plunging breakers, the camera was moved further away from the wave tank, resulting in much larger FOV than the FOVs installed to obtain velocity fields. This FOV will be referred to as FOV A and covers $0\cm< x <60\cm$. The frame rate was reduced to  500 $fps$  
 and a continuous dedolight 400D was used as illumination, replacing the laser. A white background sheet was attached to the side wall of the wave tank and the water was dyed dark blue to increase the contrast of the images.
@@ -214,9 +214,9 @@ This leads to dropouts in the measurements, which have been filled in by linear 
 
 \begin{figure}
 \centering
-\includegraphics[width=0.4\textwidth]{./Figures/surf_ele10_2016_r.eps}
+\includegraphics[width=0.4\textwidth]{./Figures/surf_ele10_2016.eps}
 %http://commons.wikimedia.org/wiki/File:Breaking_wave_types.gif
-\caption{\textit{Measured and computed surface elevation for $\alpha=0.10$. Dimensionless time $t^{*}=t/\sqrt{\frac{H}{g}}$}}
+\caption{\textit{Measured and computed surface elevation for $\alpha=0.10$. }}
 \label{fig:surf_ele1}
 \end{figure}
 
@@ -272,10 +272,10 @@ depth, but has a wedge-like shape.
 which has been measured using a straightedge and a feeling gauge. 
 The typical maximum suppression in each transect of the beach was $3\mm$. If we assume that the depressions were unsystematic and that the later
 stages of runup are governed by gravity alone (see, for instance, \cite{jensen2003experimental}) this should correspond to a variation
- of $3\cm$ (dimensionless 0.15) on a 1 in 10 slope beach. However, even though the
+ of $3\cm$ on a 1 in 10 slope beach. However, even though the
 flow depth is small during runup, the momentum transport due to
  the pressure is still noticeable (inferred from the simulations, results not shown). More importantly, there is a systematic suppression at the center-line of the beach and the beach width is $51\cm$, which is comparable to the inundation length for the smallest amplitude. 
-Hence, another relevant estimate of the runup variation is the suppression times the contact angle (angle of fluid wedge during runup) in $radians$. In the simulations this angle approaches $0.5^\circ$ at maximum runup, which yields a variation in $x$ of $30\cm$ (dimensionless 1.5). This is modified by 
+Hence, another relevant estimate of the runup variation is the suppression times the contact angle (angle of fluid wedge during runup) in $radians$. In the simulations this angle approaches $0.5^\circ$ at maximum runup, which yields a variation in $x$ of $30\cm$. This is modified by 
 surface tension that affects the contact angle and 
 shape of fluid body near the shoreline. Unfortunately, we cannot
 quantify this effect from the experiments.  
@@ -288,12 +288,12 @@ resulting in irregularly shaped shorelines  (Figure \ref{fig:max_runup}).
         ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
           %(or a blank line to force the subfigure onto a new line)
         \begin{subfigure}[H]{0.4\textwidth}
-                \includegraphics[width=0.95\textwidth]{Figures/runup10_2016.eps}
+                \includegraphics[width=0.95\textwidth]{Figures/runup10.eps}
         \end{subfigure}
          %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
           %(or a blank line to force the subfigure onto a new line)
         \begin{subfigure}[H]{0.4\textwidth}
-                \includegraphics[width=0.95\textwidth]{Figures/runup50_2016.eps}
+                \includegraphics[width=0.95\textwidth]{Figures/runup50.eps}
         \end{subfigure}
 }
         \caption{\textit{Cross-sectional variation of the shoreline shapes at max runup. Left: $\alpha=0.10$, Right: $\alpha=0.50$.}}
@@ -305,8 +305,8 @@ An estimate of the arrival time of the wave for FOV II, III and IV, were calcula
         \centering
         ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
           %(or a blank line to force the subfigure onto a new line)
-                \includegraphics[scale=0.6]{./Figures/shoreline2016_r.eps}
-                \caption{\textit{Shoreline position as a function of time for all waveheight. The first measurements correspond to the swash tongue arrival time for FOV II, III, IV. The last measuring point for all cases correspond to measurement of maximum runup. Dimensionless time $t^{*}=t/\sqrt{\frac{H}{g}}$}}
+                \includegraphics[scale=0.6]{./Figures/shoreline2016.eps}
+                \caption{\textit{Shoreline position as a function of time for all waveheight. The first measurements correspond to the swash tongue arrival time for FOV II, III, IV. The last measuring point for all cases correspond to measurement of maximum runup. }}
               \label{fig:arr_tim}
       \end{figure}
 
