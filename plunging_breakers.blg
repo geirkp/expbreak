@@ -7,45 +7,46 @@ Repeated entry---line 344 of file bibliography.bib
  : @article{elfrink2002hydrodynamics
  :                                  ,
 I'm skipping whatever remains of this entry
-You've used 15 entries,
+Warning--I didn't find a database entry for "Pedersen2013"
+You've used 16 entries,
             2821 wiz_defined-function locations,
-            723 strings with 7444 characters,
-and the built_in function-call counts, 7804 in all, are:
-= -- 763
-> -- 499
-< -- 6
-+ -- 190
-- -- 171
-* -- 711
-:= -- 1447
-add.period$ -- 46
-call.type$ -- 15
-change.case$ -- 131
-chr.to.int$ -- 15
-cite$ -- 15
-duplicate$ -- 262
-empty$ -- 464
-format.name$ -- 218
-if$ -- 1518
+            730 strings with 7595 characters,
+and the built_in function-call counts, 8282 in all, are:
+= -- 817
+> -- 518
+< -- 7
++ -- 197
+- -- 177
+* -- 751
+:= -- 1531
+add.period$ -- 49
+call.type$ -- 16
+change.case$ -- 138
+chr.to.int$ -- 16
+cite$ -- 16
+duplicate$ -- 280
+empty$ -- 497
+format.name$ -- 229
+if$ -- 1615
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 16
-newline$ -- 52
-num.names$ -- 60
-pop$ -- 127
+missing$ -- 17
+newline$ -- 55
+num.names$ -- 64
+pop$ -- 133
 preamble$ -- 1
-purify$ -- 117
+purify$ -- 123
 quote$ -- 0
-skip$ -- 204
+skip$ -- 218
 stack$ -- 0
-substring$ -- 364
-swap$ -- 32
+substring$ -- 397
+swap$ -- 35
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 129
+type$ -- 138
 warning$ -- 0
-while$ -- 61
+while$ -- 66
 width$ -- 0
-write$ -- 167
+write$ -- 178
 (There was 1 error message)

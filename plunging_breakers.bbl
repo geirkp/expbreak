@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{16}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -76,6 +76,10 @@ Raffel, M., Willert, C.~E., Wereley, S., Kompenhans, J., 2013. Particle image
 Rivillas-Ospina, G., Pedrozo-Acu{\~n}a, A., Silva, R., Torres-Freyermuth, A.,
   Gutierrez, C., 2012. Estimation of the velocity field induced by plunging
   breakers in the surf and swash zones. Experiments in fluids 52~(1), 53--68.
+
+\bibitem[{Verschaeve and Pedersen(2014)}]{verschaeve2014linear}
+Verschaeve, J.~C., Pedersen, G.~K., 2014. Linear stability of boundary layers
+  under solitary waves. Journal of Fluid Mechanics 761, 62--104.
 
 \bibitem[{White and Corfield(2006)}]{white2006viscous}
 White, F.~M., Corfield, I., 2006. Viscous fluid flow. Vol.~3. McGraw-Hill New

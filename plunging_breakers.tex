@@ -216,7 +216,7 @@ This leads to dropouts in the measurements, which have been filled in by linear 
 \centering
 \includegraphics[width=0.4\textwidth]{./Figures/surf_ele10_2016_r.eps}
 %http://commons.wikimedia.org/wiki/File:Breaking_wave_types.gif
-\caption{\textit{Measured and computed surface elevation for $\alpha=0.10$.}}
+\caption{\textit{Measured and computed surface elevation for $\alpha=0.10$. Dimensionless time $t^{*}=t/\sqrt{\frac{H}{g}}$}}
 \label{fig:surf_ele1}
 \end{figure}
 
@@ -255,13 +255,13 @@ total cross-beach average, which is not available, is presumably even smaller. T
 \centering
 \begin{tabular}{cccccccc}
 \hline
-      $\alpha$&  $A/H$&   $A_m/H$&  $r/H$ &$R/A$ & $e_r [\%]$ & $t^*$ & $e_t [\%]$ \\ \hline
+      $\alpha$&  $A/H$&   $A_m/H$&  $r/H$ &$R/A$ & $e_r [\%]$ & $t/\sqrt{\frac{H}{g}}$ & $e_t [\%]$ \\ \hline
 \textit{$0.10$} &\textit{$0.0986$}  &\textit{$0.0998$}  & 4.26    &    3.82  & 1.68             & 61.30  & 0.15              \\
 \textit{$0.12$}  &\textit{$0.1184$}  &\textit{$0.1194$}  & 5.15   &    3.85   & 0.27             & 59.98        & 0.15               \\
 \textit{$0.20$}  &\textit{$0.1977$}  &\textit{$0.1984$} & 7.19    &    3.22  & 0.93            & 59.01        & 0.31                \\
 \textit{$0.30$}  &\textit{$0.2959$}  &\textit{$0.2967$}  & 9.35     &   2.80  & 1.08           & 55.55        & 0.78              \\
 \textit{$0.40$}  &\textit{$0.3930$}  &\textit{$0.3936$}  & 11.09      &   2.50 & 0.11            & 54.01         & 0              \\
-\textit{$0.50$}  &\textit{$0.4863$}  &\textit{$0.4869$}  & 13.05       &    2.37 & 2.27            & 7.30  & 1.64              
+\textit{$0.50$}  &\textit{$0.4863$}  &\textit{$0.4869$}  & 13.05       &    2.37 & 2.27            & 50.50  & 1.64              
 \end{tabular}
 \label{tab:max_shore}
 \end{table}
@@ -306,7 +306,7 @@ An estimate of the arrival time of the wave for FOV II, III and IV, were calcula
         ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
           %(or a blank line to force the subfigure onto a new line)
                 \includegraphics[scale=0.6]{./Figures/shoreline2016_r.eps}
-                \caption{\textit{Shoreline position as a function of time for all cases. The first measurements correspond to the swash tongue arrival time for FOV II, III, IV. The last measuring point for all cases correspond to measurement of maximum runup.}}
+                \caption{\textit{Shoreline position as a function of time for all waveheight. The first measurements correspond to the swash tongue arrival time for FOV II, III, IV. The last measuring point for all cases correspond to measurement of maximum runup. Dimensionless time $t^{*}=t/\sqrt{\frac{H}{g}}$}}
               \label{fig:arr_tim}
       \end{figure}
 
@@ -458,7 +458,7 @@ $x=81.4\cm$}. }
 \end{figure}
 
  FOV IV is located about $120\cm$ from where the still water reaches the beach. At this FOV, only $\alpha=0.30-0.50$ will be presented due to the thin swash tongue for the other waves. Velocity profiles are given in Figure \ref{fig:PIV_FOV6}. The velocity was less repeatable at this location than for the other FOVs. The velocity profiles were more irregular, especially for $\alpha=0.50$, where the average velocity profile obtained before flow reversal is reminiscent of the parbolic velocity profiles from fully developed turbulent channel flow, as described in \cite{white2006viscous}. 
-Since the irregularity increases with distance from the equilibrium shoreline it is  likely inherited from the breaking processes. \cite{Pedersen2013} claimed possible instabilities in the upper part of the swash zone for runup of non-breaking waves on a $10.54^\circ$ beach. Moreover, in a study of boundary instabilities in the boundary layer under solitary waves \cite{Verschaeve2014} concluded that instabilities were generally present in retarded boundary layer flows under waves. The crucial point is then if the noise level and growth potential, together, make the flow perturbations significant. Due to the gentler slope and
+Since the irregularity increases with distance from the equilibrium shoreline it is  likely inherited from the breaking processes. \cite{pedersen2013runup} claimed possible instabilities in the upper part of the swash zone for runup of non-breaking waves on a $10.54^\circ$ beach. Moreover, in a study of boundary instabilities in the boundary layer under solitary waves \cite{verschaeve2014linear} concluded that instabilities were generally present in retarded boundary layer flows under waves. The crucial point is then if the noise level and growth potential, together, make the flow perturbations significant. Due to the gentler slope and
 the noise due to breaking one would anticipate that the waves on the present beach are prone to instability than those on a $10^\circ$ beach.    
 Instability, leading to flow transition is definitely a possible explanation 
 for the increased irregularity. However, in figure  \ref{fig:PIV_FOV6} the boundary layer thickness is comparable to the total flow depth which may be 
@@ -497,7 +497,7 @@ $x=121.2\cm$}. }
 
 Inspection of videos of the front of the swash tongue from FOV IV (furthest up the beach) indicates that a systematic swirling effect were present in the front of the swash tongue for $\alpha=0.50$. To investigate this phenomenon, Particle Tracking Velocimetry (PTV) has been utilized on images captured close to arrival of the swash tongue ($5.33\s$). There were sparse particle seeding in the front of the tongue, and the first time where enough particles were present for an ensemble PTV analysis, was at $t=6.16\s$. This is still long before the large bubble arrives at this FOV. For each image pair after this, the velocity for all the particles within a distance of $0.05\cm$ from a given evaluation point $(x,y)=(120\cm,0.3\cm)$ are assessed. Figure \ref{fig:wave_in_time} shows how the velocities vary as a function of time. Superimposed a steady deceleration of the fluid there is an 
 oscillation.
-Flow in decelerating boundary layers are prone to instabilities, as mentiones above.
+Flow in decelerating boundary layers are prone to instabilities, as mention above.
 However, the oscillations do not increase in magnitude and are present
 from the beginning and do thus not appear to be the result of any instability. 
  Hence, it is plausible that the wave breaking induces irregularities, possibly in the form of vortices, that prevails during the subsequent motion. 
