@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.10)  15 AUG 2016 15:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.10)  15 AUG 2016 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -172,42 +172,49 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
+[1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 48.
-[1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
 [2] [3] (./rev1.aux) ) 
 Here is how much of TeX's memory you used:
- 1887 strings out of 493089
- 26693 string characters out of 6134842
- 92599 words of memory out of 5000000
- 5359 multiletter control sequences out of 15000+600000
- 7033 words of font info for 25 fonts, out of 8000000 for 9000
+ 1891 strings out of 493089
+ 26737 string characters out of 6134842
+ 91599 words of memory out of 5000000
+ 5361 multiletter control sequences out of 15000+600000
+ 7638 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,5n,23p,498b,115s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,5n,23p,498b,117s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti10.pfb>
-Output written on rev1.pdf (3 pages, 83259 bytes).
+fonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti10.pfb>
+Output written on rev1.pdf (3 pages, 92624 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
