@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.10)  15 AUG 2016 13:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.10)  15 AUG 2016 15:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -95,8 +95,7 @@ Package color Info: Driver file: pdftex.def on input line 142.
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ntgclass/a4.sty
 Package: a4 2004/04/15 v1.2g A4 based page layout
-)
-No file rev1.aux.
+) (./rev1.aux)
 \openout1 = `rev1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -111,6 +110,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
+
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count89
@@ -191,8 +191,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
 [2] [3] (./rev1.aux) ) 
 Here is how much of TeX's memory you used:
- 1885 strings out of 493089
- 26675 string characters out of 6134842
+ 1887 strings out of 493089
+ 26693 string characters out of 6134842
  92599 words of memory out of 5000000
  5359 multiletter control sequences out of 15000+600000
  7033 words of font info for 25 fonts, out of 8000000 for 9000
@@ -204,7 +204,7 @@ fonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti10.pfb>
-Output written on rev1.pdf (3 pages, 83239 bytes).
+Output written on rev1.pdf (3 pages, 83259 bytes).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
