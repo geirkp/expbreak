@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.10)  15 AUG 2016 13:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.10)  15 AUG 2016 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1444,7 +1444,7 @@ run1_r-eps-converted-to.pdf ./Figures/BUBBLE/bubble30_run1_r.eps>
 (epstopdf)             \includegraphics on input line 516.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble30_run1_r-eps-converted-to.pdf, id=516, 487.8225pt x 11
+<./Figures/BUBBLE/bubble30_run1_r-eps-converted-to.pdf, id=515, 487.8225pt x 11
 5.43124pt>
 File: ./Figures/BUBBLE/bubble30_run1_r-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1464,7 +1464,7 @@ run2_r-eps-converted-to.pdf ./Figures/BUBBLE/bubble30_run2_r.eps>
 (epstopdf)             \includegraphics on input line 517.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble30_run2_r-eps-converted-to.pdf, id=517, 487.8225pt x 11
+<./Figures/BUBBLE/bubble30_run2_r-eps-converted-to.pdf, id=516, 487.8225pt x 11
 5.43124pt>
 File: ./Figures/BUBBLE/bubble30_run2_r-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1484,7 +1484,7 @@ run3_r-eps-converted-to.pdf ./Figures/BUBBLE/bubble30_run3_r.eps>
 (epstopdf)             \includegraphics on input line 518.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble30_run3_r-eps-converted-to.pdf, id=518, 487.8225pt x 11
+<./Figures/BUBBLE/bubble30_run3_r-eps-converted-to.pdf, id=517, 487.8225pt x 11
 5.43124pt>
 File: ./Figures/BUBBLE/bubble30_run3_r-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1509,7 +1509,7 @@ run1_r-eps-converted-to.pdf ./Figures/BUBBLE/bubble50_run1_r.eps>
 (epstopdf)             \includegraphics on input line 527.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble50_run1_r-eps-converted-to.pdf, id=519, 487.8225pt x 16
+<./Figures/BUBBLE/bubble50_run1_r-eps-converted-to.pdf, id=518, 487.8225pt x 16
 3.61125pt>
 File: ./Figures/BUBBLE/bubble50_run1_r-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1529,7 +1529,7 @@ run2_r-eps-converted-to.pdf ./Figures/BUBBLE/bubble50_run2_r.eps>
 (epstopdf)             \includegraphics on input line 528.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble50_run2_r-eps-converted-to.pdf, id=520, 487.8225pt x 16
+<./Figures/BUBBLE/bubble50_run2_r-eps-converted-to.pdf, id=519, 487.8225pt x 16
 3.61125pt>
 File: ./Figures/BUBBLE/bubble50_run2_r-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1549,7 +1549,7 @@ run3_r-eps-converted-to.pdf ./Figures/BUBBLE/bubble50_run3_r.eps>
 (epstopdf)             \includegraphics on input line 529.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Figures/BUBBLE/bubble50_run3_r-eps-converted-to.pdf, id=521, 487.8225pt x 16
+<./Figures/BUBBLE/bubble50_run3_r-eps-converted-to.pdf, id=520, 487.8225pt x 16
 3.61125pt>
 File: ./Figures/BUBBLE/bubble50_run3_r-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1580,6 +1580,10 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 596.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 596.
 Package rerunfilecheck Info: File `plunging_breakers.out' has not changed.
 (rerunfilecheck)             Checksum: 82024958E59FC2B6BFBD3040A660E001;768.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 596.
  ) 
 Here is how much of TeX's memory you used:
@@ -1612,10 +1616,10 @@ ist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2015/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on plunging_breakers.pdf (18 pages, 2514390 bytes).
+Output written on plunging_breakers.pdf (18 pages, 2513193 bytes).
 PDF statistics:
- 686 PDF objects out of 1000 (max. 8388607)
- 532 compressed objects within 6 object streams
+ 685 PDF objects out of 1000 (max. 8388607)
+ 531 compressed objects within 6 object streams
  85 named destinations out of 1000 (max. 500000)
  274 words of extra memory for PDF output out of 10000 (max. 10000000)
 
