@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Pedersen et~al.(2013)Pedersen, Lindstr{\o}m, Bertelsen, Jensen,
+  Laskovski, and S{\ae}levik}]{pedersen2013runup}
+Pedersen, G., Lindstr{\o}m, E., Bertelsen, A., Jensen, A., Laskovski, D.,
+  S{\ae}levik, G., 2013. Runup and boundary layers on sloping beaches. Physics
+  of Fluids (1994-present) 25~(1), 012102.
+
+\end{thebibliography}
